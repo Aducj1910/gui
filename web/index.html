@@ -17,7 +17,7 @@
     />
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="/eel.js"></script>
-
+    <script src="jquery/jquery-3.6.0.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -49,5 +49,11 @@
         </div>
       </div>
     </div>
+    <script>
+      var size = [1100, 700];
+      $(window).resize(function () {
+        window.resizeTo(size[0], size[1]);
+      });
+    </script>
   </body>
 </html>

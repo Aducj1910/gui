@@ -61,7 +61,13 @@ innings2Battracker = None
 innings1Bowltracker = None
 innings2Bowltracker = None
 
+innings1Log = []
+innings2Log = []
+
+tossMsg = None
+
 def doToss(pace, spin, outfield, secondInnDew, pitchDetoriate, typeOfPitch, team1, team2):
+    global tossMsg
     battingLikely =  0.45
     if(secondInnDew):
           battingLikely = battingLikely - random.uniform(0.09, 0.2)
@@ -80,18 +86,22 @@ def doToss(pace, spin, outfield, secondInnDew, pitchDetoriate, typeOfPitch, team
         outcome = random.uniform(0, 1)
         if(outcome > battingLikely):
             print(team1, "won the toss and chose to field")
+            tossMsg = team1 + " won the toss and chose to field"
             return(1)
         else:
             print(team1, "won the toss and chose to bat")
+            tossMsg = team1 + " won the toss and chose to bat"
             return(0)
 
     else:
         outcome = random.uniform(0, 1)
         if(outcome > battingLikely):
             print(team2, "won the toss and chose to field")
+            tossMsg = team2 + " won the toss and chose to bat"
             return(0)
         else:
             print(team2, "won the toss and chose to bat")
+            tossMsg = team2 + " won the toss and chose to field"
             return(1)
 
 
@@ -127,7 +137,7 @@ def pitchInfo(venue, typeOfPitch):
 
 
 def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, dew, detoriate):
-    global target, innings1Balls, innings1Runs, innings1Batting, innings2Batting, winner, winMsg, innings1Battracker, innings1Bowltracker
+    global target, innings1Balls, innings1Runs, innings1Batting, innings2Batting, winner, winMsg, innings1Battracker, innings1Bowltracker, innings1Log
     # print(battingName, bowlingName, pace, spin, outfield, dew, detoriate)
     bowlerTracker = {} #add names of all in innings def
     batterTracker = {} #add names of all in innings def
@@ -303,6 +313,7 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
 
     def delivery(bowler, batter, over):
         nonlocal batterTracker, bowlerTracker, onStrike, ballLog, balls, runs, wickets
+        global innings1Log
         batInfo = None
         bowlInfo = None
         wideRate = bowler['bowlWideRate']
@@ -366,6 +377,7 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
 
         def getOutcome(den, out, over):
             nonlocal batterTracker, bowlerTracker, runs, balls, ballLog, wickets, onStrike
+            global innings1Log
 
             # print(den)
             if(wideRate > random.uniform(0,1)): #add batter tracking & bowler tracking logs, read ln 267 & ln 255
@@ -374,6 +386,9 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
              ballLog.append(f"{str(balls)}:WD")
              bowlerTracker[blname]['runs'] += 1
              bowlerTracker[blname]['ballLog'].append(f"{str(balls)}:WD")
+             innings1Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']}" + " Wide" + " Score: " + str(runs) + "/" + str(wickets), 
+                "balls": balls, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "runs": runs, "wickets": wickets})
+
             else:
                 total = 0
                 for denom in den:
@@ -395,13 +410,16 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                         runs += int(prob['denomination'])
                         if(prob['denomination'] != '0'):
                             print(over, f"{bowler['displayName']} to {batter['player']['displayName']}", prob['denomination'], "Score: " + str(runs) + "/" + str(wickets))
-                            ballLog.append(f"{str(balls)}:{prob['denomination']}")
+                            
                             bowlerTracker[blname]['runs'] += int(prob['denomination'])
                             bowlerTracker[blname]['ballLog'].append(f"{str(balls)}:{prob['denomination']}")
                             bowlerTracker[blname]['balls'] += 1
                             batterTracker[btname]['runs'] += int(prob['denomination'])
                             batterTracker[btname]['ballLog'].append(f"{str(balls)}:{prob['denomination']}")
                             batterTracker[btname]['balls'] += 1
+                            innings1Log.append({"event" : over + f" {bowler['displayName']} to {batter['player']['displayName']} " + prob['denomination'] + " Score: " + str(runs) + "/" + str(wickets), "balls": balls, 
+                                "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})                            
+                            ballLog.append(f"{str(balls)}:{prob['denomination']}")
 
                             if(int(prob['denomination']) % 2 == 1):
                                if(onStrike == batter1):
@@ -445,6 +463,9 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += runOutRuns
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:{runOutRuns}")
                                     batterTracker[btname]['balls'] += 1
+                                    innings1Log.append({"event" : over + f" {bowler['displayName']} to {batter['player']['displayName']}" + 
+                                        " W" + " Score: " + str(runs) + "/" + str(wickets) + " Run Out!", "balls": balls, "runs": runs,
+                                        "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
 
 
@@ -481,6 +502,10 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += int(prob['denomination'])
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:W-CaughtBy-{catcher['playerInitials']}-Bowler-{blname}")
                                     batterTracker[btname]['balls'] += 1
+
+                                    innings1Log.append({"event" : over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
+                                        " W" + " Score: " + str(runs) + "/" + str(wickets) + f" Caught by {catcher['displayName']}", "balls": balls,
+                                        "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
 
                                 elif(out_type == "bowled" or out_type == "lbw" or out_type == "hitwicket" or out_type == "stumped"):
@@ -494,6 +519,9 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += int(prob['denomination'])
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:W-{out_type}-Bowler-{blname}")
                                     batterTracker[btname]['balls'] += 1
+                                    innings1Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
+                                        " W" + " Score: " + str(runs) + "/" + str(wickets) + f" {out_type.title()}", "balls": balls,
+                                        "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
 
                                
@@ -507,6 +535,10 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                 batterTracker[btname]['runs'] += int(prob['denomination'])
                                 batterTracker[btname]['ballLog'].append(f"{str(balls)}:{prob['denomination']}")
                                 batterTracker[btname]['balls'] += 1
+                                innings1Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']} " + prob['denomination'] + " Score: " + str(runs) + "/" + str(wickets),
+                                    "balls": balls, "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), 
+                                    "batsman": btname, "bowler": blname, "wickets": wickets})
+
 
            
          
@@ -1053,7 +1085,7 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
 
 def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, dew, detoriate):
     # print(battingName, bowlingName, pace, spin, outfield, dew, detoriate)
-    global innings2Batting, innings2Bowling, innings2Runs, innings2Balls, winner, winMsg, innings2Bowltracker, innings2Battracker
+    global innings2Batting, innings2Bowling, innings2Runs, innings2Balls, winner, winMsg, innings2Bowltracker, innings2Battracker, innings2Log
     bowlerTracker = {} #add names of all in innings def
     batterTracker = {} #add names of all in innings def
     battingOrder = []
@@ -1229,7 +1261,8 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
 
     def delivery(bowler, batter, over):
         nonlocal batterTracker, bowlerTracker, onStrike, ballLog, balls, runs, wickets, targetChased
-        global winner, winMsg
+        global winner, winMsg, innings2Log
+
         batInfo = None
         bowlInfo = None
         wideRate = bowler['bowlWideRate']
@@ -1293,6 +1326,7 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
 
         def getOutcome(den, out, over):
             nonlocal batterTracker, bowlerTracker, runs, balls, ballLog, wickets, onStrike
+            global innings2Log
 
             # print(den)
             if(wideRate > random.uniform(0,1)): #add batter tracking & bowler tracking logs, read ln 267 & ln 255
@@ -1301,6 +1335,9 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
              ballLog.append(f"{str(balls)}:WD")
              bowlerTracker[blname]['runs'] += 1
              bowlerTracker[blname]['ballLog'].append(f"{str(balls)}:WD")
+             innings2Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']}" + " Wide" + " Score: " + str(runs) + "/" + str(wickets), 
+                "balls": balls, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "runs": runs, "wickets": wickets})
+
             else:
                 total = 0
                 for denom in den:
@@ -1317,26 +1354,27 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
 
                 decider = random.uniform(0, total)
                 for prob in denominationProbabilties:
-                    # print(prob, decider)
                     if(prob['start'] <= decider and prob['end'] > decider):
                         # Next - add wicket types, extras, bowler rotation, new batsman, innings change, aggression changes based on over number and rr, and based on last 10 ball player form
                         runs += int(prob['denomination'])
                         if(prob['denomination'] != '0'):
                             print(over, f"{bowler['displayName']} to {batter['player']['displayName']}", prob['denomination'], "Score: " + str(runs) + "/" + str(wickets))
-                            ballLog.append(f"{str(balls)}:{prob['denomination']}")
+                            
                             bowlerTracker[blname]['runs'] += int(prob['denomination'])
                             bowlerTracker[blname]['ballLog'].append(f"{str(balls)}:{prob['denomination']}")
                             bowlerTracker[blname]['balls'] += 1
                             batterTracker[btname]['runs'] += int(prob['denomination'])
                             batterTracker[btname]['ballLog'].append(f"{str(balls)}:{prob['denomination']}")
                             batterTracker[btname]['balls'] += 1
+                            innings2Log.append({"event" : over + f" {bowler['displayName']} to {batter['player']['displayName']} " + prob['denomination'] + " Score: " + str(runs) + "/" + str(wickets), "balls": balls, 
+                                "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})                            
+                            ballLog.append(f"{str(balls)}:{prob['denomination']}")
 
                             if(int(prob['denomination']) % 2 == 1):
                                if(onStrike == batter1):
                                 onStrike = batter2
                                elif(onStrike == batter2):
                                 onStrike = batter1
-                            return
 
                         if(prob['denomination'] == '0'): #during high rrr or death overs, probability
                         #of boundary & wicket are both higher
@@ -1374,8 +1412,10 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += runOutRuns
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:{runOutRuns}")
                                     batterTracker[btname]['balls'] += 1
+                                    innings2Log.append({"event" : over + f" {bowler['displayName']} to {batter['player']['displayName']}" + 
+                                        " W" + " Score: " + str(runs) + "/" + str(wickets) + " Run Out!", "balls": balls, "runs": runs,
+                                        "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
-                                    return
 
 
                                 elif(out_type == "caught"):
@@ -1411,8 +1451,11 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += int(prob['denomination'])
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:W-CaughtBy-{catcher['playerInitials']}-Bowler-{blname}")
                                     batterTracker[btname]['balls'] += 1
+
+                                    innings2Log.append({"event" : over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
+                                        " W" + " Score: " + str(runs) + "/" + str(wickets) + f" Caught by {catcher['displayName']}", "balls": balls,
+                                        "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
-                                    return
 
                                 elif(out_type == "bowled" or out_type == "lbw" or out_type == "hitwicket" or out_type == "stumped"):
                                     print(over, f"{bowler['displayName']} to {batter['player']['displayName']}", 
@@ -1425,8 +1468,10 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += int(prob['denomination'])
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:W-{out_type}-Bowler-{blname}")
                                     batterTracker[btname]['balls'] += 1
+                                    innings2Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
+                                        " W" + " Score: " + str(runs) + "/" + str(wickets) + f" {out_type.title()}", "balls": balls,
+                                        "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
-                                    return
 
                                
                             else:
@@ -1439,7 +1484,9 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                 batterTracker[btname]['runs'] += int(prob['denomination'])
                                 batterTracker[btname]['ballLog'].append(f"{str(balls)}:{prob['denomination']}")
                                 batterTracker[btname]['balls'] += 1
-                                return
+                                innings2Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']} " + prob['denomination'] + " Score: " + str(runs) + "/" + str(wickets),
+                                    "balls": balls, "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), 
+                                    "batsman": btname, "bowler": blname, "wickets": wickets})
 
         
         sumLast10 = 0
@@ -2117,8 +2164,26 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
     innings2Bowltracker = bowlerTracker
 
 def game(manual=True, sentTeamOne=None, sentTeamTwo=None, switch="group"):
-    team_one_inp = None
-    team_two_inp = None
+    target = 1
+    global innings1Batting, innings1Bowling, innings2Batting, innings2Bowling, innings1Balls, innings2Balls, innings1Runs, innings2Runs, innings1Battracker, innings1Bowltracker, innings2Battracker, innings2Bowltracker,innings1Log, innings2Log
+
+    innings1Batting = None
+    innings1Bowling = None
+    innings2Batting = None
+    innings2Bowling = None
+    innings1Balls = None
+    innings2Balls = None
+    innings1Runs = None
+    innings2Runs = None
+
+    innings1Battracker = None
+    innings2Battracker = None
+    innings1Bowltracker = None
+    innings2Bowltracker = None
+
+    innings1Log = []
+    innings2Log = []
+
     if(manual):
         team_one_inp = input("enter first team ").lower()
         team_two_inp = input("enter second team ").lower()
@@ -2222,9 +2287,13 @@ def game(manual=True, sentTeamOne=None, sentTeamTwo=None, switch="group"):
             2], paceFactor, spinFactor, outfield, dew, detoriate)
     sys.stdout.close()
     sys.stdout=stdoutOrigin
-    return [innings1Batting, innings1Bowling, innings2Batting, innings2Bowling, 120, 
-        innings2Balls, innings1Runs, innings2Runs,winMsg ,innings1Battracker,
-        innings2Battracker,innings1Bowltracker,innings2Bowltracker ,getBatting()[2] ,getBatting()[3] ,  winner]
+    # print(innings2Log)
+    return {"innings1Batting": innings1Batting, "innings1Bowling": innings1Bowling, "innings2Batting": innings2Batting, 
+            "innings2Bowling": innings2Bowling, "innings2Balls": innings2Balls, "innings1Balls": 120, 
+            "innings1Runs": innings1Runs, "innings2Runs": innings2Runs, "winMsg": winMsg, "innings1Battracker": innings1Battracker,
+            "innings2Battracker": innings2Battracker, "innings1Bowltracker": innings1Bowltracker, "innings2Bowltracker": innings2Bowltracker,
+            "innings1BatTeam": getBatting()[2],"innings2BatTeam": getBatting()[3], "winner": winner, "innings1Log": innings1Log,
+            "innings2Log": innings2Log, "tossMsg": tossMsg }
 
 
 

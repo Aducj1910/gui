@@ -1,7 +1,8 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
   height: 100vh;
+  width: 100vw;
   background: #357214;
 }
 
@@ -10,6 +11,7 @@
   margin: 0.5em;
   background: #5e9a3f;
   border-radius: 0.5rem;
+  height: 97vh;
 }
 
 .sidebtn {
@@ -27,11 +29,12 @@
   margin: 0.5em;
   background: #99ca7e;
   border-radius: 0.5rem;
+  height: 97vh;
 }
 
 div.absolute {
   position: absolute;
-  bottom: 15px;
+  bottom: 4vh;
 }
 
 .home:hover {
@@ -39,6 +42,21 @@ div.absolute {
   color: chartreuse;
 }
 
+.home {
+  color: white;
+}
+
 .customgamewrapper {
   display: grid;
+}
+
+.output {
+  display: grid;
+  background-color: white;
+  margin-top: 2vh;
+  height: 55vh;
+  width: 75vw;
+  border-style: solid;
+  padding: 0.5em;
+  overflow: scroll;
 }

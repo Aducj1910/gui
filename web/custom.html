@@ -40,20 +40,45 @@
         <h1 style="color: rgb(4, 110, 0)">Play a custom match</h1>
         <div class="customgamewrapper">
           <form>
-            <label for="cars">Choose a team:</label>
-            <select name="cars" id="team1"></select>
+            <label for="team1">Choose a team:</label>
+            <select name="team1" id="team1"></select>
             <br /><br />
-            <label for="cars">Choose a team:</label>
-            <select name="cars" id="team2"></select>
+            <label for="team2">Choose a team:</label>
+            <select name="team2" id="team2"></select>
+            <br /><br />
+            <label for="sim-speed">Sim speed:</label>
+            <select name="sim-speed" id="sim-speed">
+              <option value="realistic">Realistic</option>
+              <option value="slow">Slow</option>
+              <option value="medium">Medium</option>
+              <option value="fast">Fast</option>
+              <option value="instant">Instant</option>
+            </select>
             <br /><br />
           </form>
           <button onclick="customGame()" style="width: 15%">Submit</button>
+          <div id="output" class="output">
+            <ul
+              id="ball-list"
+              style="
+                padding-left: 1em;
+                list-style-type: none;
+                font-size: 0.8rem;
+              "
+            ></ul>
+          </div>
         </div>
       </div>
     </div>
-    <button onclick="testMain()">onclic</button>
     <script>
+      var size = [1100, 700];
+      $(window).resize(function () {
+        window.resizeTo(size[0], size[1]);
+      });
       $(document).ready(function () {
+        // $("#ball-list").children('li').each(function(){
+        //   $(this).attr("hidden") = false
+        // })
         $.getJSON("data/teams.json", function (data) {
           var teamsArray = [];
           for (const [key, value] of Object.entries(data)) {
@@ -63,13 +88,14 @@
           var mySelect = $("#team1");
           $.each(teamsArray, function (val, text) {
             mySelect.append(
-              $("<option></option>").val(val).html(text.toUpperCase())
+              $("<option></option>").val(text).html(text.toUpperCase())
+              // .attr("id", text)
             );
           });
           var mySelect = $("#team2");
           $.each(teamsArray, function (val, text) {
             mySelect.append(
-              $("<option></option>").val(val).html(text.toUpperCase())
+              $("<option></option>").val(text).html(text.toUpperCase())
             );
           });
         }).fail(function () {

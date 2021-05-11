@@ -12,10 +12,18 @@ def dummy(param):
 
 @eel.expose
 def mainconnectGame(team1, team2):
-    returnInfo = mainconnect.game(False, team1, team2, "testing")
-    print(returnInfo)
-    return returnInfo
-
+    for i in range(1, 10):
+        try:
+            returnInfo = mainconnect.game(False, team1, team2, "testing")
+            return returnInfo
+            break
+        except Exception as e:
+            print(e)
+            print("Restarting!")
+            continue
+        else:
+            break
+    
 
 
 eel.start('index.html')
