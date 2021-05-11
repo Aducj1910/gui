@@ -1,0 +1,353 @@
+mi won the toss and chose to bat
+0.1 Shivam Mavi to Quinton de Kock 1 Score: 1/0
+0.2 Shivam Mavi to Rohit Sharma 0 Score: 1/0
+0.3 Shivam Mavi to Rohit Sharma 0 Score: 1/0
+0.4 Shivam Mavi to Rohit Sharma 1 Score: 2/0
+0.5 Shivam Mavi to Quinton de Kock Wide Score: 3/0
+0.6 Shivam Mavi to Quinton de Kock 1 Score: 4/0
+0.7 Shivam Mavi to Rohit Sharma 1 Score: 5/0
+1.1 Pat Cummins to Rohit Sharma 4 Score: 9/0
+1.2 Pat Cummins to Rohit Sharma 0 Score: 9/0
+1.3 Pat Cummins to Rohit Sharma 2 Score: 11/0
+1.4 Pat Cummins to Rohit Sharma 1 Score: 12/0
+1.5 Pat Cummins to Quinton de Kock 1 Score: 13/0
+1.6 Pat Cummins to Rohit Sharma 0 Score: 13/0
+2.1 Shivam Mavi to Quinton de Kock 0 Score: 13/0
+2.2 Shivam Mavi to Quinton de Kock Wide Score: 14/0
+2.3 Shivam Mavi to Quinton de Kock 4 Score: 18/0
+2.4 Shivam Mavi to Quinton de Kock 0 Score: 18/0
+2.5 Shivam Mavi to Quinton de Kock 4 Score: 22/0
+2.6 Shivam Mavi to Quinton de Kock 0 Score: 22/0
+2.7 Shivam Mavi to Quinton de Kock 0 Score: 22/0
+3.1 Pat Cummins to Rohit Sharma 4 Score: 26/0
+3.2 Pat Cummins to Rohit Sharma 0 Score: 26/0
+3.3 Pat Cummins to Rohit Sharma 0 Score: 26/0
+3.4 Pat Cummins to Rohit Sharma 0 Score: 26/0
+3.5 Pat Cummins to Rohit Sharma 2 Score: 28/0
+3.6 Pat Cummins to Rohit Sharma 4 Score: 32/0
+4.1 Sunil Narine to Quinton de Kock 0 Score: 32/0
+4.2 Sunil Narine to Quinton de Kock 0 Score: 32/0
+4.3 Sunil Narine to Quinton de Kock 1 Score: 33/0
+4.4 Sunil Narine to Rohit Sharma 1 Score: 34/0
+4.5 Sunil Narine to Quinton de Kock 0 Score: 34/0
+4.6 Sunil Narine to Quinton de Kock 1 Score: 35/0
+5.1 Prasidh Krishna to Quinton de Kock 1 Score: 36/0
+5.2 Prasidh Krishna to Rohit Sharma 4 Score: 40/0
+5.3 Prasidh Krishna to Rohit Sharma 2 Score: 42/0
+5.4 Prasidh Krishna to Rohit Sharma 0 Score: 42/0
+5.5 Prasidh Krishna to Rohit Sharma 0 Score: 42/0
+5.6 Prasidh Krishna to Rohit Sharma 1 Score: 43/0
+6.1 Sunil Narine to Rohit Sharma 4 Score: 47/0
+6.2 Sunil Narine to Rohit Sharma 1 Score: 48/0
+6.3 Sunil Narine to Quinton de Kock 6 Score: 54/0
+6.4 Sunil Narine to Quinton de Kock 0 Score: 54/0
+6.5 Sunil Narine to Quinton de Kock 4 Score: 58/0
+6.6 Sunil Narine to Quinton de Kock 0 Score: 58/0
+7.1 Prasidh Krishna to Rohit Sharma 4 Score: 62/0
+7.2 Prasidh Krishna to Rohit Sharma 1 Score: 63/0
+7.3 Prasidh Krishna to Quinton de Kock 0 Score: 63/0
+7.4 Prasidh Krishna to Quinton de Kock Wide Score: 64/0
+7.5 Prasidh Krishna to Quinton de Kock 0 Score: 64/0
+7.6 Prasidh Krishna to Quinton de Kock 4 Score: 68/0
+7.7 Prasidh Krishna to Quinton de Kock 0 Score: 68/0
+8.1 Sunil Narine to Rohit Sharma 0 Score: 68/0
+8.2 Sunil Narine to Rohit Sharma 1 Score: 69/0
+8.3 Sunil Narine to Quinton de Kock W Score: 69/1 Bowled
+8.4 Sunil Narine to Ishan Kishan 0 Score: 69/1
+8.5 Sunil Narine to Ishan Kishan 1 Score: 70/1
+8.6 Sunil Narine to Rohit Sharma W Score: 70/2 Caught by Dinesh Karthik
+9.1 Prasidh Krishna to Ishan Kishan 1 Score: 71/2
+9.2 Prasidh Krishna to Suryakumar Yadav 1 Score: 72/2
+9.3 Prasidh Krishna to Ishan Kishan 0 Score: 72/2
+9.4 Prasidh Krishna to Ishan Kishan 1 Score: 73/2
+9.5 Prasidh Krishna to Suryakumar Yadav 1 Score: 74/2
+9.6 Prasidh Krishna to Ishan Kishan 4 Score: 78/2
+10.1 Sunil Narine to Suryakumar Yadav 0 Score: 78/2
+10.2 Sunil Narine to Suryakumar Yadav 6 Score: 84/2
+10.3 Sunil Narine to Suryakumar Yadav 4 Score: 88/2
+10.4 Sunil Narine to Suryakumar Yadav 1 Score: 89/2
+10.5 Sunil Narine to Ishan Kishan 1 Score: 90/2
+10.6 Sunil Narine to Suryakumar Yadav 4 Score: 94/2
+11.1 Varun Chakravarthy to Ishan Kishan 0 Score: 94/2
+11.2 Varun Chakravarthy to Ishan Kishan 1 Score: 95/2
+11.3 Varun Chakravarthy to Suryakumar Yadav 1 Score: 96/2
+11.4 Varun Chakravarthy to Ishan Kishan 6 Score: 102/2
+11.5 Varun Chakravarthy to Ishan Kishan 0 Score: 102/2
+11.6 Varun Chakravarthy to Ishan Kishan 1 Score: 103/2
+12.1 Andre Russell to Ishan Kishan 6 Score: 109/2
+12.2 Andre Russell to Ishan Kishan 1 Score: 110/2
+12.3 Andre Russell to Suryakumar Yadav 4 Score: 114/2
+12.4 Andre Russell to Suryakumar Yadav Wide Score: 115/2
+12.5 Andre Russell to Suryakumar Yadav 4 Score: 119/2
+12.6 Andre Russell to Suryakumar Yadav 1 Score: 120/2
+12.7 Andre Russell to Ishan Kishan 0 Score: 120/2
+13.1 Varun Chakravarthy to Suryakumar Yadav 0 Score: 120/2
+13.2 Varun Chakravarthy to Suryakumar Yadav 0 Score: 120/2
+13.3 Varun Chakravarthy to Suryakumar Yadav Wide Score: 121/2
+13.4 Varun Chakravarthy to Suryakumar Yadav 4 Score: 125/2
+13.5 Varun Chakravarthy to Suryakumar Yadav 1 Score: 126/2
+13.6 Varun Chakravarthy to Ishan Kishan 0 Score: 126/2
+13.7 Varun Chakravarthy to Ishan Kishan 1 Score: 127/2
+14.1 Andre Russell to Ishan Kishan 0 Score: 127/2
+14.2 Andre Russell to Ishan Kishan 4 Score: 131/2
+14.3 Andre Russell to Ishan Kishan 6 Score: 137/2
+14.4 Andre Russell to Ishan Kishan 0 Score: 137/2
+14.5 Andre Russell to Ishan Kishan 0 Score: 137/2
+14.6 Andre Russell to Ishan Kishan 0 Score: 137/2
+15.1 Varun Chakravarthy to Suryakumar Yadav 1 Score: 138/2
+15.2 Varun Chakravarthy to Ishan Kishan 1 Score: 139/2
+15.3 Varun Chakravarthy to Suryakumar Yadav 6 Score: 145/2
+15.4 Varun Chakravarthy to Suryakumar Yadav 1 Score: 146/2
+15.5 Varun Chakravarthy to Ishan Kishan 2 Score: 148/2
+15.6 Varun Chakravarthy to Ishan Kishan 1 Score: 149/2
+16.1 Andre Russell to Ishan Kishan 1 Score: 150/2
+16.2 Andre Russell to Suryakumar Yadav 0 Score: 150/2
+16.3 Andre Russell to Suryakumar Yadav 4 Score: 154/2
+16.4 Andre Russell to Suryakumar Yadav W Score: 154/3 Caught by Andre Russell
+16.5 Andre Russell to Kieron Pollard 4 Score: 158/3
+16.6 Andre Russell to Kieron Pollard 4 Score: 162/3
+17.1 Prasidh Krishna to Ishan Kishan 4 Score: 166/3
+17.2 Prasidh Krishna to Ishan Kishan 6 Score: 172/3
+17.3 Prasidh Krishna to Ishan Kishan W Score: 172/4 Caught by Varun Chakravarthy
+17.4 Prasidh Krishna to Hardik Pandya 1 Score: 173/4
+17.5 Prasidh Krishna to Kieron Pollard 1 Score: 174/4
+17.6 Prasidh Krishna to Hardik Pandya 0 Score: 174/4
+18.1 Andre Russell to Kieron Pollard 0 Score: 174/4
+18.2 Andre Russell to Kieron Pollard 0 Score: 174/4
+18.3 Andre Russell to Kieron Pollard 0 Score: 174/4
+18.4 Andre Russell to Kieron Pollard 0 Score: 174/4
+18.5 Andre Russell to Kieron Pollard 4 Score: 178/4
+18.6 Andre Russell to Kieron Pollard 1 Score: 179/4
+19.1 Pat Cummins to Kieron Pollard 0 Score: 179/4
+19.2 Pat Cummins to Kieron Pollard 1 Score: 180/4
+19.3 Pat Cummins to Hardik Pandya 0 Score: 180/4
+19.4 Pat Cummins to Hardik Pandya 6 Score: 186/4
+19.5 Pat Cummins to Hardik Pandya 4 Score: 190/4
+19.6 Pat Cummins to Hardik Pandya 0 Score: 190/4
++--------------+--------+---------+--------+--------------------------------+
+| Player       |   Runs |   Balls | SR     | Out                            |
++==============+========+=========+========+================================+
+| Q de Kock    |     28 |      24 | 116.67 | bowled b SP Narine             |
++--------------+--------+---------+--------+--------------------------------+
+| RG Sharma    |     38 |      28 | 135.71 | c KD Karthik b SP Narine       |
++--------------+--------+---------+--------+--------------------------------+
+| SA Yadav     |     44 |      21 | 209.52 | c AD Russell b AD Russell      |
++--------------+--------+---------+--------+--------------------------------+
+| Ishan Kishan |     49 |      30 | 163.33 | c CV Varun b M Prasidh Krishna |
++--------------+--------+---------+--------+--------------------------------+
+| KA Pollard   |     15 |      11 | 136.36 | Not out                        |
++--------------+--------+---------+--------+--------------------------------+
+| HH Pandya    |     11 |       6 | 183.33 | Not out                        |
++--------------+--------+---------+--------+--------------------------------+
+| KH Pandya    |      0 |       0 | DNB    |                                |
++--------------+--------+---------+--------+--------------------------------+
+| J Yadav      |      0 |       0 | DNB    |                                |
++--------------+--------+---------+--------+--------------------------------+
+| RD Chahar    |      0 |       0 | DNB    |                                |
++--------------+--------+---------+--------+--------------------------------+
+| JJ Bumrah    |      0 |       0 | DNB    |                                |
++--------------+--------+---------+--------+--------------------------------+
+| TA Boult     |      0 |       0 | DNB    |                                |
++--------------+--------+---------+--------+--------------------------------+
++-------------------+--------+---------+-----------+-------+
+| Player            |   Runs |   Overs |   Wickets | Eco   |
++===================+========+=========+===========+=======+
+| N Rana            |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| Shubman Gill      |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| RA Tripathi       |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| EJG Morgan        |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| AD Russell        |     45 |       4 |         1 | 11.25 |
++-------------------+--------+---------+-----------+-------+
+| KD Karthik        |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| SP Narine         |     36 |       4 |         2 | 9.0   |
++-------------------+--------+---------+-----------+-------+
+| PJ Cummins        |     29 |       3 |         0 | 9.67  |
++-------------------+--------+---------+-----------+-------+
+| Shivam Mavi       |     14 |       2 |         0 | 7.0   |
++-------------------+--------+---------+-----------+-------+
+| CV Varun          |     28 |       3 |         0 | 9.33  |
++-------------------+--------+---------+-----------+-------+
+| M Prasidh Krishna |     38 |       4 |         1 | 9.5   |
++-------------------+--------+---------+-----------+-------+
+0.1 Trent Boult to Rahul Tripathi Wide Score: 1/0
+0.2 Trent Boult to Rahul Tripathi 4 Score: 5/0
+0.3 Trent Boult to Rahul Tripathi 0 Score: 5/0
+0.4 Trent Boult to Rahul Tripathi W Score: 5/1 Caught by Rohit Sharma
+0.5 Trent Boult to Nitish Rana 1 Score: 6/1
+0.6 Trent Boult to Nitish Rana 0 Score: 6/1
+0.7 Trent Boult to Nitish Rana 0 Score: 6/1
+1.1 Jayant Yadav to Nitish Rana 0 Score: 6/1
+1.2 Jayant Yadav to Nitish Rana 0 Score: 6/1
+1.3 Jayant Yadav to Nitish Rana 1 Score: 7/1
+1.4 Jayant Yadav to Nitish Rana 1 Score: 8/1
+1.5 Jayant Yadav to Nitish Rana 0 Score: 8/1
+1.6 Jayant Yadav to Nitish Rana 0 Score: 8/1
+2.1 Trent Boult to Nitish Rana 0 Score: 8/1
+2.2 Trent Boult to Nitish Rana 0 Score: 8/1
+2.3 Trent Boult to Nitish Rana 6 Score: 14/1
+2.4 Trent Boult to Nitish Rana 1 Score: 15/1
+2.5 Trent Boult to Nitish Rana 0 Score: 15/1
+2.6 Trent Boult to Nitish Rana 0 Score: 15/1
+3.1 Jayant Yadav to Nitish Rana 0 Score: 15/1
+3.2 Jayant Yadav to Nitish Rana 0 Score: 15/1
+3.3 Jayant Yadav to Nitish Rana 0 Score: 15/1
+3.4 Jayant Yadav to Nitish Rana 1 Score: 16/1
+3.5 Jayant Yadav to Nitish Rana 1 Score: 17/1
+3.6 Jayant Yadav to Nitish Rana 4 Score: 21/1
+4.1 Rahul Chahar to Nitish Rana 0 Score: 21/1
+4.2 Rahul Chahar to Nitish Rana 2 Score: 23/1
+4.3 Rahul Chahar to Nitish Rana 0 Score: 23/1
+4.4 Rahul Chahar to Nitish Rana 0 Score: 23/1
+4.5 Rahul Chahar to Nitish Rana 1 Score: 24/1
+4.6 Rahul Chahar to Nitish Rana 4 Score: 28/1
+5.1 Jasprit Bumrah to Nitish Rana 0 Score: 28/1
+5.2 Jasprit Bumrah to Nitish Rana W Score: 28/2 Caught by Kieron Pollard
+5.3 Jasprit Bumrah to Sunil Narine 0 Score: 28/2
+5.4 Jasprit Bumrah to Sunil Narine 4 Score: 32/2
+5.5 Jasprit Bumrah to Sunil Narine 0 Score: 32/2
+5.6 Jasprit Bumrah to Sunil Narine 1 Score: 33/2
+6.1 Rahul Chahar to Sunil Narine 1 Score: 34/2
+6.2 Rahul Chahar to Nitish Rana 0 Score: 34/2
+6.3 Rahul Chahar to Nitish Rana 0 Score: 34/2
+6.4 Rahul Chahar to Nitish Rana 0 Score: 34/2
+6.5 Rahul Chahar to Nitish Rana 1 Score: 35/2
+6.6 Rahul Chahar to Sunil Narine 0 Score: 35/2
+7.1 Jasprit Bumrah to Nitish Rana 0 Score: 35/2
+7.2 Jasprit Bumrah to Nitish Rana 4 Score: 39/2
+7.3 Jasprit Bumrah to Nitish Rana 0 Score: 39/2
+7.4 Jasprit Bumrah to Nitish Rana 0 Score: 39/2
+7.5 Jasprit Bumrah to Nitish Rana 0 Score: 39/2
+7.6 Jasprit Bumrah to Nitish Rana Wide Score: 40/2
+7.7 Jasprit Bumrah to Nitish Rana 6 Score: 46/2
+8.1 Rahul Chahar to Sunil Narine 0 Score: 46/2
+8.2 Rahul Chahar to Sunil Narine 1 Score: 47/2
+8.3 Rahul Chahar to Nitish Rana 1 Score: 48/2
+8.4 Rahul Chahar to Sunil Narine Wide Score: 49/2
+8.5 Rahul Chahar to Sunil Narine 1 Score: 50/2
+8.6 Rahul Chahar to Nitish Rana 1 Score: 51/2
+8.7 Rahul Chahar to Sunil Narine 0 Score: 51/2
+9.1 Jasprit Bumrah to Nitish Rana 6 Score: 57/2
+9.2 Jasprit Bumrah to Nitish Rana 4 Score: 61/2
+9.3 Jasprit Bumrah to Nitish Rana W Score: 61/3 Caught by Suryakumar Yadav
+9.4 Jasprit Bumrah to Shubman Gill Wide Score: 62/3
+9.5 Jasprit Bumrah to Shubman Gill 0 Score: 62/3
+9.6 Jasprit Bumrah to Shubman Gill 0 Score: 62/3
+9.7 Jasprit Bumrah to Shubman Gill 0 Score: 62/3
+10.1 Rahul Chahar to Sunil Narine 1 Score: 63/3
+10.2 Rahul Chahar to Shubman Gill 0 Score: 63/3
+10.3 Rahul Chahar to Shubman Gill Wide Score: 64/3
+10.4 Rahul Chahar to Shubman Gill 1 Score: 65/3
+10.5 Rahul Chahar to Sunil Narine 1 Score: 66/3
+10.6 Rahul Chahar to Shubman Gill 0 Score: 66/3
+10.7 Rahul Chahar to Shubman Gill 1 Score: 67/3
+11.1 Krunal Pandya to Shubman Gill 1 Score: 68/3
+11.2 Krunal Pandya to Sunil Narine W Score: 68/4 Caught by Krunal Pandya
+11.3 Krunal Pandya to Eoin Morgan 0 Score: 68/4
+11.4 Krunal Pandya to Eoin Morgan 0 Score: 68/4
+11.5 Krunal Pandya to Eoin Morgan 4 Score: 72/4
+11.6 Krunal Pandya to Eoin Morgan 0 Score: 72/4
+12.1 Jayant Yadav to Shubman Gill 1 Score: 73/4
+12.2 Jayant Yadav to Eoin Morgan 0 Score: 73/4
+12.3 Jayant Yadav to Eoin Morgan 0 Score: 73/4
+12.4 Jayant Yadav to Eoin Morgan W Score: 73/5 Caught by Ishan Kishan
+12.5 Jayant Yadav to Dinesh Karthik 2 Score: 75/5
+12.6 Jayant Yadav to Dinesh Karthik 0 Score: 75/5
+13.1 Krunal Pandya to Shubman Gill 0 Score: 75/5
+13.2 Krunal Pandya to Shubman Gill 0 Score: 75/5
+13.3 Krunal Pandya to Shubman Gill 0 Score: 75/5
+13.4 Krunal Pandya to Shubman Gill Wide Score: 76/5
+13.5 Krunal Pandya to Shubman Gill 1 Score: 77/5
+13.6 Krunal Pandya to Dinesh Karthik 1 Score: 78/5
+13.7 Krunal Pandya to Shubman Gill 6 Score: 84/5
+14.1 Jayant Yadav to Dinesh Karthik 0 Score: 84/5
+14.2 Jayant Yadav to Dinesh Karthik 1 Score: 85/5
+14.3 Jayant Yadav to Shubman Gill 0 Score: 85/5
+14.4 Jayant Yadav to Shubman Gill 0 Score: 85/5
+14.5 Jayant Yadav to Shubman Gill 0 Score: 85/5
+14.6 Jayant Yadav to Shubman Gill 1 Score: 86/5
+15.1 Krunal Pandya to Shubman Gill 1 Score: 87/5
+15.2 Krunal Pandya to Dinesh Karthik 0 Score: 87/5
+15.3 Krunal Pandya to Dinesh Karthik 0 Score: 87/5
+15.4 Krunal Pandya to Dinesh Karthik 1 Score: 88/5
+15.5 Krunal Pandya to Shubman Gill 1 Score: 89/5
+15.6 Krunal Pandya to Dinesh Karthik 5 Score: 94/5
+16.1 Kieron Pollard to Dinesh Karthik 1 Score: 95/5
+16.2 Kieron Pollard to Shubman Gill 0 Score: 95/5
+16.3 Kieron Pollard to Shubman Gill 0 Score: 95/5
+16.4 Kieron Pollard to Shubman Gill 0 Score: 95/5
+16.5 Kieron Pollard to Shubman Gill 4 Score: 99/5
+16.6 Kieron Pollard to Shubman Gill 1 Score: 100/5
+17.1 Jasprit Bumrah to Shubman Gill 6 Score: 106/5
+17.2 Jasprit Bumrah to Shubman Gill 1 Score: 107/5
+17.3 Jasprit Bumrah to Dinesh Karthik 0 Score: 107/5
+17.4 Jasprit Bumrah to Dinesh Karthik 1 Score: 108/5
+17.5 Jasprit Bumrah to Shubman Gill 6 Score: 114/5
+17.6 Jasprit Bumrah to Shubman Gill 0 Score: 114/5
+18.1 Trent Boult to Dinesh Karthik 1 Score: 115/5
+18.2 Trent Boult to Shubman Gill 1 Score: 116/5
+18.3 Trent Boult to Dinesh Karthik 4 Score: 120/5
+18.4 Trent Boult to Dinesh Karthik 0 Score: 120/5
+18.5 Trent Boult to Dinesh Karthik 1 Score: 121/5
+18.6 Trent Boult to Shubman Gill 4 Score: 125/5
+19.1 Hardik Pandya to Dinesh Karthik W Score: 125/6 Caught by Suryakumar Yadav
+19.2 Hardik Pandya to Andre Russell 4 Score: 129/6
+19.3 Hardik Pandya to Andre Russell 1 Score: 130/6
+19.4 Hardik Pandya to Shubman Gill 2 Score: 132/6
+19.5 Hardik Pandya to Shubman Gill W Score: 132/7 Caught by Quinton de Kock
+19.6 Hardik Pandya to Pat Cummins 2 Score: 134/7
+mi won by 56 runs
++-------------------+--------+---------+--------+--------------------------+
+| Player            |   Runs |   Balls | SR     | Out                      |
++===================+========+=========+========+==========================+
+| N Rana            |     46 |      44 | 104.55 | c SA Yadav b JJ Bumrah   |
++-------------------+--------+---------+--------+--------------------------+
+| Shubman Gill      |     39 |      33 | 118.18 | c Q de Kock b HH Pandya  |
++-------------------+--------+---------+--------+--------------------------+
+| RA Tripathi       |      4 |       3 | 133.33 | c RG Sharma b TA Boult   |
++-------------------+--------+---------+--------+--------------------------+
+| EJG Morgan        |      4 |       7 | 57.14  | c Ishan Kishan b J Yadav |
++-------------------+--------+---------+--------+--------------------------+
+| AD Russell        |      5 |       2 | 250.0  | Not out                  |
++-------------------+--------+---------+--------+--------------------------+
+| KD Karthik        |     18 |      17 | 105.88 | c SA Yadav b HH Pandya   |
++-------------------+--------+---------+--------+--------------------------+
+| SP Narine         |     10 |      13 | 76.92  | c KH Pandya b KH Pandya  |
++-------------------+--------+---------+--------+--------------------------+
+| PJ Cummins        |      2 |       1 | 200.0  | Not out                  |
++-------------------+--------+---------+--------+--------------------------+
+| Shivam Mavi       |      0 |       0 | DNB    |                          |
++-------------------+--------+---------+--------+--------------------------+
+| CV Varun          |      0 |       0 | DNB    |                          |
++-------------------+--------+---------+--------+--------------------------+
+| M Prasidh Krishna |      0 |       0 | DNB    |                          |
++-------------------+--------+---------+--------+--------------------------+
++--------------+--------+---------+-----------+-------+
+| Player       |   Runs |   Overs |   Wickets | Eco   |
++==============+========+=========+===========+=======+
+| Q de Kock    |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| RG Sharma    |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| SA Yadav     |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| Ishan Kishan |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| KA Pollard   |      6 |       1 |         0 | 6.0   |
++--------------+--------+---------+-----------+-------+
+| HH Pandya    |      9 |       1 |         2 | 9.0   |
++--------------+--------+---------+-----------+-------+
+| KH Pandya    |     22 |       3 |         1 | 7.33  |
++--------------+--------+---------+-----------+-------+
+| J Yadav      |     13 |       4 |         1 | 3.25  |
++--------------+--------+---------+-----------+-------+
+| RD Chahar    |     19 |       4 |         0 | 4.75  |
++--------------+--------+---------+-----------+-------+
+| JJ Bumrah    |     41 |       4 |         2 | 10.25 |
++--------------+--------+---------+-----------+-------+
+| TA Boult     |     24 |       3 |         1 | 8.0   |
++--------------+--------+---------+-----------+-------+

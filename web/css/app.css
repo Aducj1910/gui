@@ -1,0 +1,44 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: 100vh;
+  background: #357214;
+}
+
+.sidecard {
+  padding: 1em;
+  margin: 0.5em;
+  background: #5e9a3f;
+  border-radius: 0.5rem;
+}
+
+.sidebtn {
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+}
+
+.sidebtn:hover {
+  background-color: rgba(0, 247, 255, 0.8);
+}
+
+.maincard {
+  padding: 1em;
+  margin: 0.5em;
+  background: #99ca7e;
+  border-radius: 0.5rem;
+}
+
+div.absolute {
+  position: absolute;
+  bottom: 15px;
+}
+
+.home:hover {
+  cursor: pointer;
+  color: chartreuse;
+}
+
+.customgamewrapper {
+  display: grid;
+}

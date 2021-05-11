@@ -1,0 +1,343 @@
+dc won the toss and chose to field
+0.1 Kagiso Rabada to KL Rahul 2 Score: 2/0
+0.2 Kagiso Rabada to KL Rahul 4 Score: 6/0
+0.3 Kagiso Rabada to KL Rahul 2 Score: 8/0
+0.4 Kagiso Rabada to KL Rahul 0 Score: 8/0
+0.5 Kagiso Rabada to KL Rahul 0 Score: 8/0
+0.6 Kagiso Rabada to KL Rahul Wide Score: 9/0
+0.7 Kagiso Rabada to KL Rahul 1 Score: 10/0
+1.1 Ravichandran Ashwin to KL Rahul 1 Score: 11/0
+1.2 Ravichandran Ashwin to Chris Gayle 1 Score: 12/0
+1.3 Ravichandran Ashwin to KL Rahul Wide Score: 13/0
+1.4 Ravichandran Ashwin to KL Rahul 1 Score: 14/0
+1.5 Ravichandran Ashwin to Chris Gayle 0 Score: 14/0
+1.6 Ravichandran Ashwin to Chris Gayle 1 Score: 15/0
+1.7 Ravichandran Ashwin to KL Rahul 1 Score: 16/0
+2.1 Kagiso Rabada to KL Rahul 0 Score: 16/0
+2.2 Kagiso Rabada to KL Rahul 1 Score: 17/0
+2.3 Kagiso Rabada to Chris Gayle 0 Score: 17/0
+2.4 Kagiso Rabada to Chris Gayle 1 Score: 18/0
+2.5 Kagiso Rabada to KL Rahul 0 Score: 18/0
+2.6 Kagiso Rabada to KL Rahul 1 Score: 19/0
+3.1 Ravichandran Ashwin to KL Rahul 1 Score: 20/0
+3.2 Ravichandran Ashwin to Chris Gayle 1 Score: 21/0
+3.3 Ravichandran Ashwin to KL Rahul 4 Score: 25/0
+3.4 Ravichandran Ashwin to KL Rahul 0 Score: 25/0
+3.5 Ravichandran Ashwin to KL Rahul 1 Score: 26/0
+3.6 Ravichandran Ashwin to Chris Gayle 0 Score: 26/0
+4.1 Axar Patel to KL Rahul 4 Score: 30/0
+4.2 Axar Patel to KL Rahul 3 Score: 33/0
+4.3 Axar Patel to Chris Gayle 2 Score: 35/0
+4.4 Axar Patel to Chris Gayle 0 Score: 35/0
+4.5 Axar Patel to Chris Gayle 6 Score: 41/0
+4.6 Axar Patel to Chris Gayle 4 Score: 45/0
+5.1 Marcus Stoinis to KL Rahul 0 Score: 45/0
+5.2 Marcus Stoinis to KL Rahul 6 Score: 51/0
+5.3 Marcus Stoinis to KL Rahul 6 Score: 57/0
+5.4 Marcus Stoinis to KL Rahul 1 Score: 58/0
+5.5 Marcus Stoinis to Chris Gayle 6 Score: 64/0
+5.6 Marcus Stoinis to Chris Gayle 0 Score: 64/0
+6.1 Axar Patel to KL Rahul 1 Score: 65/0
+6.2 Axar Patel to Chris Gayle 0 Score: 65/0
+6.3 Axar Patel to Chris Gayle 1 Score: 66/0
+6.4 Axar Patel to KL Rahul 0 Score: 66/0
+6.5 Axar Patel to KL Rahul 0 Score: 66/0
+6.6 Axar Patel to KL Rahul 1 Score: 67/0
+7.1 Marcus Stoinis to KL Rahul 0 Score: 67/0
+7.2 Marcus Stoinis to KL Rahul 1 Score: 68/0
+7.3 Marcus Stoinis to Chris Gayle 1 Score: 69/0
+7.4 Marcus Stoinis to KL Rahul 0 Score: 69/0
+7.5 Marcus Stoinis to KL Rahul W Score: 69/1 Caught by Shimron Hetmyer
+7.6 Marcus Stoinis to Mayank Agarwal 4 Score: 73/1
+8.1 Axar Patel to Chris Gayle 0 Score: 73/1
+8.2 Axar Patel to Chris Gayle 1 Score: 74/1
+8.3 Axar Patel to Mayank Agarwal Wide Score: 75/1
+8.4 Axar Patel to Mayank Agarwal 4 Score: 79/1
+8.5 Axar Patel to Mayank Agarwal 1 Score: 80/1
+8.6 Axar Patel to Chris Gayle 1 Score: 81/1
+8.7 Axar Patel to Mayank Agarwal 1 Score: 82/1
+9.1 Marcus Stoinis to Mayank Agarwal 1 Score: 83/1
+9.2 Marcus Stoinis to Chris Gayle 1 Score: 84/1
+9.3 Marcus Stoinis to Mayank Agarwal 0 Score: 84/1
+9.4 Marcus Stoinis to Mayank Agarwal 1 Score: 85/1
+9.5 Marcus Stoinis to Chris Gayle 1 Score: 86/1
+9.6 Marcus Stoinis to Mayank Agarwal Wide Score: 87/1
+9.7 Marcus Stoinis to Mayank Agarwal Wide Score: 88/1
+9.8 Marcus Stoinis to Mayank Agarwal 2 Score: 90/1
+10.1 Axar Patel to Chris Gayle 0 Score: 90/1
+10.2 Axar Patel to Chris Gayle 6 Score: 96/1
+10.3 Axar Patel to Chris Gayle 4 Score: 100/1
+10.4 Axar Patel to Chris Gayle 1 Score: 101/1
+10.5 Axar Patel to Mayank Agarwal 1 Score: 102/1
+10.6 Axar Patel to Chris Gayle 0 Score: 102/1
+11.1 Marcus Stoinis to Mayank Agarwal 1 Score: 103/1
+11.2 Marcus Stoinis to Chris Gayle 6 Score: 109/1
+11.3 Marcus Stoinis to Chris Gayle 0 Score: 109/1
+11.4 Marcus Stoinis to Chris Gayle 4 Score: 113/1
+11.5 Marcus Stoinis to Chris Gayle 0 Score: 113/1
+11.6 Marcus Stoinis to Chris Gayle W Score: 113/2 Caught by Kagiso Rabada
+12.1 Ravichandran Ashwin to Mayank Agarwal 4 Score: 117/2
+12.2 Ravichandran Ashwin to Mayank Agarwal 0 Score: 117/2
+12.3 Ravichandran Ashwin to Mayank Agarwal 0 Score: 117/2
+12.4 Ravichandran Ashwin to Mayank Agarwal 0 Score: 117/2
+12.5 Ravichandran Ashwin to Mayank Agarwal 1 Score: 118/2
+12.6 Ravichandran Ashwin to Nicholas Pooran 0 Score: 118/2
+13.1 Kagiso Rabada to Mayank Agarwal 1 Score: 119/2
+13.2 Kagiso Rabada to Nicholas Pooran Wide Score: 120/2
+13.3 Kagiso Rabada to Nicholas Pooran W Score: 120/3 Bowled
+13.4 Kagiso Rabada to Deepak Hooda 1 Score: 121/3
+13.5 Kagiso Rabada to Mayank Agarwal 1 Score: 122/3
+13.6 Kagiso Rabada to Deepak Hooda 1 Score: 123/3
+13.7 Kagiso Rabada to Mayank Agarwal 0 Score: 123/3
+14.1 Ravichandran Ashwin to Deepak Hooda 1 Score: 124/3
+14.2 Ravichandran Ashwin to Mayank Agarwal 1 Score: 125/3
+14.3 Ravichandran Ashwin to Deepak Hooda 1 Score: 126/3
+14.4 Ravichandran Ashwin to Mayank Agarwal 1 Score: 127/3
+14.5 Ravichandran Ashwin to Deepak Hooda 1 Score: 128/3
+14.6 Ravichandran Ashwin to Mayank Agarwal 0 Score: 128/3
+15.1 Amit Mishra to Deepak Hooda 0 Score: 128/3
+15.2 Amit Mishra to Deepak Hooda 0 Score: 128/3
+15.3 Amit Mishra to Deepak Hooda 1 Score: 129/3
+15.4 Amit Mishra to Mayank Agarwal 1 Score: 130/3
+15.5 Amit Mishra to Deepak Hooda 1 Score: 131/3
+15.6 Amit Mishra to Mayank Agarwal 1 Score: 132/3
+16.1 Avesh Khan to Mayank Agarwal 0 Score: 132/3
+16.2 Avesh Khan to Mayank Agarwal 0 Score: 132/3
+16.3 Avesh Khan to Mayank Agarwal 1 Score: 133/3
+16.4 Avesh Khan to Deepak Hooda 0 Score: 133/3
+16.5 Avesh Khan to Deepak Hooda 0 Score: 133/3
+16.6 Avesh Khan to Deepak Hooda 0 Score: 133/3
+17.1 Amit Mishra to Mayank Agarwal 6 Score: 139/3
+17.2 Amit Mishra to Mayank Agarwal 1 Score: 140/3
+17.3 Amit Mishra to Deepak Hooda 2 Score: 142/3
+17.4 Amit Mishra to Deepak Hooda 0 Score: 142/3
+17.5 Amit Mishra to Deepak Hooda 6 Score: 148/3
+17.6 Amit Mishra to Deepak Hooda 1 Score: 149/3
+18.1 Avesh Khan to Deepak Hooda 0 Score: 149/3
+18.2 Avesh Khan to Deepak Hooda 0 Score: 149/3
+18.3 Avesh Khan to Deepak Hooda 0 Score: 149/3
+18.4 Avesh Khan to Deepak Hooda 4 Score: 153/3
+18.5 Avesh Khan to Deepak Hooda 0 Score: 153/3
+18.6 Avesh Khan to Deepak Hooda 1 Score: 154/3
+19.1 Amit Mishra to Deepak Hooda 1 Score: 155/3
+19.2 Amit Mishra to Mayank Agarwal 4 Score: 159/3
+19.3 Amit Mishra to Mayank Agarwal 0 Score: 159/3
+19.4 Amit Mishra to Mayank Agarwal 2 Score: 161/3
+19.5 Amit Mishra to Mayank Agarwal 4 Score: 165/3
+19.6 Amit Mishra to Mayank Agarwal 1 Score: 166/3
++-----------------+--------+---------+--------+---------------------------+
+| Player          |   Runs |   Balls | SR     | Out                       |
++=================+========+=========+========+===========================+
+| KL Rahul        |     43 |      31 | 138.71 | c SO Hetmyer b MP Stoinis |
++-----------------+--------+---------+--------+---------------------------+
+| MA Agarwal      |     46 |      33 | 139.39 | Not out                   |
++-----------------+--------+---------+--------+---------------------------+
+| CH Gayle        |     49 |      31 | 158.06 | c K Rabada b MP Stoinis   |
++-----------------+--------+---------+--------+---------------------------+
+| DJ Hooda        |     22 |      23 | 95.65  | Not out                   |
++-----------------+--------+---------+--------+---------------------------+
+| N Pooran        |      0 |       2 | 0.0    | bowled b K Rabada         |
++-----------------+--------+---------+--------+---------------------------+
+| M Shahrukh Khan |      0 |       0 | DNB    |                           |
++-----------------+--------+---------+--------+---------------------------+
+| Harpreet Brar   |      0 |       0 | DNB    |                           |
++-----------------+--------+---------+--------+---------------------------+
+| RP Meredith     |      0 |       0 | DNB    |                           |
++-----------------+--------+---------+--------+---------------------------+
+| Ravi Bishnoi    |      0 |       0 | DNB    |                           |
++-----------------+--------+---------+--------+---------------------------+
+| Mohammed Shami  |      0 |       0 | DNB    |                           |
++-----------------+--------+---------+--------+---------------------------+
+| CJ Jordan       |      0 |       0 | DNB    |                           |
++-----------------+--------+---------+--------+---------------------------+
++------------+--------+---------+-----------+-------+
+| Player     |   Runs |   Overs |   Wickets | Eco   |
++============+========+=========+===========+=======+
+| PP Shaw    |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| S Dhawan   |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| SPD Smith  |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| RR Pant    |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| SO Hetmyer |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| MP Stoinis |     44 |       4 |         2 | 11.0  |
++------------+--------+---------+-----------+-------+
+| AR Patel   |     43 |       4 |         0 | 10.75 |
++------------+--------+---------+-----------+-------+
+| R Ashwin   |     23 |       4 |         0 | 5.75  |
++------------+--------+---------+-----------+-------+
+| A Mishra   |     32 |       3 |         0 | 10.67 |
++------------+--------+---------+-----------+-------+
+| K Rabada   |     18 |       3 |         1 | 6.0   |
++------------+--------+---------+-----------+-------+
+| Avesh Khan |      6 |       2 |         0 | 3.0   |
++------------+--------+---------+-----------+-------+
+0.1 Riley Meredith to Prithvi Shaw 4 Score: 4/0
+0.2 Riley Meredith to Prithvi Shaw 1 Score: 5/0
+0.3 Riley Meredith to Shikhar Dhawan 1 Score: 6/0
+0.4 Riley Meredith to Prithvi Shaw Wide Score: 7/0
+0.5 Riley Meredith to Prithvi Shaw 1 Score: 8/0
+0.6 Riley Meredith to Shikhar Dhawan 0 Score: 8/0
+0.7 Riley Meredith to Shikhar Dhawan 0 Score: 8/0
+1.1 Harpreet Brar to Prithvi Shaw 0 Score: 8/0
+1.2 Harpreet Brar to Prithvi Shaw 4 Score: 12/0
+1.3 Harpreet Brar to Prithvi Shaw 0 Score: 12/0
+1.4 Harpreet Brar to Prithvi Shaw 0 Score: 12/0
+1.5 Harpreet Brar to Prithvi Shaw 0 Score: 12/0
+1.6 Harpreet Brar to Prithvi Shaw 1 Score: 13/0
+2.1 Riley Meredith to Prithvi Shaw 0 Score: 13/0
+2.2 Riley Meredith to Prithvi Shaw 4 Score: 17/0
+2.3 Riley Meredith to Prithvi Shaw 0 Score: 17/0
+2.4 Riley Meredith to Prithvi Shaw 1 Score: 18/0
+2.5 Riley Meredith to Shikhar Dhawan 4 Score: 22/0
+2.6 Riley Meredith to Shikhar Dhawan 1 Score: 23/0
+3.1 Harpreet Brar to Shikhar Dhawan 0 Score: 23/0
+3.2 Harpreet Brar to Shikhar Dhawan 1 Score: 24/0
+3.3 Harpreet Brar to Prithvi Shaw 0 Score: 24/0
+3.4 Harpreet Brar to Prithvi Shaw 2 Score: 26/0
+3.5 Harpreet Brar to Prithvi Shaw 4 Score: 30/0
+3.6 Harpreet Brar to Prithvi Shaw 6 Score: 36/0
+4.1 Ravi Bishnoi to Shikhar Dhawan Wide Score: 37/0
+4.2 Ravi Bishnoi to Shikhar Dhawan 1 Score: 38/0
+4.3 Ravi Bishnoi to Prithvi Shaw 0 Score: 38/0
+4.4 Ravi Bishnoi to Prithvi Shaw 0 Score: 38/0
+4.5 Ravi Bishnoi to Prithvi Shaw 0 Score: 38/0
+4.6 Ravi Bishnoi to Prithvi Shaw 6 Score: 44/0
+4.7 Ravi Bishnoi to Prithvi Shaw 4 Score: 48/0
+5.1 Mohammed Shami to Shikhar Dhawan 0 Score: 48/0
+5.2 Mohammed Shami to Shikhar Dhawan 1 Score: 49/0
+5.3 Mohammed Shami to Prithvi Shaw 0 Score: 49/0
+5.4 Mohammed Shami to Prithvi Shaw 4 Score: 53/0
+5.5 Mohammed Shami to Prithvi Shaw 1 Score: 54/0
+5.6 Mohammed Shami to Shikhar Dhawan Wide Score: 55/0
+5.7 Mohammed Shami to Shikhar Dhawan 0 Score: 55/0
+6.1 Ravi Bishnoi to Prithvi Shaw 6 Score: 61/0
+6.2 Ravi Bishnoi to Prithvi Shaw 1 Score: 62/0
+6.3 Ravi Bishnoi to Shikhar Dhawan 0 Score: 62/0
+6.4 Ravi Bishnoi to Shikhar Dhawan 0 Score: 62/0
+6.5 Ravi Bishnoi to Shikhar Dhawan 1 Score: 63/0
+6.6 Ravi Bishnoi to Prithvi Shaw 1 Score: 64/0
+7.1 Mohammed Shami to Prithvi Shaw 0 Score: 64/0
+7.2 Mohammed Shami to Prithvi Shaw 4 Score: 68/0
+7.3 Mohammed Shami to Prithvi Shaw 1 Score: 69/0
+7.4 Mohammed Shami to Shikhar Dhawan 0 Score: 69/0
+7.5 Mohammed Shami to Shikhar Dhawan 1 Score: 70/0
+7.6 Mohammed Shami to Prithvi Shaw 2 Score: 72/0
+8.1 Ravi Bishnoi to Shikhar Dhawan 1 Score: 73/0
+8.2 Ravi Bishnoi to Prithvi Shaw 1 Score: 74/0
+8.3 Ravi Bishnoi to Shikhar Dhawan 0 Score: 74/0
+8.4 Ravi Bishnoi to Shikhar Dhawan 1 Score: 75/0
+8.5 Ravi Bishnoi to Prithvi Shaw 0 Score: 75/0
+8.6 Ravi Bishnoi to Prithvi Shaw 0 Score: 75/0
+9.1 Mohammed Shami to Shikhar Dhawan 1 Score: 76/0
+9.2 Mohammed Shami to Prithvi Shaw 0 Score: 76/0
+9.3 Mohammed Shami to Prithvi Shaw 1 Score: 77/0
+9.4 Mohammed Shami to Shikhar Dhawan 4 Score: 81/0
+9.5 Mohammed Shami to Shikhar Dhawan 0 Score: 81/0
+9.6 Mohammed Shami to Shikhar Dhawan W Score: 81/1 Caught by Mayank Agarwal
+10.1 Ravi Bishnoi to Prithvi Shaw 1 Score: 82/1
+10.2 Ravi Bishnoi to Steven Smith 1 Score: 83/1
+10.3 Ravi Bishnoi to Prithvi Shaw 1 Score: 84/1
+10.4 Ravi Bishnoi to Steven Smith 1 Score: 85/1
+10.5 Ravi Bishnoi to Prithvi Shaw 0 Score: 85/1
+10.6 Ravi Bishnoi to Prithvi Shaw W Score: 85/2 Bowled
+11.1 Deepak Hooda to Steven Smith 1 Score: 86/2
+11.2 Deepak Hooda to Rishabh Pant 1 Score: 87/2
+11.3 Deepak Hooda to Steven Smith 4 Score: 91/2
+11.4 Deepak Hooda to Steven Smith 1 Score: 92/2
+11.5 Deepak Hooda to Rishabh Pant 0 Score: 92/2
+11.6 Deepak Hooda to Rishabh Pant 1 Score: 93/2
+12.1 Chris Jordan to Rishabh Pant 0 Score: 93/2
+12.2 Chris Jordan to Rishabh Pant 0 Score: 93/2
+12.3 Chris Jordan to Rishabh Pant 4 Score: 97/2
+12.4 Chris Jordan to Rishabh Pant 1 Score: 98/2
+12.5 Chris Jordan to Steven Smith 1 Score: 99/2
+12.6 Chris Jordan to Rishabh Pant 1 Score: 100/2
+13.1 Deepak Hooda to Rishabh Pant 1 Score: 101/2
+13.2 Deepak Hooda to Steven Smith 1 Score: 102/2
+13.3 Deepak Hooda to Rishabh Pant 0 Score: 102/2
+13.4 Deepak Hooda to Rishabh Pant 1 Score: 103/2
+13.5 Deepak Hooda to Steven Smith 0 Score: 103/2
+13.6 Deepak Hooda to Steven Smith 1 Score: 104/2
+14.1 Chris Jordan to Steven Smith 1 Score: 105/2
+14.2 Chris Jordan to Rishabh Pant 0 Score: 105/2
+14.3 Chris Jordan to Rishabh Pant 6 Score: 111/2
+14.4 Chris Jordan to Rishabh Pant 0 Score: 111/2
+14.5 Chris Jordan to Rishabh Pant 6 Score: 117/2
+14.6 Chris Jordan to Rishabh Pant 1 Score: 118/2
+15.1 Deepak Hooda to Rishabh Pant Wide Score: 119/2
+15.2 Deepak Hooda to Rishabh Pant 4 Score: 123/2
+15.3 Deepak Hooda to Rishabh Pant 4 Score: 127/2
+15.4 Deepak Hooda to Rishabh Pant 6 Score: 133/2
+15.5 Deepak Hooda to Rishabh Pant 4 Score: 137/2
+15.6 Deepak Hooda to Rishabh Pant 2 Score: 139/2
+15.7 Deepak Hooda to Rishabh Pant W Score: 139/3 Run Out!
+16.1 Chris Jordan to Steven Smith 1 Score: 140/3
+16.2 Chris Jordan to Marcus Stoinis 2 Score: 142/3
+16.3 Chris Jordan to Marcus Stoinis 1 Score: 143/3
+16.4 Chris Jordan to Steven Smith Wide Score: 144/3
+16.5 Chris Jordan to Steven Smith 0 Score: 144/3
+16.6 Chris Jordan to Steven Smith 0 Score: 144/3
+16.7 Chris Jordan to Steven Smith 1 Score: 145/3
+17.1 Riley Meredith to Steven Smith 6 Score: 151/3
+17.2 Riley Meredith to Steven Smith 6 Score: 157/3
+17.3 Riley Meredith to Steven Smith 0 Score: 157/3
+17.4 Riley Meredith to Steven Smith 4 Score: 161/3
+17.5 Riley Meredith to Steven Smith 0 Score: 161/3
+17.6 Riley Meredith to Steven Smith 1 Score: 162/3
+18.1 Chris Jordan to Steven Smith 4 Score: 166/3
+18.2 Chris Jordan to Steven Smith Wide Score: 167/3
+dc won by 7 wickets
++------------+--------+---------+--------+-------------------------------+
+| Player     |   Runs |   Balls | SR     | Out                           |
++============+========+=========+========+===============================+
+| PP Shaw    |     62 |      41 | 151.22 | bowled b Ravi Bishnoi         |
++------------+--------+---------+--------+-------------------------------+
+| S Dhawan   |     18 |      23 | 78.26  | c MA Agarwal b Mohammed Shami |
++------------+--------+---------+--------+-------------------------------+
+| SPD Smith  |     35 |      21 | 166.67 | Not out                       |
++------------+--------+---------+--------+-------------------------------+
+| RR Pant    |     43 |      22 | 195.45 | Not out                       |
++------------+--------+---------+--------+-------------------------------+
+| SO Hetmyer |      0 |       0 | DNB    |                               |
++------------+--------+---------+--------+-------------------------------+
+| MP Stoinis |      3 |       2 | 150.0  | Not out                       |
++------------+--------+---------+--------+-------------------------------+
+| AR Patel   |      0 |       0 | DNB    |                               |
++------------+--------+---------+--------+-------------------------------+
+| R Ashwin   |      0 |       0 | DNB    |                               |
++------------+--------+---------+--------+-------------------------------+
+| A Mishra   |      0 |       0 | DNB    |                               |
++------------+--------+---------+--------+-------------------------------+
+| K Rabada   |      0 |       0 | DNB    |                               |
++------------+--------+---------+--------+-------------------------------+
+| Avesh Khan |      0 |       0 | DNB    |                               |
++------------+--------+---------+--------+-------------------------------+
++-----------------+--------+---------+-----------+-------+
+| Player          |   Runs |   Overs |   Wickets | Eco   |
++=================+========+=========+===========+=======+
+| KL Rahul        |      0 |     0   |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| MA Agarwal      |      0 |     0   |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| CH Gayle        |      0 |     0   |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| DJ Hooda        |     33 |     3   |         0 | 11.0  |
++-----------------+--------+---------+-----------+-------+
+| N Pooran        |      0 |     0   |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| M Shahrukh Khan |      0 |     0   |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| Harpreet Brar   |     18 |     2   |         0 | 9.0   |
++-----------------+--------+---------+-----------+-------+
+| RP Meredith     |     35 |     3   |         0 | 11.67 |
++-----------------+--------+---------+-----------+-------+
+| Ravi Bishnoi    |     28 |     4   |         1 | 7.0   |
++-----------------+--------+---------+-----------+-------+
+| Mohammed Shami  |     21 |     3   |         1 | 7.0   |
++-----------------+--------+---------+-----------+-------+
+| CJ Jordan       |     32 |     3.1 |         0 | 10.11 |
++-----------------+--------+---------+-----------+-------+
