@@ -2,6 +2,7 @@ import random
 import accessJSON
 import copy
 import sys 
+import json
 
 
 #NEXT UPDATE -
@@ -22,6 +23,7 @@ import sys
 #too many all-outs
 #Last 10 overs both innings very slow even when 1-2 wickets fall (too many wickets fall)
 #weigh economy more, if eco is like 6 or 7, then bowl over a player with 1 wicket but 9 economy
+#12-17 over increase rate (1st inning)
 
 #FEATURES
 #Commentary
@@ -519,7 +521,7 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += int(prob['denomination'])
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:W-{out_type}-Bowler-{blname}")
                                     batterTracker[btname]['balls'] += 1
-                                    innings1Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
+                                    innings1Log.append({"events": over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
                                         " W" + " Score: " + str(runs) + "/" + str(wickets) + f" {out_type.title()}", "balls": balls,
                                         "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
@@ -1468,7 +1470,7 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
                                     batterTracker[btname]['runs'] += int(prob['denomination'])
                                     batterTracker[btname]['ballLog'].append(f"{str(balls)}:W-{out_type}-Bowler-{blname}")
                                     batterTracker[btname]['balls'] += 1
-                                    innings2Log.append({"event": over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
+                                    innings2Log.append({"events": over + f" {bowler['displayName']} to {batter['player']['displayName']}" +
                                         " W" + " Score: " + str(runs) + "/" + str(wickets) + f" {out_type.title()}", "balls": balls,
                                         "runs": runs, "batterTracker": copy.deepcopy(batterTracker), "bowlerTracker": copy.deepcopy(bowlerTracker), "batsman": btname, "bowler": blname, "wickets": wickets})
                                     playerDismissed(onStrike)
@@ -2164,26 +2166,8 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
     innings2Bowltracker = bowlerTracker
 
 def game(manual=True, sentTeamOne=None, sentTeamTwo=None, switch="group"):
-    target = 1
-    global innings1Batting, innings1Bowling, innings2Batting, innings2Bowling, innings1Balls, innings2Balls, innings1Runs, innings2Runs, innings1Battracker, innings1Bowltracker, innings2Battracker, innings2Bowltracker,innings1Log, innings2Log
-
-    innings1Batting = None
-    innings1Bowling = None
-    innings2Batting = None
-    innings2Bowling = None
-    innings1Balls = None
-    innings2Balls = None
-    innings1Runs = None
-    innings2Runs = None
-
-    innings1Battracker = None
-    innings2Battracker = None
-    innings1Bowltracker = None
-    innings2Bowltracker = None
-
-    innings1Log = []
-    innings2Log = []
-
+    team_one_inp = None
+    team_two_inp = None
     if(manual):
         team_one_inp = input("enter first team ").lower()
         team_two_inp = input("enter second team ").lower()
@@ -2197,8 +2181,9 @@ def game(manual=True, sentTeamOne=None, sentTeamTwo=None, switch="group"):
     sys.stdout = open(f"scores/{team_one_inp}v{team_two_inp}_{switch}.txt", "w")
 
     # f = open("matches/csk_v_rr.txt", "r")
-    f1 = open(f"teams/{team_one_inp}.txt", "r")
-    f2 = open(f"teams/{team_two_inp}.txt", "r")
+    with open('teams/teams.json') as fl:
+        dataFile = json.load(fl)
+
     team1 = None
     team2 = None
     venue = None
@@ -2223,41 +2208,11 @@ def game(manual=True, sentTeamOne=None, sentTeamTwo=None, switch="group"):
     team2Info = []
 
     # spin, pace factor -> 0.0 - 1.0
-    for l in f1:
-        l = l.replace("\n", "")
-        if("XVENUE" in l):
-            venue = l.split("-")[1]
-            # print(venue)
-
-        elif("XTEAM" in l):
-            # if(team1 == None):
-            team1 = l.split("-")[1]
-            # else:
-                # team2 = l.split("-")[1]
-
-        elif(l != ''):
-            # if(team2 == None):
-            team1Players.append(l)
-            # else:
-                # team2Players.append(l)
-
-    for l in f2:
-        l = l.replace("\n", "")
-        if("XVENUE" in l):
-            venue = l.split("-")[1]
-            # print(venue)
-
-        elif("XTEAM" in l):
-            # if(team1 == None):
-            team2 = l.split("-")[1]
-            # else:
-                # team2 = l.split("-")[1]
-
-        elif(l != ''):
-            # if(team2 == None):
-            team2Players.append(l)
-            # else:
-                # team2Players.append(l)
+    team1Players = dataFile[team_one_inp]
+    team2Players = dataFile[team_two_inp]
+    team1 = team_one_inp
+    team2 = team_two_inp
+    print(team1Players)
 
     for player in team1Players:
         obj = accessJSON.getPlayerInfo(player)
@@ -2287,6 +2242,7 @@ def game(manual=True, sentTeamOne=None, sentTeamTwo=None, switch="group"):
             2], paceFactor, spinFactor, outfield, dew, detoriate)
     sys.stdout.close()
     sys.stdout=stdoutOrigin
+    # print(innings1Log)
     # print(innings2Log)
     return {"innings1Batting": innings1Batting, "innings1Bowling": innings1Bowling, "innings2Batting": innings2Batting, 
             "innings2Bowling": innings2Bowling, "innings2Balls": innings2Balls, "innings1Balls": 120, 
