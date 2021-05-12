@@ -59,9 +59,27 @@ div.absolute {
   border-style: solid;
   padding: 0.5em;
   overflow: scroll;
+  /* margin: 0; */
+  padding: 0;
 }
 
 .hr-over {
   margin: 0;
   padding: 0;
+}
+
+.scoreheader {
+  /* background-color: rgb(0, 118, 228); */
+  height: 5vh;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-left: 1em;
+}
+
+.scorecard {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 70% 30%;
 }

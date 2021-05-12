@@ -1,3 +1,8 @@
+var teamData = null;
+$.getJSON("./data/teaminfo.json", function (json) {
+  teamData = json;
+});
+
 function testMain() {
   eel.dummy("check!")(function (result) {
     console.log(result);
@@ -5,8 +10,76 @@ function testMain() {
 }
 
 function updateScroll() {
-  var element = document.getElementById("output");
-  element.scrollTop = element.scrollHeight;
+  if (document.getElementById("scorecard-view").hidden == true) {
+    var element = document.getElementById("output");
+    element.scrollTop = element.scrollHeight;
+  }
+}
+
+function setView() {
+  if (arguments[0] == "bbb") {
+    document.getElementById("scorecard-view").hidden = true;
+    document.getElementById("ball-list").hidden = false;
+  } else if (arguments[0] == "scorecard") {
+    document.getElementById("ball-list").hidden = true;
+    document.getElementById("scorecard-view").hidden = false;
+  }
+}
+
+function handleScorecardCreation() {
+  document.getElementById("scorecard-view").innerHTML = "";
+  var battingOrder = [];
+
+  for (var key in arguments[2]) {
+    battingOrder.push(arguments[2][key]);
+  }
+  // console.log(battingOrder);
+  battingOrderString = "";
+  battingOrder.forEach((e) => {
+    battingOrderString += `<tr><td style="height:5px;font-size:0.7rem">${e.playerInitials}</td></tr>`;
+  });
+  (team1 = arguments[0]), (team2 = arguments[1]);
+  var scorecardDiv = document.getElementById("scorecard-view");
+  var batScorecard = document.createElement("div");
+  batScorecard.innerHTML = `<header class=scoreheader style='background-color:${
+    teamData[team1.toLowerCase()].color
+  }'>${team1.toUpperCase()}</header><body>
+  <table class="table table-striped">
+    <tr style="display:none;">
+      <th>Players</th>
+      <th>Info</th>
+      <th>4</th>
+      <th>6</th>
+      <th>Runs</th>
+    </tr>
+    ${battingOrderString}
+  </table>
+</body>`;
+  scorecardDiv.appendChild(batScorecard);
+  var bowlScorecard = document.createElement("div");
+  bowlScorecard.innerHTML = `<header class=scoreheader style='background-color:${
+    teamData[team2.toLowerCase()].color
+  }'>${team2.toUpperCase()}</header>`;
+  scorecardDiv.appendChild(bowlScorecard);
+
+  // <div>
+  //               <header class="scoreheader">DC</header>
+  //               <body>
+  //                 <table class="table table-striped">
+  //                   <tr>
+  //                     <th>Players</th>
+  //                     <th>Info</th>
+  //                     <th>4</th>
+  //                     <th>6</th>
+  //                     <th>Runs</th>
+  //                   </tr>
+  //                 </table>
+  //               </body>
+  //             </div>
+  //            ` <div>
+  //               <header class="scoreheader">DC</header>
+  //             </div>`
+  //           </div>
 }
 
 function customGame() {
@@ -15,7 +88,12 @@ function customGame() {
     document.getElementById("team2").value
   )(function (result) {
     console.log(result);
-    simSpeedValue = document.getElementById("sim-speed").value;
+    handleScorecardCreation(
+      result.innings1BatTeam,
+      result.innings2BatTeam,
+      result.innings1Battracker
+    );
+    scoreDiv = simSpeedValue = document.getElementById("sim-speed").value;
     simSpeed = 1;
     if (simSpeedValue == "realistic") {
       simSpeed = 1500;

@@ -18,7 +18,7 @@
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="/eel.js"></script>
     <script src="jquery/jquery-3.6.0.js"></script>
-
+    <script data-main="main.js" src="jquery/require.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -57,7 +57,15 @@
             </select>
             <br /><br />
           </form>
-          <button onclick="customGame()" style="width: 15%">Simulate</button>
+          <div>
+            <button onclick="customGame()" style="width: 15%">Simulate</button>
+            <button onclick="setView('bbb')" style="width: 15%">
+              Ball by ball
+            </button>
+            <button onclick="setView('scorecard')" style="width: 15%">
+              Scorecard
+            </button>
+          </div>
           <div id="output" class="output">
             <ul
               id="ball-list"
@@ -67,6 +75,25 @@
                 font-size: 0.8rem;
               "
             ></ul>
+            <div hidden class="scorecard" id="scorecard-view">
+              <!-- <div>
+                <header class="scoreheader">DC</header>
+                <body>
+                  <table class="table table-striped">
+                    <tr>
+                      <th>Players</th>
+                      <th>Info</th>
+                      <th>4</th>
+                      <th>6</th>
+                      <th>Runs</th>
+                    </tr>
+                  </table>
+                </body>
+              </div>
+              <div>
+                <header class="scoreheader">DC</header>
+              </div> -->
+            </div>
           </div>
         </div>
       </div>

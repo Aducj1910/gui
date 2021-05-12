@@ -1,0 +1,34 @@
+{
+  "srh": {
+    "color": "#eb8034",
+    "text": "white"
+  },
+  "csk": {
+    "color": "#f2ec2e",
+    "text": "black"
+  },
+  "dc": {
+    "color": "#0076e4",
+    "text": "white"
+  },
+  "rcb": {
+    "color": "#c72206",
+    "text": "white"
+  },
+  "pbks": {
+    "color": "#f03616",
+    "text": "white"
+  },
+  "rr": {
+    "color": "#f200ce",
+    "text": "white"
+  },
+  "kkr": {
+    "color": "#330066",
+    "text": "white"
+  },
+  "mi": {
+    "color": "#004ca8",
+    "text": "white"
+  }
+}
