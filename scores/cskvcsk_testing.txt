@@ -1,0 +1,349 @@
+['Ruturaj Gaikwad', 'Faf du Plessis', 'Moeen Ali', 'Suresh Raina', 'Ambati Rayudu', 'Ravindra Jadeja', 'MS Dhoni', 'Sam Curran', 'Dwayne Bravo', 'Shardul Thakur', 'Deepak Chahar']
+csk won the toss and chose to bat
+0.1 Deepak Chahar to Ruturaj Gaikwad 0 Score: 0/0
+0.2 Deepak Chahar to Ruturaj Gaikwad 0 Score: 0/0
+0.3 Deepak Chahar to Ruturaj Gaikwad 2 Score: 2/0
+0.4 Deepak Chahar to Ruturaj Gaikwad 0 Score: 2/0
+0.5 Deepak Chahar to Ruturaj Gaikwad 4 Score: 6/0
+0.6 Deepak Chahar to Ruturaj Gaikwad 0 Score: 6/0
+1.1 Moeen Ali to Faf du Plessis 0 Score: 6/0
+1.2 Moeen Ali to Faf du Plessis 1 Score: 7/0
+1.3 Moeen Ali to Ruturaj Gaikwad 4 Score: 11/0
+1.4 Moeen Ali to Ruturaj Gaikwad 2 Score: 13/0
+1.5 Moeen Ali to Ruturaj Gaikwad 0 Score: 13/0
+1.6 Moeen Ali to Ruturaj Gaikwad 0 Score: 13/0
+2.1 Deepak Chahar to Faf du Plessis 0 Score: 13/0
+2.2 Deepak Chahar to Faf du Plessis 0 Score: 13/0
+2.3 Deepak Chahar to Faf du Plessis 0 Score: 13/0
+2.4 Deepak Chahar to Faf du Plessis 6 Score: 19/0
+2.5 Deepak Chahar to Faf du Plessis 1 Score: 20/0
+2.6 Deepak Chahar to Ruturaj Gaikwad 0 Score: 20/0
+3.1 Moeen Ali to Faf du Plessis 1 Score: 21/0
+3.2 Moeen Ali to Ruturaj Gaikwad W Score: 21/1 Caught by MS Dhoni
+3.3 Moeen Ali to Suresh Raina 1 Score: 22/1
+3.4 Moeen Ali to Faf du Plessis 0 Score: 22/1
+3.5 Moeen Ali to Faf du Plessis 1 Score: 23/1
+3.6 Moeen Ali to Suresh Raina 1 Score: 24/1
+4.1 Sam Curran to Suresh Raina Wide Score: 25/1
+4.2 Sam Curran to Suresh Raina 1 Score: 26/1
+4.3 Sam Curran to Faf du Plessis 0 Score: 26/1
+4.4 Sam Curran to Faf du Plessis 0 Score: 26/1
+4.5 Sam Curran to Faf du Plessis 0 Score: 26/1
+4.6 Sam Curran to Faf du Plessis 0 Score: 26/1
+4.7 Sam Curran to Faf du Plessis 6 Score: 32/1
+5.1 Ravindra Jadeja to Suresh Raina 1 Score: 33/1
+5.2 Ravindra Jadeja to Faf du Plessis 0 Score: 33/1
+5.3 Ravindra Jadeja to Faf du Plessis 1 Score: 34/1
+5.4 Ravindra Jadeja to Suresh Raina 3 Score: 37/1
+5.5 Ravindra Jadeja to Faf du Plessis 4 Score: 41/1
+5.6 Ravindra Jadeja to Faf du Plessis 0 Score: 41/1
+6.1 Sam Curran to Suresh Raina 1 Score: 42/1
+6.2 Sam Curran to Faf du Plessis 1 Score: 43/1
+6.3 Sam Curran to Suresh Raina 1 Score: 44/1
+6.4 Sam Curran to Faf du Plessis 4 Score: 48/1
+6.5 Sam Curran to Faf du Plessis W Score: 48/2 Caught by Faf du Plessis
+6.6 Sam Curran to Ambati Rayudu 1 Score: 49/2
+7.1 Ravindra Jadeja to Ambati Rayudu 0 Score: 49/2
+7.2 Ravindra Jadeja to Ambati Rayudu 4 Score: 53/2
+7.3 Ravindra Jadeja to Ambati Rayudu 0 Score: 53/2
+7.4 Ravindra Jadeja to Ambati Rayudu 1 Score: 54/2
+7.5 Ravindra Jadeja to Suresh Raina 2 Score: 56/2
+7.6 Ravindra Jadeja to Suresh Raina 0 Score: 56/2
+8.1 Sam Curran to Ambati Rayudu 4 Score: 60/2
+8.2 Sam Curran to Ambati Rayudu 0 Score: 60/2
+8.3 Sam Curran to Ambati Rayudu 1 Score: 61/2
+8.4 Sam Curran to Suresh Raina 1 Score: 62/2
+8.5 Sam Curran to Ambati Rayudu 1 Score: 63/2
+8.6 Sam Curran to Suresh Raina 1 Score: 64/2
+9.1 Ravindra Jadeja to Suresh Raina 0 Score: 64/2
+9.2 Ravindra Jadeja to Suresh Raina 2 Score: 66/2
+9.3 Ravindra Jadeja to Suresh Raina 0 Score: 66/2
+9.4 Ravindra Jadeja to Suresh Raina 1 Score: 67/2
+9.5 Ravindra Jadeja to Ambati Rayudu 6 Score: 73/2
+9.6 Ravindra Jadeja to Ambati Rayudu 0 Score: 73/2
+10.1 Dwayne Bravo to Suresh Raina 0 Score: 73/2
+10.2 Dwayne Bravo to Suresh Raina 2 Score: 75/2
+10.3 Dwayne Bravo to Suresh Raina 4 Score: 79/2
+10.4 Dwayne Bravo to Suresh Raina 0 Score: 79/2
+10.5 Dwayne Bravo to Suresh Raina 0 Score: 79/2
+10.6 Dwayne Bravo to Suresh Raina 2 Score: 81/2
+11.1 Ravindra Jadeja to Ambati Rayudu 1 Score: 82/2
+11.2 Ravindra Jadeja to Suresh Raina 4 Score: 86/2
+11.3 Ravindra Jadeja to Suresh Raina 1 Score: 87/2
+11.4 Ravindra Jadeja to Ambati Rayudu 1 Score: 88/2
+11.5 Ravindra Jadeja to Suresh Raina 1 Score: 89/2
+11.6 Ravindra Jadeja to Ambati Rayudu 6 Score: 95/2
+12.1 Dwayne Bravo to Suresh Raina 0 Score: 95/2
+12.2 Dwayne Bravo to Suresh Raina 1 Score: 96/2
+12.3 Dwayne Bravo to Ambati Rayudu Wide Score: 97/2
+12.4 Dwayne Bravo to Ambati Rayudu 0 Score: 97/2
+12.5 Dwayne Bravo to Ambati Rayudu 0 Score: 97/2
+12.6 Dwayne Bravo to Ambati Rayudu 6 Score: 103/2
+12.7 Dwayne Bravo to Ambati Rayudu 0 Score: 103/2
+13.1 Sam Curran to Suresh Raina 0 Score: 103/2
+13.2 Sam Curran to Suresh Raina 2 Score: 105/2
+13.3 Sam Curran to Suresh Raina 1 Score: 106/2
+13.4 Sam Curran to Ambati Rayudu 0 Score: 106/2
+13.5 Sam Curran to Ambati Rayudu 1 Score: 107/2
+13.6 Sam Curran to Suresh Raina 1 Score: 108/2
+14.1 Dwayne Bravo to Suresh Raina 0 Score: 108/2
+14.2 Dwayne Bravo to Suresh Raina 1 Score: 109/2
+14.3 Dwayne Bravo to Ambati Rayudu 1 Score: 110/2
+14.4 Dwayne Bravo to Suresh Raina 1 Score: 111/2
+14.5 Dwayne Bravo to Ambati Rayudu 0 Score: 111/2
+14.6 Dwayne Bravo to Ambati Rayudu 1 Score: 112/2
+15.1 Moeen Ali to Ambati Rayudu 6 Score: 118/2
+15.2 Moeen Ali to Ambati Rayudu 1 Score: 119/2
+15.3 Moeen Ali to Suresh Raina 1 Score: 120/2
+15.4 Moeen Ali to Ambati Rayudu 0 Score: 120/2
+15.5 Moeen Ali to Ambati Rayudu 1 Score: 121/2
+15.6 Moeen Ali to Suresh Raina 0 Score: 121/2
+16.1 Deepak Chahar to Ambati Rayudu 1 Score: 122/2
+16.2 Deepak Chahar to Suresh Raina 4 Score: 126/2
+16.3 Deepak Chahar to Suresh Raina Wide Score: 127/2
+16.4 Deepak Chahar to Suresh Raina 1 Score: 128/2
+16.5 Deepak Chahar to Ambati Rayudu 4 Score: 132/2
+16.6 Deepak Chahar to Ambati Rayudu W Score: 132/3 Caught by Ravindra Jadeja
+16.7 Deepak Chahar to Moeen Ali 2 Score: 134/3
+17.1 Shardul Thakur to Suresh Raina 1 Score: 135/3
+17.2 Shardul Thakur to Moeen Ali 6 Score: 141/3
+17.3 Shardul Thakur to Moeen Ali Wide Score: 142/3
+17.4 Shardul Thakur to Moeen Ali 1 Score: 143/3
+17.5 Shardul Thakur to Suresh Raina 6 Score: 149/3
+17.6 Shardul Thakur to Suresh Raina 1 Score: 150/3
+17.7 Shardul Thakur to Moeen Ali W Score: 150/4 Stumped
+18.1 Dwayne Bravo to Suresh Raina Wide Score: 151/4
+18.2 Dwayne Bravo to Suresh Raina 2 Score: 153/4
+18.3 Dwayne Bravo to Suresh Raina 4 Score: 157/4
+18.4 Dwayne Bravo to Suresh Raina 4 Score: 161/4
+18.5 Dwayne Bravo to Suresh Raina W Score: 161/5 Caught by Faf du Plessis
+18.6 Dwayne Bravo to Sam Curran 4 Score: 165/5
+18.7 Dwayne Bravo to Sam Curran 6 Score: 171/5
+19.1 Shardul Thakur to Sam Curran 0 Score: 171/5
+19.2 Shardul Thakur to Sam Curran 0 Score: 171/5
+19.3 Shardul Thakur to Sam Curran 4 Score: 175/5
+19.4 Shardul Thakur to Sam Curran 1 Score: 176/5
+19.5 Shardul Thakur to Sam Curran 2 Score: 178/5
+19.6 Shardul Thakur to Sam Curran 2 Score: 180/5
++--------------+--------+---------+--------+----------------------------+
+| Player       |   Runs |   Balls | SR     | Out                        |
++==============+========+=========+========+============================+
+| RD Gaikwad   |     12 |      12 | 100.0  | c MS Dhoni b MM Ali        |
++--------------+--------+---------+--------+----------------------------+
+| F du Plessis |     26 |      22 | 118.18 | c F du Plessis b SM Curran |
++--------------+--------+---------+--------+----------------------------+
+| MM Ali       |      9 |       4 | 225.0  | stumped b SN Thakur        |
++--------------+--------+---------+--------+----------------------------+
+| SK Raina     |     61 |      44 | 138.64 | c F du Plessis b DJ Bravo  |
++--------------+--------+---------+--------+----------------------------+
+| AT Rayudu    |     48 |      30 | 160.0  | c RA Jadeja b DL Chahar    |
++--------------+--------+---------+--------+----------------------------+
+| RA Jadeja    |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| MS Dhoni     |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| SM Curran    |     19 |       8 | 237.5  | Not out                    |
++--------------+--------+---------+--------+----------------------------+
+| DJ Bravo     |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| SN Thakur    |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| DL Chahar    |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
++--------------+--------+---------+-----------+-------+
+| Player       |   Runs |   Overs |   Wickets | Eco   |
++==============+========+=========+===========+=======+
+| RD Gaikwad   |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| F du Plessis |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| MM Ali       |     20 |       3 |         1 | 6.67  |
++--------------+--------+---------+-----------+-------+
+| SK Raina     |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| AT Rayudu    |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| RA Jadeja    |     39 |       4 |         0 | 9.75  |
++--------------+--------+---------+-----------+-------+
+| MS Dhoni     |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| SM Curran    |     29 |       4 |         1 | 7.25  |
++--------------+--------+---------+-----------+-------+
+| DJ Bravo     |     41 |       4 |         1 | 10.25 |
++--------------+--------+---------+-----------+-------+
+| SN Thakur    |     25 |       2 |         1 | 12.5  |
++--------------+--------+---------+-----------+-------+
+| DL Chahar    |     26 |       3 |         1 | 8.67  |
++--------------+--------+---------+-----------+-------+
+0.1 Deepak Chahar to Ruturaj Gaikwad 0 Score: 0/0
+0.2 Deepak Chahar to Ruturaj Gaikwad 4 Score: 4/0
+0.3 Deepak Chahar to Ruturaj Gaikwad 1 Score: 5/0
+0.4 Deepak Chahar to Faf du Plessis Wide Score: 6/0
+0.5 Deepak Chahar to Faf du Plessis Wide Score: 7/0
+0.6 Deepak Chahar to Faf du Plessis 0 Score: 7/0
+0.7 Deepak Chahar to Faf du Plessis 0 Score: 7/0
+0.8 Deepak Chahar to Faf du Plessis 4 Score: 11/0
+1.1 Moeen Ali to Ruturaj Gaikwad 0 Score: 11/0
+1.2 Moeen Ali to Ruturaj Gaikwad 0 Score: 11/0
+1.3 Moeen Ali to Ruturaj Gaikwad 1 Score: 12/0
+1.4 Moeen Ali to Faf du Plessis 1 Score: 13/0
+1.5 Moeen Ali to Ruturaj Gaikwad 0 Score: 13/0
+1.6 Moeen Ali to Ruturaj Gaikwad 0 Score: 13/0
+2.1 Sam Curran to Faf du Plessis 1 Score: 14/0
+2.2 Sam Curran to Ruturaj Gaikwad 1 Score: 15/0
+2.3 Sam Curran to Faf du Plessis 0 Score: 15/0
+2.4 Sam Curran to Faf du Plessis 1 Score: 16/0
+2.5 Sam Curran to Ruturaj Gaikwad 0 Score: 16/0
+2.6 Sam Curran to Ruturaj Gaikwad 4 Score: 20/0
+3.1 Moeen Ali to Faf du Plessis 6 Score: 26/0
+3.2 Moeen Ali to Faf du Plessis 2 Score: 28/0
+3.3 Moeen Ali to Faf du Plessis 0 Score: 28/0
+3.4 Moeen Ali to Faf du Plessis 0 Score: 28/0
+3.5 Moeen Ali to Faf du Plessis 1 Score: 29/0
+3.6 Moeen Ali to Ruturaj Gaikwad 1 Score: 30/0
+4.1 Sam Curran to Ruturaj Gaikwad 0 Score: 30/0
+4.2 Sam Curran to Ruturaj Gaikwad 2 Score: 32/0
+4.3 Sam Curran to Ruturaj Gaikwad 0 Score: 32/0
+4.4 Sam Curran to Ruturaj Gaikwad 2 Score: 34/0
+4.5 Sam Curran to Ruturaj Gaikwad 0 Score: 34/0
+4.6 Sam Curran to Ruturaj Gaikwad 1 Score: 35/0
+5.1 Deepak Chahar to Ruturaj Gaikwad 1 Score: 36/0
+5.2 Deepak Chahar to Faf du Plessis 0 Score: 36/0
+5.3 Deepak Chahar to Faf du Plessis 6 Score: 42/0
+5.4 Deepak Chahar to Faf du Plessis 0 Score: 42/0
+5.5 Deepak Chahar to Faf du Plessis 0 Score: 42/0
+5.6 Deepak Chahar to Faf du Plessis Wide Score: 43/0
+5.7 Deepak Chahar to Faf du Plessis 0 Score: 43/0
+6.1 Sam Curran to Ruturaj Gaikwad 4 Score: 47/0
+6.2 Sam Curran to Ruturaj Gaikwad 0 Score: 47/0
+6.3 Sam Curran to Ruturaj Gaikwad 1 Score: 48/0
+6.4 Sam Curran to Faf du Plessis 0 Score: 48/0
+6.5 Sam Curran to Faf du Plessis 6 Score: 54/0
+6.6 Sam Curran to Faf du Plessis 0 Score: 54/0
+7.1 Deepak Chahar to Ruturaj Gaikwad 4 Score: 58/0
+7.2 Deepak Chahar to Ruturaj Gaikwad 0 Score: 58/0
+7.3 Deepak Chahar to Ruturaj Gaikwad 4 Score: 62/0
+7.4 Deepak Chahar to Ruturaj Gaikwad 0 Score: 62/0
+7.5 Deepak Chahar to Ruturaj Gaikwad 4 Score: 66/0
+7.6 Deepak Chahar to Ruturaj Gaikwad 0 Score: 66/0
+8.1 Ravindra Jadeja to Faf du Plessis 0 Score: 66/0
+8.2 Ravindra Jadeja to Faf du Plessis 0 Score: 66/0
+8.3 Ravindra Jadeja to Faf du Plessis 4 Score: 70/0
+8.4 Ravindra Jadeja to Faf du Plessis 6 Score: 76/0
+8.5 Ravindra Jadeja to Faf du Plessis 4 Score: 80/0
+8.6 Ravindra Jadeja to Faf du Plessis 1 Score: 81/0
+9.1 Deepak Chahar to Faf du Plessis 4 Score: 85/0
+9.2 Deepak Chahar to Faf du Plessis 1 Score: 86/0
+9.3 Deepak Chahar to Ruturaj Gaikwad 0 Score: 86/0
+9.4 Deepak Chahar to Ruturaj Gaikwad 0 Score: 86/0
+9.5 Deepak Chahar to Ruturaj Gaikwad 0 Score: 86/0
+9.6 Deepak Chahar to Ruturaj Gaikwad 0 Score: 86/0
+10.1 Ravindra Jadeja to Faf du Plessis 0 Score: 86/0
+10.2 Ravindra Jadeja to Faf du Plessis 0 Score: 86/0
+10.3 Ravindra Jadeja to Faf du Plessis 1 Score: 87/0
+10.4 Ravindra Jadeja to Ruturaj Gaikwad 1 Score: 88/0
+10.5 Ravindra Jadeja to Faf du Plessis 0 Score: 88/0
+10.6 Ravindra Jadeja to Faf du Plessis 0 Score: 88/0
+11.1 Sam Curran to Ruturaj Gaikwad 6 Score: 94/0
+11.2 Sam Curran to Ruturaj Gaikwad 0 Score: 94/0
+11.3 Sam Curran to Ruturaj Gaikwad 6 Score: 100/0
+11.4 Sam Curran to Ruturaj Gaikwad 0 Score: 100/0
+11.5 Sam Curran to Ruturaj Gaikwad 1 Score: 101/0
+11.6 Sam Curran to Faf du Plessis 1 Score: 102/0
+12.1 Ravindra Jadeja to Faf du Plessis 1 Score: 103/0
+12.2 Ravindra Jadeja to Ruturaj Gaikwad 4 Score: 107/0
+12.3 Ravindra Jadeja to Ruturaj Gaikwad 4 Score: 111/0
+12.4 Ravindra Jadeja to Ruturaj Gaikwad 1 Score: 112/0
+12.5 Ravindra Jadeja to Faf du Plessis 4 Score: 116/0
+12.6 Ravindra Jadeja to Faf du Plessis 1 Score: 117/0
+13.1 Shardul Thakur to Faf du Plessis 4 Score: 121/0
+13.2 Shardul Thakur to Faf du Plessis 1 Score: 122/0
+13.3 Shardul Thakur to Ruturaj Gaikwad 0 Score: 122/0
+13.4 Shardul Thakur to Ruturaj Gaikwad 4 Score: 126/0
+13.5 Shardul Thakur to Ruturaj Gaikwad 6 Score: 132/0
+13.6 Shardul Thakur to Ruturaj Gaikwad 0 Score: 132/0
+14.1 Ravindra Jadeja to Faf du Plessis 0 Score: 132/0
+14.2 Ravindra Jadeja to Faf du Plessis 1 Score: 133/0
+14.3 Ravindra Jadeja to Ruturaj Gaikwad 6 Score: 139/0
+14.4 Ravindra Jadeja to Ruturaj Gaikwad 1 Score: 140/0
+14.5 Ravindra Jadeja to Faf du Plessis 4 Score: 144/0
+14.6 Ravindra Jadeja to Faf du Plessis 1 Score: 145/0
+15.1 Shardul Thakur to Faf du Plessis W Score: 145/1 Caught by Faf du Plessis
+15.2 Shardul Thakur to Suresh Raina 1 Score: 146/1
+15.3 Shardul Thakur to Ruturaj Gaikwad 4 Score: 150/1
+15.4 Shardul Thakur to Ruturaj Gaikwad 1 Score: 151/1
+15.5 Shardul Thakur to Suresh Raina 2 Score: 153/1
+15.6 Shardul Thakur to Suresh Raina 1 Score: 154/1
+16.1 Moeen Ali to Suresh Raina 0 Score: 154/1
+16.2 Moeen Ali to Suresh Raina 1 Score: 155/1
+16.3 Moeen Ali to Ruturaj Gaikwad 1 Score: 156/1
+16.4 Moeen Ali to Suresh Raina 0 Score: 156/1
+16.5 Moeen Ali to Suresh Raina 0 Score: 156/1
+16.6 Moeen Ali to Suresh Raina 0 Score: 156/1
+17.1 Shardul Thakur to Ruturaj Gaikwad 0 Score: 156/1
+17.2 Shardul Thakur to Ruturaj Gaikwad 4 Score: 160/1
+17.3 Shardul Thakur to Ruturaj Gaikwad 0 Score: 160/1
+17.4 Shardul Thakur to Ruturaj Gaikwad 0 Score: 160/1
+17.5 Shardul Thakur to Ruturaj Gaikwad 4 Score: 164/1
+17.6 Shardul Thakur to Ruturaj Gaikwad 6 Score: 170/1
+18.1 Dwayne Bravo to Suresh Raina 1 Score: 171/1
+18.2 Dwayne Bravo to Ruturaj Gaikwad 1 Score: 172/1
+18.3 Dwayne Bravo to Suresh Raina 4 Score: 176/1
+18.4 Dwayne Bravo to Suresh Raina W Score: 176/2 Caught by Sam Curran
+18.5 Dwayne Bravo to Ambati Rayudu 0 Score: 176/2
+18.6 Dwayne Bravo to Ambati Rayudu W Score: 176/3 Caught by Faf du Plessis
+19.1 Shardul Thakur to Ruturaj Gaikwad 1 Score: 177/3
+19.2 Shardul Thakur to Moeen Ali 2 Score: 179/3
+19.3 Shardul Thakur to Moeen Ali 1 Score: 180/3
+19.4 Shardul Thakur to Ruturaj Gaikwad 1 Score: 181/3
+csk won by 7 wickets
++--------------+--------+---------+--------+----------------------------+
+| Player       |   Runs |   Balls | SR     | Out                        |
++==============+========+=========+========+============================+
+| RD Gaikwad   |     98 |      59 | 166.1  | Not out                    |
++--------------+--------+---------+--------+----------------------------+
+| F du Plessis |     67 |      44 | 152.27 | c F du Plessis b SN Thakur |
++--------------+--------+---------+--------+----------------------------+
+| MM Ali       |      3 |       2 | 150.0  | Not out                    |
++--------------+--------+---------+--------+----------------------------+
+| SK Raina     |     10 |      11 | 90.91  | c SM Curran b DJ Bravo     |
++--------------+--------+---------+--------+----------------------------+
+| AT Rayudu    |      0 |       2 | 0.0    | c F du Plessis b DJ Bravo  |
++--------------+--------+---------+--------+----------------------------+
+| RA Jadeja    |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| MS Dhoni     |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| SM Curran    |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| DJ Bravo     |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| SN Thakur    |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
+| DL Chahar    |      0 |       0 | DNB    |                            |
++--------------+--------+---------+--------+----------------------------+
++--------------+--------+---------+-----------+-------+
+| Player       |   Runs |   Overs |   Wickets | Eco   |
++==============+========+=========+===========+=======+
+| RD Gaikwad   |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| F du Plessis |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| MM Ali       |     14 |     3   |         0 | 4.67  |
++--------------+--------+---------+-----------+-------+
+| SK Raina     |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| AT Rayudu    |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| RA Jadeja    |     45 |     4   |         0 | 11.25 |
++--------------+--------+---------+-----------+-------+
+| MS Dhoni     |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| SM Curran    |     37 |     4   |         0 | 9.25  |
++--------------+--------+---------+-----------+-------+
+| DJ Bravo     |      6 |     1   |         2 | 6.0   |
++--------------+--------+---------+-----------+-------+
+| SN Thakur    |     43 |     3.4 |         1 | 11.73 |
++--------------+--------+---------+-----------+-------+
+| DL Chahar    |     36 |     4   |         0 | 9.0   |
++--------------+--------+---------+-----------+-------+

@@ -42,7 +42,6 @@ function customGame() {
       .value.toUpperCase()}</b></p><p><b>${result.tossMsg.toUpperCase()}</b></p><hr>`;
     ballsList.append(toss);
 
-    latestIndex = 0;
     result.innings1Log.forEach((element, index) => {
       setTimeout(() => {
         patt.lastIndex = -1;
@@ -51,11 +50,26 @@ function customGame() {
         var matchEvent = patt.exec(element.event);
         newBall.innerHTML = `<b>${matchEvent[1]}</b> ${matchEvent[2]} to ${matchEvent[3]} <b>${matchEvent[4]}</b> ${matchEvent[6]} <b>${matchEvent[8]}</b>`;
         ballsList.append(newBall);
-        latestIndex = index;
+        if (
+          result.innings1Log[index + 1] != undefined &&
+          result.innings1Log[index + 1].event.startsWith(
+            (parseInt(matchEvent[1].split("-")[0]) + 1).toString()
+          )
+        ) {
+          var overEnd = document.createElement("li");
+          overEnd.innerHTML = `<br /><b>${matchEvent[6]}</b><br />${
+            element.batter1
+          }: ${element.batterTracker[element.batter1].runs} (${
+            element.batterTracker[element.batter1].balls
+          })<br />${element.batter2}: ${
+            element.batterTracker[element.batter2].runs
+          } (${element.batterTracker[element.batter2].balls}) <hr>`;
+          ballsList.append(overEnd);
+        }
         if (index == result.innings1Log.length - 1) {
           var innBreak = document.createElement("div");
           innBreak.innerHTML = `<b>${result.innings2BatTeam.toUpperCase()} needs ${
-            result.innings1Runs
+            result.innings1Runs + 1
           } runs to win </b> <hr>`;
           ballsList.append(innBreak);
         }
@@ -71,6 +85,16 @@ function customGame() {
           var matchEvent = patt.exec(element.event);
           newBall.innerHTML = `<b>${matchEvent[1]}</b> ${matchEvent[2]} to ${matchEvent[3]} <b>${matchEvent[4]}</b> ${matchEvent[6]} <b>${matchEvent[8]}</b>`;
           ballsList.append(newBall);
+          if (
+            result.innings2Log[index + 1] != undefined &&
+            result.innings2Log[index + 1].event.startsWith(
+              (parseInt(matchEvent[1].split("-")[0]) + 1).toString()
+            )
+          ) {
+            var overEnd = document.createElement("li");
+            overEnd.innerHTML = `<b>${matchEvent[6]}</b>`;
+            ballsList.append(overEnd);
+          }
           if (index == result.innings2Log.length - 1) {
             var resultMsg = document.createElement("div");
             resultMsg.innerHTML = `<b>${result.winMsg.toUpperCase()}</b><hr>`;
