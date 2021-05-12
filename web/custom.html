@@ -48,6 +48,7 @@
             <br /><br />
             <label for="sim-speed">Sim speed:</label>
             <select name="sim-speed" id="sim-speed">
+              <option value="fast" selected disabled hidden>Fast</option>
               <option value="realistic">Realistic</option>
               <option value="slow">Slow</option>
               <option value="medium">Medium</option>
@@ -71,7 +72,7 @@
       </div>
     </div>
     <script>
-      var size = [1100, 700];
+      var size = [1100, 680];
       $(window).resize(function () {
         window.resizeTo(size[0], size[1]);
       });

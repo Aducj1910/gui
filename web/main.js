@@ -20,11 +20,11 @@ function customGame() {
     if (simSpeedValue == "realistic") {
       simSpeed = 1500;
     } else if (simSpeedValue == "slow") {
-      simSpeed = 1000;
-    } else if (simSpeedValue == "medium") {
       simSpeed = 500;
-    } else if (simSpeedValue == "fast") {
+    } else if (simSpeedValue == "medium") {
       simSpeed = 150;
+    } else if (simSpeedValue == "fast") {
+      simSpeed = 80;
     } else if (simSpeedValue == "instant") {
       simSpeed = 1;
     }
@@ -57,20 +57,29 @@ function customGame() {
           )
         ) {
           var overEnd = document.createElement("li");
-          overEnd.innerHTML = `<br /><b>${matchEvent[6]}</b><br />${
-            element.batter1
-          }: ${element.batterTracker[element.batter1].runs} (${
-            element.batterTracker[element.batter1].balls
-          })<br />${element.batter2}: ${
-            element.batterTracker[element.batter2].runs
-          } (${element.batterTracker[element.batter2].balls}) <hr>`;
+          overEnd.innerHTML = `<hr class="hr-over"><b>${
+            matchEvent[6]
+          } </b><i>(rr: ${((element.runs / element.balls) * 6).toFixed(
+            2
+          )})</i><br />${element.batter1}: ${
+            element.batterTracker[element.batter1].runs
+          } (${element.batterTracker[element.batter1].balls})<br />${
+            element.batter2
+          }: ${element.batterTracker[element.batter2].runs} (${
+            element.batterTracker[element.batter2].balls
+          })<br />${element.bowler}: ${
+            element.bowlerTracker[element.bowler].balls / 6
+          }-${element.bowlerTracker[element.bowler].runs}-${
+            element.bowlerTracker[element.bowler].wickets
+          }<hr class="hr-over">`;
+
           ballsList.append(overEnd);
         }
         if (index == result.innings1Log.length - 1) {
           var innBreak = document.createElement("div");
-          innBreak.innerHTML = `<b>${result.innings2BatTeam.toUpperCase()} needs ${
+          innBreak.innerHTML = `<br /><b>${result.innings2BatTeam.toUpperCase()} needs ${
             result.innings1Runs + 1
-          } runs to win </b> <hr>`;
+          } runs to win </b><br /><br />`;
           ballsList.append(innBreak);
         }
         updateScroll();
@@ -92,7 +101,25 @@ function customGame() {
             )
           ) {
             var overEnd = document.createElement("li");
-            overEnd.innerHTML = `<b>${matchEvent[6]}</b>`;
+            overEnd.innerHTML = `<hr class="hr-over"><b>${
+              matchEvent[6]
+            } </b><i>(rr: ${((element.runs / element.balls) * 6).toFixed(
+              2
+            )}, req. rr: ${(
+              ((result.innings1Runs + 1 - element.runs) /
+                (120 - element.balls)) *
+              6
+            ).toFixed(2)})</i><br />${element.batter1}: ${
+              element.batterTracker[element.batter1].runs
+            } (${element.batterTracker[element.batter1].balls})<br />${
+              element.batter2
+            }: ${element.batterTracker[element.batter2].runs} (${
+              element.batterTracker[element.batter2].balls
+            })<br />${element.bowler}: ${
+              element.bowlerTracker[element.bowler].balls / 6
+            }-${element.bowlerTracker[element.bowler].runs}-${
+              element.bowlerTracker[element.bowler].wickets
+            }<hr class="hr-over">`;
             ballsList.append(overEnd);
           }
           if (index == result.innings2Log.length - 1) {

@@ -60,3 +60,8 @@ div.absolute {
   padding: 0.5em;
   overflow: scroll;
 }
+
+.hr-over {
+  margin: 0;
+  padding: 0;
+}
