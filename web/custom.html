@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
     <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="/eel.js"></script>
+    <script data-main="main.js" type="text/javascript" src="/eel.js"></script>
     <script src="jquery/jquery-3.6.0.js"></script>
     <script data-main="main.js" src="jquery/require.js"></script>
     <title>Document</title>
@@ -102,35 +102,57 @@
       </div>
     </div>
     <script>
+      eel.fetchData("teamlist")(function (result) {
+        var teamsArray = [];
+        for (const [key, value] of Object.entries(result)) {
+          teamsArray.push(key);
+        }
+        var mySelect = document.getElementById("team1");
+        for (teamElement in teamsArray) {
+          var newOne = document.createElement("option");
+          newOne.value = teamsArray[teamElement];
+          newOne.innerHTML = teamsArray[teamElement].toUpperCase();
+          mySelect.append(newOne);
+        }
+        var mySelect2 = document.getElementById("team2");
+        for (teamElement in teamsArray) {
+          var newOne = document.createElement("option");
+          newOne.value = teamsArray[teamElement];
+          newOne.innerHTML = teamsArray[teamElement].toUpperCase();
+          mySelect2.append(newOne);
+        }
+      });
+    </script>
+    <script>
       var size = [1100, 680];
       $(window).resize(function () {
         window.resizeTo(size[0], size[1]);
       });
       $(document).ready(function () {
-        // $("#ball-list").children('li').each(function(){
-        //   $(this).attr("hidden") = false
-        // })
-        $.getJSON("data/teams.json", function (data) {
-          var teamsArray = [];
-          for (const [key, value] of Object.entries(data)) {
-            teamsArray.push(key);
-          }
-          var mySelect = $("#team1");
-          $.each(teamsArray, function (val, text) {
-            mySelect.append(
-              $("<option></option>").val(text).html(text.toUpperCase())
-              // .attr("id", text)
-            );
-          });
-          var mySelect = $("#team2");
-          $.each(teamsArray, function (val, text) {
-            mySelect.append(
-              $("<option></option>").val(text).html(text.toUpperCase())
-            );
-          });
-        }).fail(function () {
-          console.log("An error has occurred.");
-        });
+        // // $("#ball-list").children('li').each(function(){
+        // //   $(this).attr("hidden") = false
+        // // })
+        // $.getJSON("../data/teams.json", function (data) {
+        //   var teamsArray = [];
+        //   for (const [key, value] of Object.entries(data)) {
+        //     teamsArray.push(key);
+        //   }
+        //   var mySelect = $("#team1");
+        //   $.each(teamsArray, function (val, text) {
+        //     mySelect.append(
+        //       $("<option></option>").val(text).html(text.toUpperCase())
+        //       // .attr("id", text)
+        //     );
+        //   });
+        //   var mySelect = $("#team2");
+        //   $.each(teamsArray, function (val, text) {
+        //     mySelect.append(
+        //       $("<option></option>").val(text).html(text.toUpperCase())
+        //     );
+        //   });
+        // }).fail(function () {
+        //   console.log("An error has occurred.");
+        // });
       });
     </script>
   </body>

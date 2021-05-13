@@ -1,5 +1,5 @@
 import eel
-import sys
+import sys, json
 # insert at 1, 0 is the script path (or '' in REPL)
 import mainconnect
 
@@ -23,6 +23,21 @@ def mainconnectGame(team1, team2):
             continue
         else:
             break
+
+@eel.expose
+def fetchData(datatype):
+    toRet = None
+    if(datatype == "players"):
+        with open("data/playerInfoProcessed.json") as f:
+            return json.load(f)
+    elif(datatype == "teaminfo"):
+        with open("data/teaminfo.json") as f:
+            return json.load(f)
+    elif(datatype == "teamlist"):
+        with open("teams/teams.json") as f:
+            return json.load(f)
+    print(toRet)
+
     
 
 

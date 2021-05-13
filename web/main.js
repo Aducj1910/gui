@@ -1,13 +1,14 @@
-var teamData = null;
-$.getJSON("./data/teaminfo.json", function (json) {
-  teamData = json;
-});
-
-function testMain() {
-  eel.dummy("check!")(function (result) {
+function fetchData() {
+  eel.fetchData(arguments[0])(function (result) {
     console.log(result);
   });
 }
+
+var teamData = null;
+eel.fetchData("teaminfo")(function (result) {
+  teamData = result;
+  console.log(result);
+});
 
 function updateScroll() {
   if (document.getElementById("scorecard-view").hidden == true) {
