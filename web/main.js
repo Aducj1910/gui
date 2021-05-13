@@ -19,14 +19,16 @@ function updateScroll() {
 
 function setView() {
   if (arguments[0] == "bbb") {
-    document.getElementById("bbb-btn").style.backgroundColor = "#32a852";
-    document.getElementById("scorecard-btn").style.backgroundColor = "#fff";
+    document.getElementById("bbb-btn").classList.add("selected-sim-btn");
+    document
+      .getElementById("scorecard-btn")
+      .classList.remove("selected-sim-btn");
     document.getElementById("scorecard-view").hidden = true;
     document.getElementById("ball-list").hidden = false;
     document.getElementById("output").style.overflow = "scroll";
   } else if (arguments[0] == "scorecard") {
-    document.getElementById("scorecard-btn").style.backgroundColor = "#32a852";
-    document.getElementById("bbb-btn").style.backgroundColor = "#fff";
+    document.getElementById("scorecard-btn").classList.add("selected-sim-btn");
+    document.getElementById("bbb-btn").classList.remove("selected-sim-btn");
     document.getElementById("ball-list").hidden = true;
     document.getElementById("scorecard-view").hidden = false;
     document.getElementById("output").style.overflow = "hidden";
@@ -54,10 +56,11 @@ function handleScorecardCreation() {
     `scorecard-view-inn${arguments[3]}`
   );
   var batScorecard = document.createElement("div");
+  batScorecard.style.backgroundColor = teamData[team1.toLowerCase()].color;
   batScorecard.innerHTML = `<header class=scoreheader style='background-color:${
     teamData[team1.toLowerCase()].color
   };padding-top:2'>${team1.toUpperCase()}</header><body>
-  <table style="margin-bottom:0;" class="table table-striped">
+  <table style="margin-bottom:0;background-color:#fff;" class="table table-striped">
     <tr style="display:none;">
       <th>Players</th>
       <th>Info</th>
@@ -67,7 +70,7 @@ function handleScorecardCreation() {
   </table>
   <footer class=scoreheader style='background-color:${
     teamData[team1.toLowerCase()].color
-  };height:8.5vh'>
+  }'>
   <div id="footerscore-inn${arguments[3]}" class="footerscore">
   <b>0/0</b> (0.0)
   </div>

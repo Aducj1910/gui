@@ -26,7 +26,6 @@ def mainconnectGame(team1, team2):
 
 @eel.expose
 def fetchData(datatype):
-    toRet = None
     if(datatype == "players"):
         with open("data/playerInfoProcessed.json") as f:
             return json.load(f)
@@ -36,8 +35,6 @@ def fetchData(datatype):
     elif(datatype == "teamlist"):
         with open("teams/teams.json") as f:
             return json.load(f)
-    print(toRet)
-
     
 
 

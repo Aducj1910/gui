@@ -27,7 +27,13 @@
 .maincard {
   padding: 1em;
   margin: 0.5em;
-  background: #99ca7e;
+  /* 99ca7e */
+  background: rgb(153, 202, 126);
+  background: linear-gradient(
+    197deg,
+    rgba(153, 202, 126, 1) 37%,
+    rgba(199, 231, 181, 1) 95%
+  );
   border-radius: 0.5rem;
   height: 97vh;
 }
@@ -56,7 +62,7 @@ div.absolute {
   margin-top: 2vh;
   height: 55vh;
   width: 75vw;
-  border-style: solid;
+  border-style: so2d;
   padding: 0.5em;
   overflow: scroll;
   /* margin: 0; */
@@ -101,4 +107,67 @@ div.absolute {
   box-shadow: none;
   border-style: solid;
   outline: none;
+}
+
+.sim-btn:hover {
+  background-color: beige;
+}
+
+.selected-sim-btn {
+  background-color: aquamarine;
+}
+
+.selected-sim-btn:hover {
+  background-color: beige;
+}
+
+.team-list-display {
+  background: white;
+  width: 15vw;
+  height: 40vh;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.create-wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+#myInput {
+  background-image: url("/css/searchicon.png"); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 12px; /* Increase font-size */
+  padding: 6px 10px 6px 20px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 50vh;
+  overflow: scroll;
+}
+
+#myUL li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 12px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  cursor: pointer;
+}
+
+#myUL li:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
 }
