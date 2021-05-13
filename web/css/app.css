@@ -84,9 +84,21 @@ div.absolute {
   grid-template-columns: 70% 30%;
 }
 
+.outercard {
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
 .footerscore {
   position: absolute;
   right: 0;
   font-weight: normal;
   margin-right: 380px;
+}
+
+.sim-btn {
+  box-shadow: none;
+  border-style: solid;
+  outline: none;
 }

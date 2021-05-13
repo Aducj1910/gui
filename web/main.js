@@ -18,10 +18,14 @@ function updateScroll() {
 
 function setView() {
   if (arguments[0] == "bbb") {
+    document.getElementById("bbb-btn").style.backgroundColor = "#32a852";
+    document.getElementById("scorecard-btn").style.backgroundColor = "#fff";
     document.getElementById("scorecard-view").hidden = true;
     document.getElementById("ball-list").hidden = false;
     document.getElementById("output").style.overflow = "scroll";
   } else if (arguments[0] == "scorecard") {
+    document.getElementById("scorecard-btn").style.backgroundColor = "#32a852";
+    document.getElementById("bbb-btn").style.backgroundColor = "#fff";
     document.getElementById("ball-list").hidden = true;
     document.getElementById("scorecard-view").hidden = false;
     document.getElementById("output").style.overflow = "hidden";
@@ -29,7 +33,7 @@ function setView() {
 }
 
 function handleScorecardCreation() {
-  document.getElementById("scorecard-view").innerHTML = "";
+  document.getElementById(`scorecard-view-inn${arguments[3]}`).innerHTML = "";
   var battingOrder = [];
 
   for (var key in arguments[2]) {
@@ -39,17 +43,19 @@ function handleScorecardCreation() {
   battingOrderString = "";
   battingOrder.forEach((e) => {
     battingOrderString += `<tr>
-    <td style="height:10px;font-size:0.8rem;padding:3px;width:30%" id="bat-name-${e.playerInitials}"><b>${e.playerInitials}</b></td>
-    <td style="height:10px;font-size:0.8rem;padding:3px;width:50%" id="bat-info-${e.playerInitials}"></td>
-    <td style="height:10px;font-size:0.8rem;padding:3px;width:20%" id="bat-runs-${e.playerInitials}"></td>
+    <td style="height:10px;font-size:0.8rem;padding:3px;width:30%" id="bat-name-inn${arguments[3]}-${e.playerInitials}"><b>${e.playerInitials}</b></td>
+    <td style="height:10px;font-size:0.8rem;padding:3px;width:50%" id="bat-info-inn${arguments[3]}-${e.playerInitials}"></td>
+    <td style="height:10px;font-size:0.8rem;padding:3px;width:20%" id="bat-runs-inn${arguments[3]}-${e.playerInitials}"></td>
     </tr>`;
   });
   (team1 = arguments[0]), (team2 = arguments[1]);
-  var scorecardDiv = document.getElementById("scorecard-view");
+  var scorecardDiv = document.getElementById(
+    `scorecard-view-inn${arguments[3]}`
+  );
   var batScorecard = document.createElement("div");
   batScorecard.innerHTML = `<header class=scoreheader style='background-color:${
     teamData[team1.toLowerCase()].color
-  }'>${team1.toUpperCase()}</header><body>
+  };padding-top:2'>${team1.toUpperCase()}</header><body>
   <table style="margin-bottom:0;" class="table table-striped">
     <tr style="display:none;">
       <th>Players</th>
@@ -61,7 +67,7 @@ function handleScorecardCreation() {
   <footer class=scoreheader style='background-color:${
     teamData[team1.toLowerCase()].color
   };height:8.5vh'>
-  <div id="footerscore" class="footerscore">
+  <div id="footerscore-inn${arguments[3]}" class="footerscore">
   <b>0/0</b> (0.0)
   </div>
   </footer>
@@ -69,18 +75,29 @@ function handleScorecardCreation() {
   scorecardDiv.appendChild(batScorecard);
   var bowlScorecard = document.createElement("div");
   bowlScorecard.innerHTML = `<header class=scoreheader style='background-color:${
-    teamData[team2.toLowerCase()].color
+    teamData[team2.toLowerCase()].color //ADD LAST SIX BALLS FEATURE AT SCORECARD BOTTOM-LEFT
   }'>${team2.toUpperCase()}</header>
   <body>
   <table style="margin-bottom:0;" class="table table-striped">
+  <tbody id="ball-table-inn${arguments[3]}">
     <tr style="display:none;">
       <th>Players</th>
       <th>Info</th>
-      <th>Runs</th>
     </tr>
-    ${battingOrderString}
+    </tbody>
   </table>`;
   scorecardDiv.appendChild(bowlScorecard);
+}
+
+function switchInnings() {
+  console.log(document.getElementById("scorecard-view-inn1").hidden);
+  if (document.getElementById("scorecard-view-inn1").hidden == true) {
+    document.getElementById("scorecard-view-inn1").hidden = false;
+    document.getElementById("scorecard-view-inn2").hidden = true;
+  } else {
+    document.getElementById("scorecard-view-inn1").hidden = true;
+    document.getElementById("scorecard-view-inn2").hidden = false;
+  }
 }
 
 function customGame() {
@@ -92,7 +109,14 @@ function customGame() {
     handleScorecardCreation(
       result.innings1BatTeam,
       result.innings2BatTeam,
-      result.innings1Battracker
+      result.innings1Battracker,
+      "1"
+    );
+    handleScorecardCreation(
+      result.innings2BatTeam,
+      result.innings1BatTeam,
+      result.innings2Battracker,
+      "2"
     );
     scoreDiv = simSpeedValue = document.getElementById("sim-speed").value;
     simSpeed = 1;
@@ -134,24 +158,59 @@ function customGame() {
         //Scorecards
         ballsList.append(newBall);
         document.getElementById(
-          `bat-info-${element.batter1}`
+          `bat-info-inn1-${element.batter1}`
         ).innerHTML = `<i>not out</i>`;
         document.getElementById(
-          `bat-info-${element.batter2}`
+          `bat-info-inn1-${element.batter2}`
         ).innerHTML = `<i>not out</i>`;
 
-        document.getElementById("footerscore").innerHTML = `<b>${
+        document.getElementById("footerscore-inn1").innerHTML = `<b>${
           element.runs
         }/${element.wickets}</b>${"     "}(${matchEvent[1]})`;
 
-        document.getElementById(`bat-runs-${element.batsman}`).innerHTML = `<b>
+        document.getElementById(
+          `bat-runs-inn1-${element.batsman}`
+        ).innerHTML = `<b>
         ${element.batterTracker[element.batsman].runs}
         </b> (${element.batterTracker[element.batsman].balls})`;
 
         if (matchEvent[4] == "W") {
-          document.getElementById(`bat-info-${element.batsman}`).innerHTML =
-            matchEvent[8];
+          document.getElementById(
+            `bat-info-inn1-${element.batsman}`
+          ).innerHTML = matchEvent[8];
         }
+
+        if (element.bowlerTracker[element.bowler].ballLog.length == 1) {
+          document.getElementById("ball-table-inn1").innerHTML += `<tr>
+          <td style="height:10px;font-size:0.8rem;padding:3px;width:30%" id="bowl-name-inn1-${
+            element.bowler
+          }"><b>${element.bowler}</b></td>
+          <td id="bowl-info-row-inn1-${
+            element.bowler
+          }" style="height:10px;font-size:0.8rem;padding:3px;width:50%" id="bowl-info-${
+            element.bowler
+          }">
+          ${
+            (~~(element.bowlerTracker[element.bowler].balls / 6)).toString() +
+            "." +
+            (element.bowlerTracker[element.bowler].balls % 6).toString()
+          } - 0 - ${element.bowlerTracker[element.bowler].runs} - <b>${
+            element.bowlerTracker[element.bowler].wickets
+          }</b>
+          </td>
+          </tr>`;
+        } else {
+          document.getElementById(
+            `bowl-info-row-inn1-${element.bowler}`
+          ).innerHTML = ` ${
+            (~~(element.bowlerTracker[element.bowler].balls / 6)).toString() +
+            "." +
+            (element.bowlerTracker[element.bowler].balls % 6).toString()
+          } - 0 - ${element.bowlerTracker[element.bowler].runs} - <b>${
+            element.bowlerTracker[element.bowler].wickets
+          }</b>`;
+        }
+
         //**Scorecards
 
         if (
@@ -197,6 +256,65 @@ function customGame() {
           newBall.id = index + "inn1";
           var matchEvent = patt.exec(element.event);
           newBall.innerHTML = `<b>${matchEvent[1]}</b> ${matchEvent[2]} to ${matchEvent[3]} <b>${matchEvent[4]}</b> ${matchEvent[6]} <b>${matchEvent[8]}</b>`;
+
+          //Scorecards
+          ballsList.append(newBall);
+          document.getElementById(
+            `bat-info-inn2-${element.batter1}`
+          ).innerHTML = `<i>not out</i>`;
+          document.getElementById(
+            `bat-info-inn2-${element.batter2}`
+          ).innerHTML = `<i>not out</i>`;
+
+          document.getElementById("footerscore-inn2").innerHTML = `<b>${
+            element.runs
+          }/${element.wickets}</b>${"     "}(${matchEvent[1]})`;
+
+          document.getElementById(
+            `bat-runs-inn2-${element.batsman}`
+          ).innerHTML = `<b>
+        ${element.batterTracker[element.batsman].runs}
+        </b> (${element.batterTracker[element.batsman].balls})`;
+
+          if (matchEvent[4] == "W") {
+            document.getElementById(
+              `bat-info-inn2-${element.batsman}`
+            ).innerHTML = matchEvent[8];
+          }
+
+          if (element.bowlerTracker[element.bowler].ballLog.length == 1) {
+            document.getElementById("ball-table-inn2").innerHTML += `<tr>
+          <td style="height:10px;font-size:0.8rem;padding:3px;width:30%" id="bowl-name-inn2-${
+            element.bowler
+          }"><b>${element.bowler}</b></td>
+          <td id="bowl-info-row-inn2-${
+            element.bowler
+          }" style="height:10px;font-size:0.8rem;padding:3px;width:50%" id="bowl-info-${
+              element.bowler
+            }">
+          ${
+            (~~(element.bowlerTracker[element.bowler].balls / 6)).toString() +
+            "." +
+            (element.bowlerTracker[element.bowler].balls % 6).toString()
+          } - 0 - ${element.bowlerTracker[element.bowler].runs} - <b>${
+              element.bowlerTracker[element.bowler].wickets
+            }</b>
+          </td>
+          </tr>`;
+          } else {
+            document.getElementById(
+              `bowl-info-row-inn2-${element.bowler}`
+            ).innerHTML = ` ${
+              (~~(element.bowlerTracker[element.bowler].balls / 6)).toString() +
+              "." +
+              (element.bowlerTracker[element.bowler].balls % 6).toString()
+            } - 0 - ${element.bowlerTracker[element.bowler].runs} - <b>${
+              element.bowlerTracker[element.bowler].wickets
+            }</b>`;
+          }
+
+          //**Scorecards
+
           ballsList.append(newBall);
 
           if (

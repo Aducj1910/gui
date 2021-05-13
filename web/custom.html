@@ -58,12 +58,30 @@
             <br /><br />
           </form>
           <div>
-            <button onclick="customGame()" style="width: 15%">Simulate</button>
-            <button onclick="setView('bbb')" style="width: 15%">
+            <button class="sim-btn" onclick="customGame()" style="width: 15%">
+              Simulate
+            </button>
+            <button
+              id="bbb-btn"
+              class="sim-btn"
+              onclick="setView('bbb')"
+              style="width: 15%"
+            >
               Ball by ball
             </button>
-            <button onclick="setView('scorecard')" style="width: 15%">
+            <button
+              id="scorecard-btn"
+              class="sim-btn"
+              onclick="setView('scorecard')"
+              style="width: 15%"
+            >
               Scorecard
+            </button>
+            <button
+              onclick="switchInnings()"
+              style="position: absolute; right: 0; margin-right: 50px"
+            >
+              Switch Innings
             </button>
           </div>
           <div id="output" class="output">
@@ -75,24 +93,9 @@
                 font-size: 0.8rem;
               "
             ></ul>
-            <div hidden class="scorecard" id="scorecard-view">
-              <!-- <div>
-                <header class="scoreheader">DC</header>
-                <body>
-                  <table class="table table-striped">
-                    <tr>
-                      <th>Players</th>
-                      <th>Info</th>
-                      <th>4</th>
-                      <th>6</th>
-                      <th>Runs</th>
-                    </tr>
-                  </table>
-                </body>
-              </div>
-              <div>
-                <header class="scoreheader">DC</header>
-              </div> -->
+            <div hidden class="outercard" id="scorecard-view">
+              <div class="scorecard" id="scorecard-view-inn1"></div>
+              <div hidden class="scorecard" id="scorecard-view-inn2"></div>
             </div>
           </div>
         </div>
