@@ -83,3 +83,10 @@ div.absolute {
   padding: 0;
   grid-template-columns: 70% 30%;
 }
+
+.footerscore {
+  position: absolute;
+  right: 0;
+  font-weight: normal;
+  margin-right: 380px;
+}

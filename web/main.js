@@ -20,9 +20,11 @@ function setView() {
   if (arguments[0] == "bbb") {
     document.getElementById("scorecard-view").hidden = true;
     document.getElementById("ball-list").hidden = false;
+    document.getElementById("output").style.overflow = "scroll";
   } else if (arguments[0] == "scorecard") {
     document.getElementById("ball-list").hidden = true;
     document.getElementById("scorecard-view").hidden = false;
+    document.getElementById("output").style.overflow = "hidden";
   }
 }
 
@@ -36,7 +38,11 @@ function handleScorecardCreation() {
   // console.log(battingOrder);
   battingOrderString = "";
   battingOrder.forEach((e) => {
-    battingOrderString += `<tr><td style="height:5px;font-size:0.7rem">${e.playerInitials}</td></tr>`;
+    battingOrderString += `<tr>
+    <td style="height:10px;font-size:0.8rem;padding:3px;width:30%" id="bat-name-${e.playerInitials}"><b>${e.playerInitials}</b></td>
+    <td style="height:10px;font-size:0.8rem;padding:3px;width:50%" id="bat-info-${e.playerInitials}"></td>
+    <td style="height:10px;font-size:0.8rem;padding:3px;width:20%" id="bat-runs-${e.playerInitials}"></td>
+    </tr>`;
   });
   (team1 = arguments[0]), (team2 = arguments[1]);
   var scorecardDiv = document.getElementById("scorecard-view");
@@ -44,42 +50,37 @@ function handleScorecardCreation() {
   batScorecard.innerHTML = `<header class=scoreheader style='background-color:${
     teamData[team1.toLowerCase()].color
   }'>${team1.toUpperCase()}</header><body>
-  <table class="table table-striped">
+  <table style="margin-bottom:0;" class="table table-striped">
     <tr style="display:none;">
       <th>Players</th>
       <th>Info</th>
-      <th>4</th>
-      <th>6</th>
       <th>Runs</th>
     </tr>
     ${battingOrderString}
   </table>
+  <footer class=scoreheader style='background-color:${
+    teamData[team1.toLowerCase()].color
+  };height:8.5vh'>
+  <div id="footerscore" class="footerscore">
+  <b>0/0</b> (0.0)
+  </div>
+  </footer>
 </body>`;
   scorecardDiv.appendChild(batScorecard);
   var bowlScorecard = document.createElement("div");
   bowlScorecard.innerHTML = `<header class=scoreheader style='background-color:${
     teamData[team2.toLowerCase()].color
-  }'>${team2.toUpperCase()}</header>`;
+  }'>${team2.toUpperCase()}</header>
+  <body>
+  <table style="margin-bottom:0;" class="table table-striped">
+    <tr style="display:none;">
+      <th>Players</th>
+      <th>Info</th>
+      <th>Runs</th>
+    </tr>
+    ${battingOrderString}
+  </table>`;
   scorecardDiv.appendChild(bowlScorecard);
-
-  // <div>
-  //               <header class="scoreheader">DC</header>
-  //               <body>
-  //                 <table class="table table-striped">
-  //                   <tr>
-  //                     <th>Players</th>
-  //                     <th>Info</th>
-  //                     <th>4</th>
-  //                     <th>6</th>
-  //                     <th>Runs</th>
-  //                   </tr>
-  //                 </table>
-  //               </body>
-  //             </div>
-  //            ` <div>
-  //               <header class="scoreheader">DC</header>
-  //             </div>`
-  //           </div>
 }
 
 function customGame() {
@@ -112,6 +113,8 @@ function customGame() {
     patt =
       /(.+?(?=\.).+?(?=\s))\s(.+?(?=\sto))\sto\s(.+?(?=\s(.|Wide)\sSc))\s(.|Wide)\s((.+)(?=\/\d)\/\d)(.+|)/g;
 
+    catchPatt = /Caught by (.+)/g;
+
     var toss = document.createElement("li");
     toss.innerHTML = `<p><b>${document
       .getElementById("team1")
@@ -127,7 +130,30 @@ function customGame() {
         newBall.id = index + "inn1";
         var matchEvent = patt.exec(element.event);
         newBall.innerHTML = `<b>${matchEvent[1]}</b> ${matchEvent[2]} to ${matchEvent[3]} <b>${matchEvent[4]}</b> ${matchEvent[6]} <b>${matchEvent[8]}</b>`;
+
+        //Scorecards
         ballsList.append(newBall);
+        document.getElementById(
+          `bat-info-${element.batter1}`
+        ).innerHTML = `<i>not out</i>`;
+        document.getElementById(
+          `bat-info-${element.batter2}`
+        ).innerHTML = `<i>not out</i>`;
+
+        document.getElementById("footerscore").innerHTML = `<b>${
+          element.runs
+        }/${element.wickets}</b>${"     "}(${matchEvent[1]})`;
+
+        document.getElementById(`bat-runs-${element.batsman}`).innerHTML = `<b>
+        ${element.batterTracker[element.batsman].runs}
+        </b> (${element.batterTracker[element.batsman].balls})`;
+
+        if (matchEvent[4] == "W") {
+          document.getElementById(`bat-info-${element.batsman}`).innerHTML =
+            matchEvent[8];
+        }
+        //**Scorecards
+
         if (
           result.innings1Log[index + 1] != undefined &&
           result.innings1Log[index + 1].event.startsWith(
@@ -172,6 +198,7 @@ function customGame() {
           var matchEvent = patt.exec(element.event);
           newBall.innerHTML = `<b>${matchEvent[1]}</b> ${matchEvent[2]} to ${matchEvent[3]} <b>${matchEvent[4]}</b> ${matchEvent[6]} <b>${matchEvent[8]}</b>`;
           ballsList.append(newBall);
+
           if (
             result.innings2Log[index + 1] != undefined &&
             result.innings2Log[index + 1].event.startsWith(

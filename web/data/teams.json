@@ -1,17 +1,4 @@
 {
-  "csk": [
-    "Ruturaj Gaikwad",
-    "Faf du Plessis",
-    "Moeen Ali",
-    "Suresh Raina",
-    "Ambati Rayudu",
-    "Ravindra Jadeja",
-    "MS Dhoni",
-    "Sam Curran",
-    "Dwayne Bravo",
-    "Shardul Thakur",
-    "Deepak Chahar"
-  ],
   "dc": [
     "Prithvi Shaw",
     "Shikhar Dhawan",
@@ -24,6 +11,19 @@
     "Amit Mishra",
     "Kagiso Rabada",
     "Avesh Khan"
+  ],
+  "csk": [
+    "Ruturaj Gaikwad",
+    "Faf du Plessis",
+    "Moeen Ali",
+    "Suresh Raina",
+    "Ambati Rayudu",
+    "Ravindra Jadeja",
+    "MS Dhoni",
+    "Sam Curran",
+    "Dwayne Bravo",
+    "Shardul Thakur",
+    "Deepak Chahar"
   ],
   "kkr": [
     "Nitish Rana",
