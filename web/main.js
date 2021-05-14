@@ -7,7 +7,6 @@ function fetchData() {
 var teamData = null;
 eel.fetchData("teaminfo")(function (result) {
   teamData = result;
-  console.log(result);
 });
 
 function updateScroll() {
@@ -102,6 +101,44 @@ function switchInnings() {
     document.getElementById("scorecard-view-inn1").hidden = true;
     document.getElementById("scorecard-view-inn2").hidden = false;
   }
+}
+
+function addPlayerToList() {
+  var list = document.getElementById("player-review-list");
+  var toAdd = document.createElement("button");
+  toAdd.classList.add("player-review-list-item");
+  toAdd.innerHTML = arguments[0].innerHTML;
+  toAdd.onclick = function () {
+    this.remove();
+  };
+  list.appendChild(toAdd);
+}
+
+function createTeam() {
+  var teamName = document.getElementById("team-name-input").value;
+  var teamColor = document.getElementById("team-color").value;
+  var playerList = document.getElementById("player-review-list").children;
+  if (playerList.length != 11 || teamName == "") {
+    document.getElementById("error-msg").hidden = false;
+  } else {
+    playerArrayLoc = [];
+    document.getElementById("error-msg").hidden = true;
+    console.log(playerList);
+    for (var i = 0; i < playerList.length; i++) {
+      var liChild = playerList[i];
+      playerArrayLoc.push(liChild.innerHTML);
+    }
+    eel.addDataTeam({
+      name: teamName,
+      color: teamColor,
+      players: playerArrayLoc,
+    })(function (result) {});
+  }
+}
+
+function deleteTeam() {
+  arguments[0].remove();
+  eel.deleteTeam(arguments[0].innerHTML.toLowerCase());
 }
 
 function customGame() {

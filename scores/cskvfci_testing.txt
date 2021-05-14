@@ -1,0 +1,38 @@
+['Ruturaj Gaikwad', 'Faf du Plessis', 'Moeen Ali', 'Suresh Raina', 'Ambati Rayudu', 'Ravindra Jadeja', 'MS Dhoni', 'Sam Curran', 'Dwayne Bravo', 'Shardul Thakur', 'Deepak Chahar']
+fci won the toss and chose to field
+0.1 Shubham Agarwal to Ruturaj Gaikwad 2 Score: 2/0
+0.2 Shubham Agarwal to Ruturaj Gaikwad 0 Score: 2/0
+0.3 Shubham Agarwal to Ruturaj Gaikwad 1 Score: 3/0
+0.4 Shubham Agarwal to Faf du Plessis 1 Score: 4/0
+0.5 Shubham Agarwal to Ruturaj Gaikwad 1 Score: 5/0
+0.6 Shubham Agarwal to Faf du Plessis 0 Score: 5/0
+1.1 Shubham Agarwal to Ruturaj Gaikwad 0 Score: 5/0
+1.2 Shubham Agarwal to Ruturaj Gaikwad 0 Score: 5/0
+1.3 Shubham Agarwal to Ruturaj Gaikwad 1 Score: 6/0
+1.4 Shubham Agarwal to Faf du Plessis 0 Score: 6/0
+1.5 Shubham Agarwal to Faf du Plessis 1 Score: 7/0
+1.6 Shubham Agarwal to Ruturaj Gaikwad 1 Score: 8/0
+10/0
+2.2 Deepak Chahar to Shubham Agarwal 4 Score: 14/0
+2.3 Deepak Chahar to Shubham Agarwal 4 Score: 18/0
+2.4 Deepak Chahar to Shubham Agarwal 0 Score: 18/0
+2.5 Deepak Chahar to Shubham Agarwal Wide Score: 19/0
+2.6 Deepak Chahar to Shubham Agarwal 6 Score: 25/0
+2.7 Deepak Chahar to Shubham Agarwal 1 Score: 26/0
+3.1 Moeen Ali to Shubham Agarwal 1 Score: 27/0
+3.2 Moeen Ali to Shubham Agarwal 2 Score: 29/0
+3.3 Moeen Ali to Shubham Agarwal 1 Score: 30/0
+3.4 Moeen Ali to Shubham Agarwal 1 Score: 31/0
+3.5 Moeen Ali to Shubham Agarwal Wide Score: 32/0
+3.6 Moeen Ali to Shubham Agarwal 6 Score: 38/0
+3.7 Moeen Ali to Shubham Agarwal 0 Score: 38/0
+4.1 Shardul Thakur to Shubham Agarwal 0 Score: 38/0
+4.2 Shardul Thakur to Shubham Agarwal 0 Score: 38/0
+4.3 Shardul Thakur to Shubham Agarwal 2 Score: 40/0
+4.4 Shardul Thakur to Shubham Agarwal 1 Score: 41/0
+4.5 Shardul Thakur to Shubham Agarwal 4 Score: 45/0
+4.6 Shardul Thakur to Shubham Agarwal 6 Score: 51/0
+5.1 Sam Curran to Shubham Agarwal 6 Score: 57/0
+5.2 Sam Curran to Shubham Agarwal W Score: 57/1 Run Out!
+list index out of range
+Restarting!

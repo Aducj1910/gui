@@ -5,12 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/app.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
@@ -47,17 +43,19 @@
               <p>
                 <b>Current Teams:</b>
               </p>
-              <div id="team-list-display" class="team-list-display"></div>
+              <div id="teams-list-display" class="teams-list-display" style="padding-left: 0; padding-top: 0;"></div>
             </div>
             <div>
               <p>
                 <b>Create Team:</b>
                 <div style="display: grid;grid-template-columns: 30% 70%;">
                     <div>
-                        <input type="text" style="min-height: 20px;" placeholder="Team name"/>
+                        <input id="team-name-input" type="text" style="min-height: 20px;" placeholder="Team name"/>
                         <div style="padding-top: 1em;">
                          <label for="team-color">Pick team color: </label>
                          <input id="team-color" type="color" />
+                         <div id="player-review-list" class="teams-list-display" style="margin-top: 1em; padding-left: 0;padding-top: 0;">
+                        </div>
                         </div>
                     </div>
                     <div style="padding-left: 2em;">
@@ -67,6 +65,8 @@
                           </ul>
                     </div>
                 </div>
+                <button onclick="createTeam()" class="create-team">Create Team</button>
+                <p hidden id="error-msg" style="color:red; font-weight: bold;">Error: you either have wrong number of players or a space is empty</p>
               </p>
             </div>
           </div>
@@ -75,11 +75,11 @@
     </div>
     <script>
         function mySearchFunction() {
-          var searchTerm = document.getElementById("myInput").value.toUpperCase()
+          var searchTerm = document.getElementById("myInput").value.toLowerCase()
           var children = document.getElementById("myUL").children;
           for (var i = 0; i < children.length; i++) {
             var liChild = children[i];
-            if(liChild.innerHTML.includes(searchTerm)){
+            if(liChild.innerHTML.toLowerCase().includes(searchTerm)){
                 liChild.hidden = false
             }
             else{
@@ -94,11 +94,15 @@
         for (const [key, value] of Object.entries(result)) {
           teamsArray.push(key);
         }
-        var mySelect = document.getElementById("team-list-display");
+        var mySelect = document.getElementById("teams-list-display");
         for (teamElement in teamsArray) {
-          var newOne = document.createElement("p");
+          var newOne = document.createElement("button");
+          newOne.classList.add("player-review-list-item");
           newOne.style.padding = 0;
           newOne.style.margin = 0;
+          newOne.onclick = function() {
+            deleteTeam(this)
+          }
           newOne.innerHTML = teamsArray[teamElement].toUpperCase();
           mySelect.append(newOne);
         }
@@ -112,7 +116,11 @@
         for (index in playerArray) {
           var newOne = document.createElement("li");
           newOne.value = playerArray[index];
-          newOne.innerHTML = playerArray[index].toUpperCase();
+          newOne.innerHTML = playerArray[index];
+          newOne.id = `player-choose-list-${playerArray[index].toLowerCase()}`
+          newOne.onclick = function(){
+            addPlayerToList(this)
+          }
           mySelect.append(newOne);
         }
       });
@@ -122,6 +130,9 @@
       $(window).resize(function () {
         window.resizeTo(size[0], size[1]);
       });
+      $(document).ready(function(){
+
+      })
     </script>
   </body>
 </html>
