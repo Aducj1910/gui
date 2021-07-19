@@ -195,3 +195,8 @@ div.absolute {
 .create-team:hover {
   background-color: yellowgreen;
 }
+
+.inp {
+  margin: 0.3rem;
+  margin-bottom: 0.7rem;
+}

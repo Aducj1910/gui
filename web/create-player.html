@@ -24,27 +24,25 @@
           <button class="sidebtn" onclick="location.href='create-team.html'">Create Team</button>
           <button class="sidebtn" onclick="location.href='create-player.html'">Create Player</button>
         </ul>
-        
+        <div
+        class="absolute home"
+        style="font-size: 1.3rem"
+        onclick="location.href='index.html'"
+      >
+        <i class="bi bi-house-door-fill"></i> Home
+      </div>
       </div>
       <div class="maincard">
-        <h1 cass = "pagehead">Welcome</h1>
-        <div>
-          <p style="font-size: 1.2rem">
-            Welcome to Aducj1910's T20 Simulator. Note that this is still in its
-            pre-release stage so there may be bugs. There are currently 3 modes
-            -
-            <ul>
-              <li>Custom Game - <p>Here you can play a game between any two teams, they can be IPL teams or your own custom teams.</p></li>
-            <li>IPL - <p>Simulate the entire IPL ball by ball</p></li>
-            <li>Remaining IPL - <p>Simulate the remainder of the suspended IPL 2021</p></li>
-            </ul>
-          </p>
-          <p>
-              If you enjoyed this application please consider supporting me
-              via Crypto.<br /> <b>Bitcoin Address - JFwQTANzEZWZQ2FerJdLLs4xSZeKDWzfH</i>  </b><br />
-              <b>Ethereum and BNB Address - 0xB6aaEABc549aEEd243970b88c35Ea0f25891eD53</b>
-          </p>
-        </div>
+        <h1 cass = "pagehead">Create Player</h1>
+        <div style="display: grid;grid-template-columns: 50% 50%;">
+            <div style="display: grid;grid-template-rows: 30% 70%;">
+               <p class="inp"> Player Initials</p>
+            <input type="text" placeholder="Player Initials" class="inp" />
+            </div>
+            <div style="display: grid;grid-template-rows: 30% 70%;">
+               <p class="inp"> Player Display Name</p>
+            <input type="text" placeholder="Player Display Name" class="inp" />
+            </div>
       </div>
     </div>
     <script>
