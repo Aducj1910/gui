@@ -158,6 +158,7 @@ function createPlayer() {
     economy: document.getElementById("economical").value,
     overallBowl: document.getElementById("overall-bowling").value,
     fielding: document.getElementById("fielding").value,
+    position: document.getElementById("position").value,
   });
 
   eel.createPlayer({
@@ -175,6 +176,7 @@ function createPlayer() {
     economy: document.getElementById("economical").value,
     overallBowl: document.getElementById("overall-bowling").value,
     fielding: document.getElementById("fielding").value,
+    position: document.getElementById("position").value,
   });
 }
 

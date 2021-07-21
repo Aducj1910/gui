@@ -34,9 +34,9 @@ def createPlayer(player):
 
     sr = ((int(player['aggressiveness'].strip())/10)**2)+random.randint(62, 75)
     print(sr, bowlStyle)
-    processed['batRunsTotal'] = round(1000.0*sr)
+    processed['batRunsTotal'] = round(10.0*sr)
 
-    out_dict = {'caught': 28, 'runOut': 1, 'bowled': 7, 'lbw': 7, 'hitwicket': 0, 'stumped': 0}
+    out_dict = {'caught': 24, 'runOut': 1, 'bowled': 7, 'lbw': 7, 'hitwicket': 0, 'stumped': 0}
 
     if(int(player['defensiveness'].strip()) > 75):
         out_dict['caught'] -= round((int(player['defensiveness'].strip()) - 75)/3)
@@ -57,7 +57,39 @@ def createPlayer(player):
             out_dict['runOut'] += 2
 
 
-    print(out_dict['caught'])
+    pos = int(player['position'].strip()) - 1
+    pos_arr = []
+
+    for i in range(80):
+        if(i%5 == 0):
+            pos_arr.append("null")
+        elif(i%8):
+            pos_arr.append(pos + random.randint(-1, 1))
+        else:
+            pos_arr.append(pos)
+
+    out_rate = int(player['overallBat'].strip())/3
+    outs = round(1000/out_rate)
+    print(outs)
+
+    to_append = {"batOutTypes": out_dict, "batOutsTotal": outs, "position": pos_arr, "matches": 80}
+    processed = {**processed, **to_append}
+
+    print(processed)
+
+    bat_denom =  {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6":0}
+
+    "batRunDenominations": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+
+
 
 
 

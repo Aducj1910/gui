@@ -102,7 +102,7 @@
               <div style="display: grid;grid-template-columns: 25% 25% 25% 25%;">
               </div>
            </div>
-           <div style="display: grid;grid-template-columns: 25% 25% 50%;">
+           <div style="display: grid;grid-template-columns: 25% 25% 25% 25%;">
               <div style="display: grid;grid-template-rows: 30% 70%;">
                 <p class="inp"> Overall Rating (bowl) (0-100)</p>
                 <input id="overall-bowling" type="text" class="inp" />
@@ -111,7 +111,10 @@
                 <p class="inp"> Fielding (0-100)</p>
                 <input id="fielding" type="text" class="inp" />
               </div>
-              <button id="loading" style="display: none;" class="btn btn-primary load" type="button" disabled>
+              <div style="display: grid;grid-template-rows: 30% 70%;">
+               <p class="inp"> Batting Position</p>
+               <input id="position" type="text" class="inp" />
+             </div>              <button id="loading" style="display: none;" class="btn btn-primary load" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 Creating Player...
               </button>
