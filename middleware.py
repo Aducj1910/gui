@@ -1,4 +1,4 @@
-import eel, sys, json, mainconnect, random
+import eel, sys, json, engine, random
 
 eel.init('web')
 
@@ -83,10 +83,10 @@ def createPlayer(player):
 
 
 @eel.expose
-def mainconnectGame(team1, team2):
+def engineGame(team1, team2):
     for i in range(1, 10):
         try:
-            returnInfo = mainconnect.game(False, team1, team2, "testing")
+            returnInfo = engine.game(False, team1, team2, "testing")
             return returnInfo
             break
         except Exception as e:

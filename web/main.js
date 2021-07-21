@@ -208,7 +208,7 @@ function deleteTeam() {
 }
 
 function customGame() {
-  eel.mainconnectGame(
+  eel.engineGame(
     document.getElementById("team1").value,
     document.getElementById("team2").value
   )(function (result) {
