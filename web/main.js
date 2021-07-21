@@ -114,6 +114,70 @@ function addPlayerToList() {
   list.appendChild(toAdd);
 }
 
+function createPlayer() {
+  console.log("yo");
+  document.getElementById("create").style.display = "none";
+  document.getElementById("loading").style.display = "block";
+
+  setTimeout(function () {
+    document.getElementById(
+      "loading"
+    ).innerHTML = ` <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+    Creating DNA...`;
+  }, 1000);
+
+  setTimeout(function () {
+    document.getElementById(
+      "loading"
+    ).innerHTML = ` <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+    Creating Controversial Tweets...`;
+  }, 2500);
+
+  setTimeout(function () {
+    document.getElementById("create").style.display = "block";
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("create").innerHTML = "Player Created!";
+  }, 4000);
+
+  setTimeout(function () {
+    document.getElementById("create").innerHTML = "Create Player!";
+  }, 6000);
+
+  console.log({
+    initials: document.getElementById("player-initials").value,
+    display: document.getElementById("player-display").value,
+    batHand: document.getElementById("bat-hand").value,
+    bowlStyle: document.getElementById("bowl-style").value,
+    aggressiveness: document.getElementById("aggressiveness").value,
+    defensiveness: document.getElementById("defensiveness").value,
+    running: document.getElementById("running").value,
+    overallBat: document.getElementById("overall-batting").value,
+    firstPref: document.getElementById("first-pref-overs").value,
+    secondPref: document.getElementById("second-pref-overs").value,
+    wicket: document.getElementById("wicket-taking").value,
+    economy: document.getElementById("economical").value,
+    overallBowl: document.getElementById("overall-bowling").value,
+    fielding: document.getElementById("fielding").value,
+  });
+
+  eel.createPlayer({
+    initials: document.getElementById("player-initials").value,
+    display: document.getElementById("player-display").value,
+    batHand: document.getElementById("bat-hand").value,
+    bowlStyle: document.getElementById("bowl-style").value,
+    aggressiveness: document.getElementById("aggressiveness").value,
+    defensiveness: document.getElementById("defensiveness").value,
+    running: document.getElementById("running").value,
+    overallBat: document.getElementById("overall-batting").value,
+    firstPref: document.getElementById("first-pref-overs").value,
+    secondPref: document.getElementById("second-pref-overs").value,
+    wicket: document.getElementById("wicket-taking").value,
+    economy: document.getElementById("economical").value,
+    overallBowl: document.getElementById("overall-bowling").value,
+    fielding: document.getElementById("fielding").value,
+  });
+}
+
 function createTeam() {
   var teamName = document.getElementById("team-name-input").value;
   var teamColor = document.getElementById("team-color").value;

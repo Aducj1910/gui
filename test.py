@@ -1,7 +1,4 @@
-import eel
-import sys, json
-# insert at 1, 0 is the script path (or '' in REPL)
-import mainconnect
+import eel, sys, json, mainconnect, random
 
 eel.init('web')
 
@@ -9,6 +6,60 @@ eel.init('web')
 def dummy(param):
     print("Got " + param )
     return "got it"
+
+@eel.expose
+def createPlayer(player):
+    processed = {"_id": "007", "playerInitials": player['initials'], "displayName": player['display'],
+        "batStyle": "right-hand bat" if player['batHand'].strip() == 'R' else 'left-hand bat', "batBallsTotal": 1000 }
+    
+    bowlStyle = ""
+    bowl = player['bowlStyle'].strip()
+
+    if(bowl == "RAF"):
+        bowlStyle = "right-arm fast"
+    elif(bowl == "RAFM"):
+        bowlStyle = "right-arm medium-fast"
+    elif(bowl == "LAF"):
+        bowlStyle = "left-arm fast"
+    elif(bowl == "LAFM"):
+        bowlStyle = "left-arm medium-fast"  
+    elif(bowl == "RAOS"):
+        bowlStyle = "right-arm offbreak"
+    elif(bowl == "LAOS"):
+        bowlStyle = "slow left-arm orthodox" 
+    elif(bowl == "LAWS"):
+        bowlStyle = "left-arm wrist-spin"
+
+    processed['bowlStyle'] = bowlStyle
+
+    sr = ((int(player['aggressiveness'].strip())/10)**2)+random.randint(62, 75)
+    print(sr, bowlStyle)
+    processed['batRunsTotal'] = round(1000.0*sr)
+
+    out_dict = {'caught': 28, 'runOut': 1, 'bowled': 7, 'lbw': 7, 'hitwicket': 0, 'stumped': 0}
+
+    if(int(player['defensiveness'].strip()) > 75):
+        out_dict['caught'] -= round((int(player['defensiveness'].strip()) - 75)/3)
+        out_dict['bowled'] -= roundn((int(player['defensiveness'].strip()) - 75)/8)
+        out_dict['bowled'] -= roundn((int(player['defensiveness'].strip()) - 75)/8)
+
+    elif(int(player['defensiveness'].strip()) < 50):
+        out_dict['caught'] += round(50 - (int(player['defensiveness'].strip()))/3)
+        out_dict['bowled'] += roundn(50 - (int(player['defensiveness'].strip()))/8)
+        out_dict['bowled'] += roundn(50 - (int(player['defensiveness'].strip()))/8)
+
+    if(int(player['running'].strip()) > 75):
+        out_dict['runOut'] = 0
+    elif(int(player['running'].strip()) < 50):
+        if(int(player['running'].strip()) >= 25):
+            out_dict['runOut'] += 1
+        else:
+            out_dict['runOut'] += 2
+
+
+    print(out_dict['caught'])
+
+
 
 @eel.expose
 def mainconnectGame(team1, team2):
