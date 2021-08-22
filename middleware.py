@@ -57,7 +57,7 @@ def createPlayer(player):
             out_dict['runOut'] += 2
 
 
-    pos = int(player['position'].strip()) - 1
+    pos = int(player['position'].strip())
     pos_arr = []
 
     for i in range(80):
@@ -77,7 +77,7 @@ def createPlayer(player):
 
     print(processed)
 
-    bat_denom =  {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6":0}
+    bat_denom =  {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6":0} #Add for aggressiveness and defensiveness 
 
 
 

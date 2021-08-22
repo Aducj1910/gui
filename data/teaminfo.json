@@ -1,10 +1,1 @@
-{
-  "srh": { "color": "#eb8034", "text": "white" },
-  "csk": { "color": "#edd928", "text": "black" },
-  "dc": { "color": "#00adfc", "text": "white" },
-  "rcb": { "color": "#c72206", "text": "white" },
-  "pbks": { "color": "#f03616", "text": "white" },
-  "rr": { "color": "#f200ce", "text": "white" },
-  "kkr": { "color": "#330066", "text": "white" },
-  "mi": { "color": "#004ca8", "text": "white" }
-}
+{"srh": {"color": "#eb8034", "text": "white"}, "csk": {"color": "#edd928", "text": "black"}, "dc": {"color": "#00adfc", "text": "white"}, "rcb": {"color": "#c72206", "text": "white"}, "pbks": {"color": "#f03616", "text": "white"}, "rr": {"color": "#f200ce", "text": "white"}, "kkr": {"color": "#330066", "text": "white"}, "mi": {"color": "#004ca8", "text": "white"}, "myteam": {"color": "#ff0000", "text": "white"}, "ind": {"color": "#0062ff", "text": "white"}, "mdd": {"color": "#000000", "text": "white"}}

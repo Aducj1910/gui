@@ -98290,6 +98290,428 @@
     "wicketkeeper": 61,
     "matches": 76
   },
+  "Test Player": {
+    "_id": "93158000",
+    "playerInitials": "T Player",
+    "displayName": "Test Player",
+    "batStyle": "right-hand bat",
+    "bowlStyle": "not found",
+    "batRunsTotal": 2281,
+    "batBallsTotal": 1507,
+    "bowlRunsTotal": 0,
+    "bowlBallsTotal": 0,
+    "batOutsTotal": 70,
+    "bowlOutsTotal": 0,
+    "bowlNoballs": 0,
+    "bowlWides": 0,
+    "catches": 49,
+    "batOutTypes": {
+      "caught": 43,
+      "runOut": 1,
+      "bowled": 10,
+      "lbw": 5,
+      "hitwicket": 0,
+      "stumped": 0
+    },
+    "bowlOutTypes": {
+      "caught": 0,
+      "runOut": 0,
+      "bowled": 0,
+      "lbw": 0,
+      "hitwicket": 0,
+      "stumped": 0
+    },
+    "batRunDenominations": {
+      "0": 550,
+      "1": 606,
+      "2": 95,
+      "3": 2,
+      "4": 208,
+      "5": 1,
+      "6": 107
+    },
+    "bowlRunDenominations": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "overNumbers": [],
+    "runnedOut": 6,
+    "position": [
+      "null",
+      2,
+      2,
+      2,
+      "null",
+      "null",
+      2,
+      3,
+      "null",
+      "null",
+      "null",
+      "null",
+      2,
+      "null",
+      3,
+      "null",
+      "null",
+      "null",
+      2,
+      "null",
+      2,
+      "null",
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      3,
+      2,
+      "null",
+      "null",
+      2,
+      "null",
+      "null",
+      3,
+      "null",
+      "null",
+      "null",
+      2,
+      "null",
+      "null",
+      "null",
+      3,
+      3,
+      "null",
+      2,
+      "null",
+      2,
+      2,
+      "null",
+      "null",
+      2,
+      1,
+      2,
+      "null",
+      3,
+      3,
+      "null",
+      6,
+      "null",
+      0,
+      "null",
+      "null",
+      "null",
+      3,
+      "null",
+      0,
+      "null",
+      2,
+      "null",
+      "null",
+      1,
+      "null",
+      "null",
+      "null"
+    ],
+    "byBatsman": {},
+    "byBowler": {
+      "slow left-arm orthodox": {
+        "batRunsTotal": 161,
+        "batBallsTotal": 103,
+        "batOutsTotal": 6,
+        "batOutTypes": {
+          "caught": 5,
+          "runOut": 0,
+          "bowled": 1,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 34,
+          "1": 48,
+          "2": 7,
+          "3": 0,
+          "4": 10,
+          "5": 0,
+          "6": 9
+        }
+      },
+      "legbreak googly": {
+        "batRunsTotal": 232,
+        "batBallsTotal": 183,
+        "batOutsTotal": 8,
+        "batOutTypes": {
+          "caught": 5,
+          "runOut": 0,
+          "bowled": 1,
+          "lbw": 2,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 70,
+          "1": 76,
+          "2": 7,
+          "3": 0,
+          "4": 26,
+          "5": 0,
+          "6": 6
+        }
+      },
+      "left-arm fast": {
+        "batRunsTotal": 21,
+        "batBallsTotal": 10,
+        "batOutsTotal": 0,
+        "batOutTypes": {
+          "caught": 0,
+          "runOut": 0,
+          "bowled": 0,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 1,
+          "1": 5,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 0,
+          "6": 1
+        }
+      },
+      "right-arm fast": {
+        "batRunsTotal": 248,
+        "batBallsTotal": 175,
+        "batOutsTotal": 16,
+        "batOutTypes": {
+          "caught": 11,
+          "runOut": 0,
+          "bowled": 3,
+          "lbw": 2,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 86,
+          "1": 57,
+          "2": 8,
+          "3": 1,
+          "4": 18,
+          "5": 0,
+          "6": 15
+        }
+      },
+      "right-arm fast-medium": {
+        "batRunsTotal": 234,
+        "batBallsTotal": 141,
+        "batOutsTotal": 4,
+        "batOutTypes": {
+          "caught": 4,
+          "runOut": 0,
+          "bowled": 0,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 48,
+          "1": 56,
+          "2": 8,
+          "3": 0,
+          "4": 27,
+          "5": 0,
+          "6": 8
+        }
+      },
+      "right-arm medium-fast": {
+        "batRunsTotal": 189,
+        "batBallsTotal": 101,
+        "batOutsTotal": 4,
+        "batOutTypes": {
+          "caught": 1,
+          "runOut": 0,
+          "bowled": 3,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 50,
+          "1": 34,
+          "2": 5,
+          "3": 0,
+          "4": 9,
+          "5": 0,
+          "6": 16
+        }
+      },
+      "right-arm offbreak": {
+        "batRunsTotal": 361,
+        "batBallsTotal": 253,
+        "batOutsTotal": 7,
+        "batOutTypes": {
+          "caught": 5,
+          "runOut": 0,
+          "bowled": 1,
+          "lbw": 1,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 66,
+          "1": 128,
+          "2": 21,
+          "3": 1,
+          "4": 24,
+          "5": 0,
+          "6": 15
+        }
+      },
+      "legbreak": {
+        "batRunsTotal": 192,
+        "batBallsTotal": 103,
+        "batOutsTotal": 0,
+        "batOutTypes": {
+          "caught": 0,
+          "runOut": 0,
+          "bowled": 0,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 33,
+          "1": 37,
+          "2": 5,
+          "3": 0,
+          "4": 22,
+          "5": 0,
+          "6": 9
+        }
+      },
+      "left-arm wrist-spin": {
+        "batRunsTotal": 35,
+        "batBallsTotal": 26,
+        "batOutsTotal": 1,
+        "batOutTypes": {
+          "caught": 1,
+          "runOut": 0,
+          "bowled": 0,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 11,
+          "1": 10,
+          "2": 2,
+          "3": 0,
+          "4": 2,
+          "5": 0,
+          "6": 2
+        }
+      },
+      "right-arm medium": {
+        "batRunsTotal": 419,
+        "batBallsTotal": 250,
+        "batOutsTotal": 6,
+        "batOutTypes": {
+          "caught": 5,
+          "runOut": 0,
+          "bowled": 1,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 87,
+          "1": 100,
+          "2": 22,
+          "3": 0,
+          "4": 45,
+          "5": 0,
+          "6": 13
+        }
+      },
+      "left-arm medium": {
+        "batRunsTotal": 102,
+        "batBallsTotal": 67,
+        "batOutsTotal": 3,
+        "batOutTypes": {
+          "caught": 3,
+          "runOut": 0,
+          "bowled": 0,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 26,
+          "1": 24,
+          "2": 3,
+          "3": 0,
+          "4": 9,
+          "5": 1,
+          "6": 5
+        }
+      },
+      "left-arm fast-medium": {
+        "batRunsTotal": 118,
+        "batBallsTotal": 71,
+        "batOutsTotal": 1,
+        "batOutTypes": {
+          "caught": 1,
+          "runOut": 0,
+          "bowled": 0,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 28,
+          "1": 21,
+          "2": 5,
+          "3": 0,
+          "4": 11,
+          "5": 0,
+          "6": 7
+        }
+      },
+      "left-arm medium-fast": {
+        "batRunsTotal": 31,
+        "batBallsTotal": 24,
+        "batOutsTotal": 2,
+        "batOutTypes": {
+          "caught": 2,
+          "runOut": 0,
+          "bowled": 0,
+          "lbw": 0,
+          "hitwicket": 0,
+          "stumped": 0
+        },
+        "batRunDenominations": {
+          "0": 10,
+          "1": 10,
+          "2": 1,
+          "3": 0,
+          "4": 3,
+          "5": 0,
+          "6": 1
+        }
+      }
+    },
+    "captained": 8,
+    "wicketkeeper": 61,
+    "matches": 76
+  },
   "Shimron Hetmyer": {
     "_id": "670025",
     "playerInitials": "SO Hetmyer",

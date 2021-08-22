@@ -1,0 +1,331 @@
+['Prithvi Shaw', 'Shikhar Dhawan', 'Steven Smith', 'Rishabh Pant', 'Shimron Hetmyer', 'Marcus Stoinis', 'Axar Patel', 'Ravichandran Ashwin', 'Amit Mishra', 'Kagiso Rabada', 'Avesh Khan']
+dc won the toss and chose to field
+0.1 Kagiso Rabada to Prithvi Shaw 4 Score: 4/0
+0.2 Kagiso Rabada to Prithvi Shaw 2 Score: 6/0
+0.3 Kagiso Rabada to Prithvi Shaw 1 Score: 7/0
+0.4 Kagiso Rabada to Shikhar Dhawan 1 Score: 8/0
+0.5 Kagiso Rabada to Prithvi Shaw 4 Score: 12/0
+0.6 Kagiso Rabada to Prithvi Shaw 1 Score: 13/0
+1.1 Ravichandran Ashwin to Prithvi Shaw 0 Score: 13/0
+1.2 Ravichandran Ashwin to Prithvi Shaw 0 Score: 13/0
+1.3 Ravichandran Ashwin to Prithvi Shaw 1 Score: 14/0
+1.4 Ravichandran Ashwin to Shikhar Dhawan 1 Score: 15/0
+1.5 Ravichandran Ashwin to Prithvi Shaw 1 Score: 16/0
+1.6 Ravichandran Ashwin to Shikhar Dhawan 1 Score: 17/0
+2.1 Axar Patel to Shikhar Dhawan 0 Score: 17/0
+2.2 Axar Patel to Shikhar Dhawan 1 Score: 18/0
+2.3 Axar Patel to Prithvi Shaw 1 Score: 19/0
+2.4 Axar Patel to Shikhar Dhawan 4 Score: 23/0
+2.5 Axar Patel to Shikhar Dhawan 0 Score: 23/0
+2.6 Axar Patel to Shikhar Dhawan 1 Score: 24/0
+3.1 Ravichandran Ashwin to Shikhar Dhawan 4 Score: 28/0
+3.2 Ravichandran Ashwin to Shikhar Dhawan 4 Score: 32/0
+3.3 Ravichandran Ashwin to Shikhar Dhawan 1 Score: 33/0
+3.4 Ravichandran Ashwin to Prithvi Shaw 0 Score: 33/0
+3.5 Ravichandran Ashwin to Prithvi Shaw 1 Score: 34/0
+3.6 Ravichandran Ashwin to Shikhar Dhawan 2 Score: 36/0
+4.1 Axar Patel to Prithvi Shaw 0 Score: 36/0
+4.2 Axar Patel to Prithvi Shaw 2 Score: 38/0
+4.3 Axar Patel to Prithvi Shaw 0 Score: 38/0
+4.4 Axar Patel to Prithvi Shaw W Score: 38/1 Stumped
+4.5 Axar Patel to Steven Smith 1 Score: 39/1
+4.6 Axar Patel to Shikhar Dhawan 0 Score: 39/1
+5.1 Marcus Stoinis to Steven Smith 1 Score: 40/1
+5.2 Marcus Stoinis to Shikhar Dhawan 2 Score: 42/1
+5.3 Marcus Stoinis to Shikhar Dhawan 0 Score: 42/1
+5.4 Marcus Stoinis to Shikhar Dhawan 4 Score: 46/1
+5.5 Marcus Stoinis to Shikhar Dhawan 1 Score: 47/1
+5.6 Marcus Stoinis to Steven Smith 1 Score: 48/1
+6.1 Axar Patel to Steven Smith 1 Score: 49/1
+6.2 Axar Patel to Shikhar Dhawan 2 Score: 51/1
+6.3 Axar Patel to Shikhar Dhawan 2 Score: 53/1
+6.4 Axar Patel to Shikhar Dhawan 0 Score: 53/1
+6.5 Axar Patel to Shikhar Dhawan 4 Score: 57/1
+6.6 Axar Patel to Shikhar Dhawan 1 Score: 58/1
+7.1 Marcus Stoinis to Shikhar Dhawan 0 Score: 58/1
+7.2 Marcus Stoinis to Shikhar Dhawan 4 Score: 62/1
+7.3 Marcus Stoinis to Shikhar Dhawan 2 Score: 64/1
+7.4 Marcus Stoinis to Shikhar Dhawan W Score: 64/2 Caught by Marcus Stoinis
+7.5 Marcus Stoinis to Rishabh Pant Wide Score: 65/2
+7.6 Marcus Stoinis to Rishabh Pant 1 Score: 66/2
+7.7 Marcus Stoinis to Steven Smith Wide Score: 67/2
+7.8 Marcus Stoinis to Steven Smith 1 Score: 68/2
+8.1 Axar Patel to Steven Smith 0 Score: 68/2
+8.2 Axar Patel to Steven Smith 1 Score: 69/2
+8.3 Axar Patel to Rishabh Pant 6 Score: 75/2
+8.4 Axar Patel to Rishabh Pant 1 Score: 76/2
+8.5 Axar Patel to Steven Smith 1 Score: 77/2
+8.6 Axar Patel to Rishabh Pant 0 Score: 77/2
+9.1 Marcus Stoinis to Steven Smith 0 Score: 77/2
+9.2 Marcus Stoinis to Steven Smith 0 Score: 77/2
+9.3 Marcus Stoinis to Steven Smith 0 Score: 77/2
+9.4 Marcus Stoinis to Steven Smith 1 Score: 78/2
+9.5 Marcus Stoinis to Rishabh Pant 2 Score: 80/2
+9.6 Marcus Stoinis to Rishabh Pant 0 Score: 80/2
+10.1 Amit Mishra to Steven Smith 1 Score: 81/2
+10.2 Amit Mishra to Rishabh Pant 1 Score: 82/2
+10.3 Amit Mishra to Steven Smith 0 Score: 82/2
+10.4 Amit Mishra to Steven Smith 0 Score: 82/2
+10.5 Amit Mishra to Steven Smith 6 Score: 88/2
+10.6 Amit Mishra to Steven Smith 1 Score: 89/2
+11.1 Marcus Stoinis to Steven Smith 6 Score: 95/2
+11.2 Marcus Stoinis to Steven Smith 1 Score: 96/2
+11.3 Marcus Stoinis to Rishabh Pant 2 Score: 98/2
+11.4 Marcus Stoinis to Rishabh Pant 0 Score: 98/2
+11.5 Marcus Stoinis to Rishabh Pant 2 Score: 100/2
+11.6 Marcus Stoinis to Rishabh Pant 4 Score: 104/2
+12.1 Amit Mishra to Steven Smith 0 Score: 104/2
+12.2 Amit Mishra to Steven Smith 1 Score: 105/2
+12.3 Amit Mishra to Rishabh Pant 0 Score: 105/2
+12.4 Amit Mishra to Rishabh Pant 1 Score: 106/2
+12.5 Amit Mishra to Steven Smith 1 Score: 107/2
+12.6 Amit Mishra to Rishabh Pant 0 Score: 107/2
+13.1 Shimron Hetmyer to Steven Smith 1 Score: 108/2
+13.2 Shimron Hetmyer to Rishabh Pant 2 Score: 110/2
+13.3 Shimron Hetmyer to Rishabh Pant 0 Score: 110/2
+13.4 Shimron Hetmyer to Rishabh Pant 2 Score: 112/2
+13.5 Shimron Hetmyer to Rishabh Pant 0 Score: 112/2
+13.6 Shimron Hetmyer to Rishabh Pant 0 Score: 112/2
+14.1 Amit Mishra to Steven Smith 0 Score: 112/2
+14.2 Amit Mishra to Steven Smith 1 Score: 113/2
+14.3 Amit Mishra to Rishabh Pant 1 Score: 114/2
+14.4 Amit Mishra to Steven Smith 0 Score: 114/2
+14.5 Amit Mishra to Steven Smith 1 Score: 115/2
+14.6 Amit Mishra to Rishabh Pant 1 Score: 116/2
+15.1 Shimron Hetmyer to Rishabh Pant 1 Score: 117/2
+15.2 Shimron Hetmyer to Steven Smith 1 Score: 118/2
+15.3 Shimron Hetmyer to Rishabh Pant 6 Score: 124/2
+15.4 Shimron Hetmyer to Rishabh Pant 1 Score: 125/2
+15.5 Shimron Hetmyer to Steven Smith W Score: 125/3 Caught by Avesh Khan
+15.6 Shimron Hetmyer to Marcus Stoinis 2 Score: 127/3
+16.1 Ravichandran Ashwin to Rishabh Pant 4 Score: 131/3
+16.2 Ravichandran Ashwin to Rishabh Pant 0 Score: 131/3
+16.3 Ravichandran Ashwin to Rishabh Pant 1 Score: 132/3
+16.4 Ravichandran Ashwin to Marcus Stoinis 1 Score: 133/3
+16.5 Ravichandran Ashwin to Rishabh Pant 1 Score: 134/3
+16.6 Ravichandran Ashwin to Marcus Stoinis 1 Score: 135/3
+17.1 Kagiso Rabada to Marcus Stoinis 4 Score: 139/3
+17.2 Kagiso Rabada to Marcus Stoinis 0 Score: 139/3
+17.3 Kagiso Rabada to Marcus Stoinis 0 Score: 139/3
+17.4 Kagiso Rabada to Marcus Stoinis W Score: 139/4 Caught by Kagiso Rabada
+17.5 Kagiso Rabada to Shimron Hetmyer 0 Score: 139/4
+17.6 Kagiso Rabada to Shimron Hetmyer 0 Score: 139/4
+18.1 Avesh Khan to Rishabh Pant 1 Score: 140/4
+18.2 Avesh Khan to Shimron Hetmyer 6 Score: 146/4
+18.3 Avesh Khan to Shimron Hetmyer 0 Score: 146/4
+18.4 Avesh Khan to Shimron Hetmyer 0 Score: 146/4
+18.5 Avesh Khan to Shimron Hetmyer 1 Score: 147/4
+18.6 Avesh Khan to Rishabh Pant 4 Score: 151/4
+19.1 Kagiso Rabada to Shimron Hetmyer 4 Score: 155/4
+19.2 Kagiso Rabada to Shimron Hetmyer 2 Score: 157/4
+19.3 Kagiso Rabada to Shimron Hetmyer 0 Score: 157/4
+19.4 Kagiso Rabada to Shimron Hetmyer Wide Score: 158/4
+19.5 Kagiso Rabada to Shimron Hetmyer Wide Score: 159/4
+19.6 Kagiso Rabada to Shimron Hetmyer 2 Score: 161/4
+19.7 Kagiso Rabada to Shimron Hetmyer 4 Score: 165/4
+19.8 Kagiso Rabada to Shimron Hetmyer 0 Score: 165/4
++------------+--------+---------+--------+---------------------------+
+| Player     |   Runs |   Balls | SR     | Out                       |
++============+========+=========+========+===========================+
+| PP Shaw    |     18 |      16 | 112.5  | stumped b AR Patel        |
++------------+--------+---------+--------+---------------------------+
+| S Dhawan   |     42 |      26 | 161.54 | c MP Stoinis b MP Stoinis |
++------------+--------+---------+--------+---------------------------+
+| SPD Smith  |     29 |      29 | 100.0  | c Avesh Khan b SO Hetmyer |
++------------+--------+---------+--------+---------------------------+
+| RR Pant    |     45 |      30 | 150.0  | Not out                   |
++------------+--------+---------+--------+---------------------------+
+| SO Hetmyer |     19 |      12 | 158.33 | Not out                   |
++------------+--------+---------+--------+---------------------------+
+| MP Stoinis |      8 |       7 | 114.29 | c K Rabada b K Rabada     |
++------------+--------+---------+--------+---------------------------+
+| AR Patel   |      0 |       0 | DNB    |                           |
++------------+--------+---------+--------+---------------------------+
+| R Ashwin   |      0 |       0 | DNB    |                           |
++------------+--------+---------+--------+---------------------------+
+| A Mishra   |      0 |       0 | DNB    |                           |
++------------+--------+---------+--------+---------------------------+
+| K Rabada   |      0 |       0 | DNB    |                           |
++------------+--------+---------+--------+---------------------------+
+| Avesh Khan |      0 |       0 | DNB    |                           |
++------------+--------+---------+--------+---------------------------+
++------------+--------+---------+-----------+-------+
+| Player     |   Runs |   Overs |   Wickets | Eco   |
++============+========+=========+===========+=======+
+| PP Shaw    |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| S Dhawan   |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| SPD Smith  |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| RR Pant    |      0 |       0 |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| SO Hetmyer |     16 |       2 |         1 | 8.0   |
++------------+--------+---------+-----------+-------+
+| MP Stoinis |     37 |       4 |         1 | 9.25  |
++------------+--------+---------+-----------+-------+
+| AR Patel   |     29 |       4 |         1 | 7.25  |
++------------+--------+---------+-----------+-------+
+| R Ashwin   |     24 |       3 |         0 | 8.0   |
++------------+--------+---------+-----------+-------+
+| A Mishra   |     16 |       3 |         0 | 5.33  |
++------------+--------+---------+-----------+-------+
+| K Rabada   |     31 |       3 |         1 | 10.33 |
++------------+--------+---------+-----------+-------+
+| Avesh Khan |     12 |       1 |         0 | 12.0  |
++------------+--------+---------+-----------+-------+
+0.1 Kagiso Rabada to Prithvi Shaw 0 Score: 0/0
+0.2 Kagiso Rabada to Prithvi Shaw 1 Score: 1/0
+0.3 Kagiso Rabada to Shikhar Dhawan 1 Score: 2/0
+0.4 Kagiso Rabada to Prithvi Shaw 2 Score: 4/0
+0.5 Kagiso Rabada to Prithvi Shaw 0 Score: 4/0
+0.6 Kagiso Rabada to Prithvi Shaw 1 Score: 5/0
+1.1 Ravichandran Ashwin to Prithvi Shaw 1 Score: 6/0
+1.2 Ravichandran Ashwin to Shikhar Dhawan 1 Score: 7/0
+1.3 Ravichandran Ashwin to Prithvi Shaw 1 Score: 8/0
+1.4 Ravichandran Ashwin to Shikhar Dhawan 1 Score: 9/0
+1.5 Ravichandran Ashwin to Prithvi Shaw Wide Score: 10/0
+1.6 Ravichandran Ashwin to Prithvi Shaw 0 Score: 10/0
+1.7 Ravichandran Ashwin to Prithvi Shaw 1 Score: 11/0
+2.1 Kagiso Rabada to Prithvi Shaw 1 Score: 12/0
+2.2 Kagiso Rabada to Shikhar Dhawan 1 Score: 13/0
+2.3 Kagiso Rabada to Prithvi Shaw 0 Score: 13/0
+2.4 Kagiso Rabada to Prithvi Shaw 2 Score: 15/0
+2.5 Kagiso Rabada to Prithvi Shaw 1 Score: 16/0
+2.6 Kagiso Rabada to Shikhar Dhawan 1 Score: 17/0
+3.1 Ravichandran Ashwin to Shikhar Dhawan 1 Score: 18/0
+3.2 Ravichandran Ashwin to Prithvi Shaw 0 Score: 18/0
+3.3 Ravichandran Ashwin to Prithvi Shaw 1 Score: 19/0
+3.4 Ravichandran Ashwin to Shikhar Dhawan 4 Score: 23/0
+3.5 Ravichandran Ashwin to Shikhar Dhawan 0 Score: 23/0
+3.6 Ravichandran Ashwin to Shikhar Dhawan 1 Score: 24/0
+4.1 Axar Patel to Shikhar Dhawan 0 Score: 24/0
+4.2 Axar Patel to Shikhar Dhawan 0 Score: 24/0
+4.3 Axar Patel to Shikhar Dhawan 1 Score: 25/0
+4.4 Axar Patel to Prithvi Shaw 4 Score: 29/0
+4.5 Axar Patel to Prithvi Shaw 1 Score: 30/0
+4.6 Axar Patel to Shikhar Dhawan 1 Score: 31/0
+5.1 Avesh Khan to Shikhar Dhawan 1 Score: 32/0
+5.2 Avesh Khan to Prithvi Shaw 0 Score: 32/0
+5.3 Avesh Khan to Prithvi Shaw 0 Score: 32/0
+5.4 Avesh Khan to Prithvi Shaw 6 Score: 38/0
+5.5 Avesh Khan to Prithvi Shaw 4 Score: 42/0
+5.6 Avesh Khan to Prithvi Shaw 0 Score: 42/0
+6.1 Axar Patel to Shikhar Dhawan 2 Score: 44/0
+6.2 Axar Patel to Shikhar Dhawan 4 Score: 48/0
+6.3 Axar Patel to Shikhar Dhawan 4 Score: 52/0
+6.4 Axar Patel to Shikhar Dhawan 6 Score: 58/0
+6.5 Axar Patel to Shikhar Dhawan 1 Score: 59/0
+6.6 Axar Patel to Prithvi Shaw 0 Score: 59/0
+7.1 Avesh Khan to Shikhar Dhawan 4 Score: 63/0
+7.2 Avesh Khan to Shikhar Dhawan 6 Score: 69/0
+7.3 Avesh Khan to Shikhar Dhawan 0 Score: 69/0
+7.4 Avesh Khan to Shikhar Dhawan 1 Score: 70/0
+7.5 Avesh Khan to Prithvi Shaw 0 Score: 70/0
+7.6 Avesh Khan to Prithvi Shaw 6 Score: 76/0
+8.1 Axar Patel to Shikhar Dhawan 0 Score: 76/0
+8.2 Axar Patel to Shikhar Dhawan 1 Score: 77/0
+8.3 Axar Patel to Prithvi Shaw 0 Score: 77/0
+8.4 Axar Patel to Prithvi Shaw 6 Score: 83/0
+8.5 Axar Patel to Prithvi Shaw 4 Score: 87/0
+8.6 Axar Patel to Prithvi Shaw 6 Score: 93/0
+9.1 Avesh Khan to Shikhar Dhawan 4 Score: 97/0
+9.2 Avesh Khan to Shikhar Dhawan 2 Score: 99/0
+9.3 Avesh Khan to Shikhar Dhawan 0 Score: 99/0
+9.4 Avesh Khan to Shikhar Dhawan 4 Score: 103/0
+9.5 Avesh Khan to Shikhar Dhawan 0 Score: 103/0
+9.6 Avesh Khan to Shikhar Dhawan 1 Score: 104/0
+10.1 Axar Patel to Shikhar Dhawan 1 Score: 105/0
+10.2 Axar Patel to Prithvi Shaw 1 Score: 106/0
+10.3 Axar Patel to Shikhar Dhawan 4 Score: 110/0
+10.4 Axar Patel to Shikhar Dhawan 0 Score: 110/0
+10.5 Axar Patel to Shikhar Dhawan 0 Score: 110/0
+10.6 Axar Patel to Shikhar Dhawan 1 Score: 111/0
+11.1 Shimron Hetmyer to Shikhar Dhawan 2 Score: 113/0
+11.2 Shimron Hetmyer to Shikhar Dhawan 0 Score: 113/0
+11.3 Shimron Hetmyer to Shikhar Dhawan 1 Score: 114/0
+11.4 Shimron Hetmyer to Prithvi Shaw 1 Score: 115/0
+11.5 Shimron Hetmyer to Shikhar Dhawan 0 Score: 115/0
+11.6 Shimron Hetmyer to Shikhar Dhawan 1 Score: 116/0
+12.1 Marcus Stoinis to Shikhar Dhawan 6 Score: 122/0
+12.2 Marcus Stoinis to Shikhar Dhawan 6 Score: 128/0
+12.3 Marcus Stoinis to Shikhar Dhawan 1 Score: 129/0
+12.4 Marcus Stoinis to Prithvi Shaw 1 Score: 130/0
+12.5 Marcus Stoinis to Shikhar Dhawan 1 Score: 131/0
+12.6 Marcus Stoinis to Prithvi Shaw 2 Score: 133/0
+13.1 Shimron Hetmyer to Shikhar Dhawan 0 Score: 133/0
+13.2 Shimron Hetmyer to Shikhar Dhawan 4 Score: 137/0
+13.3 Shimron Hetmyer to Shikhar Dhawan 6 Score: 143/0
+13.4 Shimron Hetmyer to Shikhar Dhawan 1 Score: 144/0
+13.5 Shimron Hetmyer to Prithvi Shaw 0 Score: 144/0
+13.6 Shimron Hetmyer to Prithvi Shaw 4 Score: 148/0
+14.1 Marcus Stoinis to Shikhar Dhawan 1 Score: 149/0
+14.2 Marcus Stoinis to Prithvi Shaw W Score: 149/1 Caught by Ravichandran Ashwin
+14.3 Marcus Stoinis to Steven Smith 1 Score: 150/1
+14.4 Marcus Stoinis to Shikhar Dhawan 1 Score: 151/1
+14.5 Marcus Stoinis to Steven Smith 1 Score: 152/1
+14.6 Marcus Stoinis to Shikhar Dhawan 1 Score: 153/1
+15.1 Shimron Hetmyer to Shikhar Dhawan 0 Score: 153/1
+15.2 Shimron Hetmyer to Shikhar Dhawan 1 Score: 154/1
+15.3 Shimron Hetmyer to Steven Smith 1 Score: 155/1
+15.4 Shimron Hetmyer to Shikhar Dhawan W Score: 155/2 Caught by Ravichandran Ashwin
+15.5 Shimron Hetmyer to Rishabh Pant 2 Score: 157/2
+15.6 Shimron Hetmyer to Rishabh Pant 1 Score: 158/2
+16.1 Marcus Stoinis to Rishabh Pant 1 Score: 159/2
+16.2 Marcus Stoinis to Steven Smith 1 Score: 160/2
+16.3 Marcus Stoinis to Rishabh Pant 0 Score: 160/2
+16.4 Marcus Stoinis to Rishabh Pant 0 Score: 160/2
+16.5 Marcus Stoinis to Rishabh Pant 1 Score: 161/2
+16.6 Marcus Stoinis to Steven Smith 1 Score: 162/2
+17.1 Kagiso Rabada to Steven Smith 4 Score: 166/2
+dc won by 8 wickets
++------------+--------+---------+--------+-------------------------+
+| Player     |   Runs |   Balls | SR     | Out                     |
++============+========+=========+========+=========================+
+| PP Shaw    |     58 |      36 | 161.11 | c R Ashwin b MP Stoinis |
++------------+--------+---------+--------+-------------------------+
+| S Dhawan   |     93 |      55 | 169.09 | c R Ashwin b SO Hetmyer |
++------------+--------+---------+--------+-------------------------+
+| SPD Smith  |      9 |       6 | 150.0  | Not out                 |
++------------+--------+---------+--------+-------------------------+
+| RR Pant    |      5 |       6 | 83.33  | Not out                 |
++------------+--------+---------+--------+-------------------------+
+| SO Hetmyer |      0 |       0 | DNB    |                         |
++------------+--------+---------+--------+-------------------------+
+| MP Stoinis |      0 |       0 | DNB    |                         |
++------------+--------+---------+--------+-------------------------+
+| AR Patel   |      0 |       0 | DNB    |                         |
++------------+--------+---------+--------+-------------------------+
+| R Ashwin   |      0 |       0 | DNB    |                         |
++------------+--------+---------+--------+-------------------------+
+| A Mishra   |      0 |       0 | DNB    |                         |
++------------+--------+---------+--------+-------------------------+
+| K Rabada   |      0 |       0 | DNB    |                         |
++------------+--------+---------+--------+-------------------------+
+| Avesh Khan |      0 |       0 | DNB    |                         |
++------------+--------+---------+--------+-------------------------+
++------------+--------+---------+-----------+-------+
+| Player     |   Runs |   Overs |   Wickets | Eco   |
++============+========+=========+===========+=======+
+| PP Shaw    |      0 |     0   |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| S Dhawan   |      0 |     0   |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| SPD Smith  |      0 |     0   |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| RR Pant    |      0 |     0   |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| SO Hetmyer |     25 |     3   |         1 | 8.33  |
++------------+--------+---------+-----------+-------+
+| MP Stoinis |     26 |     3   |         1 | 8.67  |
++------------+--------+---------+-----------+-------+
+| AR Patel   |     48 |     4   |         0 | 12.0  |
++------------+--------+---------+-----------+-------+
+| R Ashwin   |     13 |     2   |         0 | 6.5   |
++------------+--------+---------+-----------+-------+
+| A Mishra   |      0 |     0   |         0 | NA    |
++------------+--------+---------+-----------+-------+
+| K Rabada   |     15 |     2.1 |         0 | 6.92  |
++------------+--------+---------+-----------+-------+
+| Avesh Khan |     39 |     3   |         0 | 13.0  |
++------------+--------+---------+-----------+-------+

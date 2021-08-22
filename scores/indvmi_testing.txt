@@ -1,0 +1,336 @@
+['Test Player', 'Virat Kohli', 'Shubham Agarwal', 'Billy Stanlake', 'Heinrich Klaasen', 'Basil Thampi', 'Priyam Garg', 'Shaun Marsh', 'Unmukt Chand', 'Farhaan Behardien', 'Sam Billings']
+mi won the toss and chose to bat
+0.1 Billy Stanlake to Quinton de Kock 1 Score: 1/0
+0.2 Billy Stanlake to Rohit Sharma 1 Score: 2/0
+0.3 Billy Stanlake to Quinton de Kock 0 Score: 2/0
+0.4 Billy Stanlake to Quinton de Kock 0 Score: 2/0
+0.5 Billy Stanlake to Quinton de Kock 4 Score: 6/0
+0.6 Billy Stanlake to Quinton de Kock 0 Score: 6/0
+1.1 Priyam Garg to Rohit Sharma 1 Score: 7/0
+1.2 Priyam Garg to Quinton de Kock 1 Score: 8/0
+1.3 Priyam Garg to Rohit Sharma 0 Score: 8/0
+1.4 Priyam Garg to Rohit Sharma 1 Score: 9/0
+1.5 Priyam Garg to Quinton de Kock 2 Score: 11/0
+1.6 Priyam Garg to Quinton de Kock 0 Score: 11/0
+2.1 Billy Stanlake to Rohit Sharma 6 Score: 17/0
+2.2 Billy Stanlake to Rohit Sharma 6 Score: 23/0
+2.3 Billy Stanlake to Rohit Sharma 0 Score: 23/0
+2.4 Billy Stanlake to Rohit Sharma 0 Score: 23/0
+2.5 Billy Stanlake to Rohit Sharma 0 Score: 23/0
+2.6 Billy Stanlake to Rohit Sharma 1 Score: 24/0
+3.1 Priyam Garg to Rohit Sharma 1 Score: 25/0
+3.2 Priyam Garg to Quinton de Kock 1 Score: 26/0
+3.3 Priyam Garg to Rohit Sharma 4 Score: 30/0
+3.4 Priyam Garg to Rohit Sharma 0 Score: 30/0
+3.5 Priyam Garg to Rohit Sharma 4 Score: 34/0
+3.6 Priyam Garg to Rohit Sharma 4 Score: 38/0
+4.1 Basil Thampi to Quinton de Kock 0 Score: 38/0
+4.2 Basil Thampi to Quinton de Kock 1 Score: 39/0
+4.3 Basil Thampi to Rohit Sharma 0 Score: 39/0
+4.4 Basil Thampi to Rohit Sharma Wide Score: 40/0
+4.5 Basil Thampi to Rohit Sharma 1 Score: 41/0
+4.6 Basil Thampi to Quinton de Kock 4 Score: 45/0
+4.7 Basil Thampi to Quinton de Kock 0 Score: 45/0
+5.1 Shaun Marsh to Rohit Sharma 4 Score: 49/0
+5.2 Shaun Marsh to Rohit Sharma 4 Score: 53/0
+5.3 Shaun Marsh to Rohit Sharma 1 Score: 54/0
+5.4 Shaun Marsh to Quinton de Kock 0 Score: 54/0
+5.5 Shaun Marsh to Quinton de Kock 1 Score: 55/0
+5.6 Shaun Marsh to Rohit Sharma 1 Score: 56/0
+6.1 Basil Thampi to Rohit Sharma 2 Score: 58/0
+6.2 Basil Thampi to Rohit Sharma 2 Score: 60/0
+6.3 Basil Thampi to Rohit Sharma 0 Score: 60/0
+6.4 Basil Thampi to Rohit Sharma 2 Score: 62/0
+6.5 Basil Thampi to Rohit Sharma W Score: 62/1 Caught by Shaun Marsh
+6.6 Basil Thampi to Ishan Kishan 1 Score: 63/1
+7.1 Shaun Marsh to Ishan Kishan 0 Score: 63/1
+7.2 Shaun Marsh to Ishan Kishan 1 Score: 64/1
+7.3 Shaun Marsh to Quinton de Kock 2 Score: 66/1
+7.4 Shaun Marsh to Quinton de Kock 4 Score: 70/1
+7.5 Shaun Marsh to Quinton de Kock 0 Score: 70/1
+7.6 Shaun Marsh to Quinton de Kock 0 Score: 70/1
+8.1 Basil Thampi to Ishan Kishan 1 Score: 71/1
+8.2 Basil Thampi to Quinton de Kock 1 Score: 72/1
+8.3 Basil Thampi to Ishan Kishan 4 Score: 76/1
+8.4 Basil Thampi to Ishan Kishan 0 Score: 76/1
+8.5 Basil Thampi to Ishan Kishan 1 Score: 77/1
+8.6 Basil Thampi to Quinton de Kock 1 Score: 78/1
+9.1 Shaun Marsh to Quinton de Kock 1 Score: 79/1
+9.2 Shaun Marsh to Ishan Kishan 0 Score: 79/1
+9.3 Shaun Marsh to Ishan Kishan 4 Score: 83/1
+9.4 Shaun Marsh to Ishan Kishan 0 Score: 83/1
+9.5 Shaun Marsh to Ishan Kishan W Score: 83/2 Caught by Billy Stanlake
+9.6 Shaun Marsh to Suryakumar Yadav 0 Score: 83/2
+10.1 Sam Billings to Quinton de Kock 1 Score: 84/2
+10.2 Sam Billings to Suryakumar Yadav 4 Score: 88/2
+10.3 Sam Billings to Suryakumar Yadav 2 Score: 90/2
+10.4 Sam Billings to Suryakumar Yadav 4 Score: 94/2
+10.5 Sam Billings to Suryakumar Yadav 0 Score: 94/2
+10.6 Sam Billings to Suryakumar Yadav 1 Score: 95/2
+11.1 Farhaan Behardien to Suryakumar Yadav 0 Score: 95/2
+11.2 Farhaan Behardien to Suryakumar Yadav 6 Score: 101/2
+11.3 Farhaan Behardien to Suryakumar Yadav 2 Score: 103/2
+11.4 Farhaan Behardien to Suryakumar Yadav 4 Score: 107/2
+11.5 Farhaan Behardien to Suryakumar Yadav 0 Score: 107/2
+11.6 Farhaan Behardien to Suryakumar Yadav 1 Score: 108/2
+12.1 Sam Billings to Suryakumar Yadav 2 Score: 110/2
+12.2 Sam Billings to Suryakumar Yadav 0 Score: 110/2
+12.3 Sam Billings to Suryakumar Yadav 2 Score: 112/2
+12.4 Sam Billings to Suryakumar Yadav 4 Score: 116/2
+12.5 Sam Billings to Suryakumar Yadav 0 Score: 116/2
+12.6 Sam Billings to Suryakumar Yadav 4 Score: 120/2
+13.1 Farhaan Behardien to Quinton de Kock 1 Score: 121/2
+13.2 Farhaan Behardien to Suryakumar Yadav 0 Score: 121/2
+13.3 Farhaan Behardien to Suryakumar Yadav 1 Score: 122/2
+13.4 Farhaan Behardien to Quinton de Kock 0 Score: 122/2
+13.5 Farhaan Behardien to Quinton de Kock 0 Score: 122/2
+13.6 Farhaan Behardien to Quinton de Kock 0 Score: 122/2
+14.1 Sam Billings to Suryakumar Yadav 0 Score: 122/2
+14.2 Sam Billings to Suryakumar Yadav 0 Score: 122/2
+14.3 Sam Billings to Suryakumar Yadav 4 Score: 126/2
+14.4 Sam Billings to Suryakumar Yadav 4 Score: 130/2
+14.5 Sam Billings to Suryakumar Yadav 0 Score: 130/2
+14.6 Sam Billings to Suryakumar Yadav 0 Score: 130/2
+15.1 Farhaan Behardien to Quinton de Kock 0 Score: 130/2
+15.2 Farhaan Behardien to Quinton de Kock 1 Score: 131/2
+15.3 Farhaan Behardien to Suryakumar Yadav 1 Score: 132/2
+15.4 Farhaan Behardien to Quinton de Kock 1 Score: 133/2
+15.5 Farhaan Behardien to Suryakumar Yadav 1 Score: 134/2
+15.6 Farhaan Behardien to Quinton de Kock 6 Score: 140/2
+16.1 Sam Billings to Suryakumar Yadav 0 Score: 140/2
+16.2 Sam Billings to Suryakumar Yadav 1 Score: 141/2
+16.3 Sam Billings to Quinton de Kock W Score: 141/3 Bowled
+16.4 Sam Billings to Kieron Pollard 0 Score: 141/3
+16.5 Sam Billings to Kieron Pollard 1 Score: 142/3
+16.6 Sam Billings to Suryakumar Yadav 0 Score: 142/3
+17.1 Basil Thampi to Kieron Pollard 6 Score: 148/3
+17.2 Basil Thampi to Kieron Pollard 1 Score: 149/3
+17.3 Basil Thampi to Suryakumar Yadav 4 Score: 153/3
+17.4 Basil Thampi to Suryakumar Yadav 0 Score: 153/3
+17.5 Basil Thampi to Suryakumar Yadav 4 Score: 157/3
+17.6 Basil Thampi to Suryakumar Yadav 1 Score: 158/3
+18.1 Priyam Garg to Suryakumar Yadav 6 Score: 164/3
+18.2 Priyam Garg to Suryakumar Yadav 1 Score: 165/3
+18.3 Priyam Garg to Kieron Pollard W Score: 165/4 Caught by Shaun Marsh
+18.4 Priyam Garg to Hardik Pandya 0 Score: 165/4
+18.5 Priyam Garg to Hardik Pandya 6 Score: 171/4
+18.6 Priyam Garg to Hardik Pandya 6 Score: 177/4
+19.1 Shaun Marsh to Suryakumar Yadav 6 Score: 183/4
+19.2 Shaun Marsh to Suryakumar Yadav W Score: 183/5 Lbw
+19.3 Shaun Marsh to Krunal Pandya 4 Score: 187/5
+19.4 Shaun Marsh to Krunal Pandya 4 Score: 191/5
+19.5 Shaun Marsh to Krunal Pandya 0 Score: 191/5
+19.6 Shaun Marsh to Krunal Pandya 0 Score: 191/5
++--------------+--------+---------+--------+---------------------------+
+| Player       |   Runs |   Balls | SR     | Out                       |
++==============+========+=========+========+===========================+
+| Q de Kock    |     34 |      32 | 106.25 | bowled b SW Billings      |
++--------------+--------+---------+--------+---------------------------+
+| RG Sharma    |     46 |      26 | 176.92 | c SE Marsh b Basil Thampi |
++--------------+--------+---------+--------+---------------------------+
+| SA Yadav     |     70 |      39 | 179.49 | lbw b SE Marsh            |
++--------------+--------+---------+--------+---------------------------+
+| Ishan Kishan |     12 |      11 | 109.09 | c B Stanlake b SE Marsh   |
++--------------+--------+---------+--------+---------------------------+
+| KA Pollard   |      8 |       5 | 160.0  | c SE Marsh b PK Garg      |
++--------------+--------+---------+--------+---------------------------+
+| HH Pandya    |     12 |       3 | 400.0  | Not out                   |
++--------------+--------+---------+--------+---------------------------+
+| KH Pandya    |      8 |       4 | 200.0  | Not out                   |
++--------------+--------+---------+--------+---------------------------+
+| J Yadav      |      0 |       0 | DNB    |                           |
++--------------+--------+---------+--------+---------------------------+
+| RD Chahar    |      0 |       0 | DNB    |                           |
++--------------+--------+---------+--------+---------------------------+
+| JJ Bumrah    |      0 |       0 | DNB    |                           |
++--------------+--------+---------+--------+---------------------------+
+| TA Boult     |      0 |       0 | DNB    |                           |
++--------------+--------+---------+--------+---------------------------+
++--------------+--------+---------+-----------+-------+
+| Player       |   Runs |   Overs |   Wickets | Eco   |
++==============+========+=========+===========+=======+
+| T Player     |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| V Kohli      |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| SS Agarwal   |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| B Stanlake   |     19 |       2 |         0 | 9.5   |
++--------------+--------+---------+-----------+-------+
+| H Klaasen    |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| Basil Thampi |     38 |       4 |         1 | 9.5   |
++--------------+--------+---------+-----------+-------+
+| PK Garg      |     38 |       3 |         1 | 12.67 |
++--------------+--------+---------+-----------+-------+
+| SE Marsh     |     37 |       4 |         2 | 9.25  |
++--------------+--------+---------+-----------+-------+
+| UBT Chand    |      0 |       0 |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| F Behardien  |     25 |       3 |         0 | 8.33  |
++--------------+--------+---------+-----------+-------+
+| SW Billings  |     34 |       4 |         1 | 8.5   |
++--------------+--------+---------+-----------+-------+
+0.1 Trent Boult to Unmukt Chand 4 Score: 4/0
+0.2 Trent Boult to Unmukt Chand 2 Score: 6/0
+0.3 Trent Boult to Unmukt Chand 0 Score: 6/0
+0.4 Trent Boult to Unmukt Chand 2 Score: 8/0
+0.5 Trent Boult to Unmukt Chand 0 Score: 8/0
+0.6 Trent Boult to Unmukt Chand W Score: 8/1 Caught by Jasprit Bumrah
+1.1 Jayant Yadav to Virat Kohli 2 Score: 10/1
+1.2 Jayant Yadav to Virat Kohli 0 Score: 10/1
+1.3 Jayant Yadav to Virat Kohli 0 Score: 10/1
+1.4 Jayant Yadav to Virat Kohli 0 Score: 10/1
+1.5 Jayant Yadav to Virat Kohli 1 Score: 11/1
+1.6 Jayant Yadav to Virat Kohli 0 Score: 11/1
+2.1 Trent Boult to Virat Kohli 0 Score: 11/1
+2.2 Trent Boult to Virat Kohli 4 Score: 15/1
+2.3 Trent Boult to Virat Kohli 2 Score: 17/1
+2.4 Trent Boult to Virat Kohli 0 Score: 17/1
+2.5 Trent Boult to Virat Kohli 0 Score: 17/1
+2.6 Trent Boult to Virat Kohli 4 Score: 21/1
+3.1 Jayant Yadav to Virat Kohli 1 Score: 22/1
+3.2 Jayant Yadav to Virat Kohli 2 Score: 24/1
+3.3 Jayant Yadav to Virat Kohli 2 Score: 26/1
+3.4 Jayant Yadav to Virat Kohli 1 Score: 27/1
+3.5 Jayant Yadav to Virat Kohli 1 Score: 28/1
+3.6 Jayant Yadav to Virat Kohli 0 Score: 28/1
+4.1 Jasprit Bumrah to Virat Kohli 6 Score: 34/1
+4.2 Jasprit Bumrah to Virat Kohli 0 Score: 34/1
+4.3 Jasprit Bumrah to Virat Kohli 4 Score: 38/1
+4.4 Jasprit Bumrah to Virat Kohli Wide Score: 39/1
+4.5 Jasprit Bumrah to Virat Kohli 1 Score: 40/1
+4.6 Jasprit Bumrah to Virat Kohli 0 Score: 40/1
+4.7 Jasprit Bumrah to Virat Kohli 0 Score: 40/1
+5.1 Krunal Pandya to Virat Kohli 2 Score: 42/1
+5.2 Krunal Pandya to Virat Kohli W Score: 42/2 Caught by Kieron Pollard
+5.3 Krunal Pandya to Shaun Marsh 0 Score: 42/2
+5.4 Krunal Pandya to Shaun Marsh 0 Score: 42/2
+5.5 Krunal Pandya to Shaun Marsh 1 Score: 43/2
+5.6 Krunal Pandya to Virat Kohli 1 Score: 44/2
+6.1 Jasprit Bumrah to Virat Kohli 0 Score: 44/2
+6.2 Jasprit Bumrah to Virat Kohli 0 Score: 44/2
+6.3 Jasprit Bumrah to Virat Kohli 6 Score: 50/2
+6.4 Jasprit Bumrah to Virat Kohli 0 Score: 50/2
+6.5 Jasprit Bumrah to Virat Kohli 0 Score: 50/2
+6.6 Jasprit Bumrah to Virat Kohli 0 Score: 50/2
+7.1 Krunal Pandya to Shaun Marsh 6 Score: 56/2
+7.2 Krunal Pandya to Shaun Marsh 0 Score: 56/2
+7.3 Krunal Pandya to Shaun Marsh 1 Score: 57/2
+7.4 Krunal Pandya to Virat Kohli 1 Score: 58/2
+7.5 Krunal Pandya to Shaun Marsh 0 Score: 58/2
+7.6 Krunal Pandya to Shaun Marsh 4 Score: 62/2
+8.1 Jasprit Bumrah to Virat Kohli W Score: 62/3 Caught by Trent Boult
+8.2 Jasprit Bumrah to Sam Billings 0 Score: 62/3
+8.3 Jasprit Bumrah to Sam Billings 0 Score: 62/3
+8.4 Jasprit Bumrah to Sam Billings 0 Score: 62/3
+8.5 Jasprit Bumrah to Sam Billings 4 Score: 66/3
+8.6 Jasprit Bumrah to Sam Billings 0 Score: 66/3
+9.1 Krunal Pandya to Shaun Marsh 1 Score: 67/3
+9.2 Krunal Pandya to Sam Billings 6 Score: 73/3
+9.3 Krunal Pandya to Sam Billings 4 Score: 77/3
+9.4 Krunal Pandya to Sam Billings 1 Score: 78/3
+9.5 Krunal Pandya to Shaun Marsh 0 Score: 78/3
+9.6 Krunal Pandya to Shaun Marsh 0 Score: 78/3
+10.1 Rahul Chahar to Sam Billings 1 Score: 79/3
+10.2 Rahul Chahar to Shaun Marsh 0 Score: 79/3
+10.3 Rahul Chahar to Shaun Marsh 0 Score: 79/3
+10.4 Rahul Chahar to Shaun Marsh 1 Score: 80/3
+10.5 Rahul Chahar to Sam Billings 0 Score: 80/3
+10.6 Rahul Chahar to Sam Billings W Score: 80/4 Caught by Kieron Pollard
+11.1 Krunal Pandya to Shaun Marsh 1 Score: 81/4
+11.2 Krunal Pandya to Test Player 4 Score: 85/4
+11.3 Krunal Pandya to Test Player Wide Score: 86/4
+11.4 Krunal Pandya to Test Player 1 Score: 87/4
+11.5 Krunal Pandya to Shaun Marsh 0 Score: 87/4
+11.6 Krunal Pandya to Shaun Marsh 0 Score: 87/4
+11.7 Krunal Pandya to Shaun Marsh 1 Score: 88/4
+12.1 Rahul Chahar to Shaun Marsh 0 Score: 88/4
+12.2 Rahul Chahar to Shaun Marsh 4 Score: 92/4
+12.3 Rahul Chahar to Shaun Marsh Wide Score: 93/4
+12.4 Rahul Chahar to Shaun Marsh 4 Score: 97/4
+12.5 Rahul Chahar to Shaun Marsh W Score: 97/5 Caught by Rahul Chahar
+12.6 Rahul Chahar to Heinrich Klaasen 0 Score: 97/5
+12.7 Rahul Chahar to Heinrich Klaasen 0 Score: 97/5
+13.1 Jayant Yadav to Test Player 0 Score: 97/5
+13.2 Jayant Yadav to Test Player 0 Score: 97/5
+13.3 Jayant Yadav to Test Player 0 Score: 97/5
+13.4 Jayant Yadav to Test Player 0 Score: 97/5
+13.5 Jayant Yadav to Test Player 0 Score: 97/5
+13.6 Jayant Yadav to Test Player 0 Score: 97/5
+14.1 Rahul Chahar to Heinrich Klaasen 1 Score: 98/5
+14.2 Rahul Chahar to Test Player W Score: 98/6 Caught by Jayant Yadav
+14.3 Rahul Chahar to Priyam Garg 6 Score: 104/6
+14.4 Rahul Chahar to Priyam Garg 0 Score: 104/6
+14.5 Rahul Chahar to Priyam Garg W Score: 105/7 Run Out!
+14.6 Rahul Chahar to Farhaan Behardien W Score: 105/8 Caught by Kieron Pollard
+15.1 Jayant Yadav to Heinrich Klaasen 0 Score: 105/8
+15.2 Jayant Yadav to Heinrich Klaasen 1 Score: 106/8
+15.3 Jayant Yadav to Basil Thampi 1 Score: 107/8
+15.4 Jayant Yadav to Heinrich Klaasen Wide Score: 108/8
+15.5 Jayant Yadav to Heinrich Klaasen 1 Score: 109/8
+15.6 Jayant Yadav to Basil Thampi 0 Score: 109/8
+15.7 Jayant Yadav to Basil Thampi 1 Score: 110/8
+16.1 Rahul Chahar to Basil Thampi 1 Score: 111/8
+16.2 Rahul Chahar to Heinrich Klaasen 2 Score: 113/8
+16.3 Rahul Chahar to Heinrich Klaasen 0 Score: 113/8
+16.4 Rahul Chahar to Heinrich Klaasen 0 Score: 113/8
+16.5 Rahul Chahar to Heinrich Klaasen 1 Score: 114/8
+16.6 Rahul Chahar to Basil Thampi 1 Score: 115/8
+17.1 Jasprit Bumrah to Basil Thampi W Score: 115/9 Caught by Trent Boult
+17.2 Jasprit Bumrah to Shubham Agarwal 0 Score: 115/9
+17.3 Jasprit Bumrah to Shubham Agarwal 0 Score: 115/9
+17.4 Jasprit Bumrah to Shubham Agarwal 1 Score: 116/9
+17.5 Jasprit Bumrah to Heinrich Klaasen W Score: 116/10 Bowled
+ALL OUT
+mi won by 75 runs
++--------------+--------+---------+--------+--------------------------+
+| Player       |   Runs |   Balls | SR     | Out                      |
++==============+========+=========+========+==========================+
+| T Player     |      5 |       9 | 55.56  | c J Yadav b RD Chahar    |
++--------------+--------+---------+--------+--------------------------+
+| V Kohli      |     41 |      35 | 117.14 | c TA Boult b JJ Bumrah   |
++--------------+--------+---------+--------+--------------------------+
+| SS Agarwal   |      1 |       3 | 33.33  | Not out                  |
++--------------+--------+---------+--------+--------------------------+
+| B Stanlake   |      0 |       0 | DNB    |                          |
++--------------+--------+---------+--------+--------------------------+
+| H Klaasen    |      6 |      11 | 54.55  | bowled b JJ Bumrah       |
++--------------+--------+---------+--------+--------------------------+
+| Basil Thampi |      4 |       6 | 66.67  | c TA Boult b JJ Bumrah   |
++--------------+--------+---------+--------+--------------------------+
+| PK Garg      |      7 |       3 | 233.33 | Not out                  |
++--------------+--------+---------+--------+--------------------------+
+| SE Marsh     |     24 |      22 | 109.09 | c RD Chahar b RD Chahar  |
++--------------+--------+---------+--------+--------------------------+
+| UBT Chand    |      8 |       6 | 133.33 | c JJ Bumrah b TA Boult   |
++--------------+--------+---------+--------+--------------------------+
+| F Behardien  |      0 |       1 | 0.0    | c KA Pollard b RD Chahar |
++--------------+--------+---------+--------+--------------------------+
+| SW Billings  |     16 |      11 | 145.45 | c KA Pollard b RD Chahar |
++--------------+--------+---------+--------+--------------------------+
++--------------+--------+---------+-----------+-------+
+| Player       |   Runs |   Overs |   Wickets | Eco   |
++==============+========+=========+===========+=======+
+| Q de Kock    |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| RG Sharma    |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| SA Yadav     |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| Ishan Kishan |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| KA Pollard   |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| HH Pandya    |      0 |     0   |         0 | NA    |
++--------------+--------+---------+-----------+-------+
+| KH Pandya    |     36 |     4   |         1 | 9.0   |
++--------------+--------+---------+-----------+-------+
+| J Yadav      |     15 |     4   |         0 | 3.75  |
++--------------+--------+---------+-----------+-------+
+| RD Chahar    |     24 |     4   |         4 | 6.0   |
++--------------+--------+---------+-----------+-------+
+| JJ Bumrah    |     23 |     3.5 |         3 | 6.0   |
++--------------+--------+---------+-----------+-------+
+| TA Boult     |     18 |     2   |         1 | 9.0   |
++--------------+--------+---------+-----------+-------+
